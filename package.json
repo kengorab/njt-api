@@ -1,0 +1,8 @@
+{
+  "name": "njt-api",
+  "version": "1.0.0",
+  "description": "An API for accessing NJTransit train information",
+  "main": "index.js",
+  "author": "Ken Gorab",
+  "license": "MIT"
+}
