@@ -8,31 +8,22 @@ const defaultParameters = {
   'Walk': '0.50'
 }
 
-export type Station = {
-  station: string
-  latLong: {
-    lat: number
-    long: number
-  }
-}
-
-export type Time = {
-  hour: string
-  minute: string
-  amPm: string
-}
-
-function getBody(origin: Station, destination: Station, date: moment.Moment, timeObj: Time): string {
+function getBody(
+  origin: StationInfo,
+  destination: StationInfo,
+  date: moment.Moment,
+  timeObj: Time
+): string {
   const parameters = {
-    'starting_street_address': origin.station,
-    'dest_street_address': destination.station,
+    'starting_street_address': origin.name,
+    'dest_street_address': destination.name,
     'datepicker': date.format('MM/DD/YYYY'),
     'Time': `${timeObj.hour}:${timeObj.minute}`,
     'Suffix': timeObj.amPm,
     'Hour': timeObj.hour,
     'Minute': timeObj.minute,
-    'TravelToLatLong': `${destination.latLong.lat},${destination.latLong.long}`,
-    'TravelFromLatLong': `${origin.latLong.lat},${origin.latLong.long}`
+    'TravelToLatLong': `${destination.lat},${destination.long}`,
+    'TravelFromLatLong': `${origin.lat},${origin.long}`
   }
 
   const allParameters = Object.assign(parameters, defaultParameters)
@@ -56,12 +47,17 @@ const headers = {
 }
 
 export async function getNJTPageText(
-  origin: Station,
-  destination: Station,
-  date: moment.Moment,
-  timeObj: Time
+  origin: StationInfo,
+  destination: StationInfo,
+  tripDate: moment.Moment
 ): Promise<string> {
-  const body = getBody(origin, destination, date, timeObj)
+  const timeObj: Time = {
+    hour: moment(tripDate).format('h'),
+    minute: moment(tripDate).format('mm'),
+    amPm: moment(tripDate).format('A')
+  }
+
+  const body = getBody(origin, destination, tripDate, timeObj)
   const response = await fetch(url, { method: 'POST', body, headers })
   if (!response.ok) {
     throw new Error(`Failed fetching page from NJT: ${response.statusText}`)
