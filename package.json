@@ -4,5 +4,14 @@
   "description": "An API for accessing NJTransit train information",
   "main": "index.js",
   "author": "Ken Gorab",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "node_modules/.bin/tsc"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.7",
+    "moment": "^2.18.1",
+    "node-fetch": "^1.7.1",
+    "typescript": "^2.4.1"
+  }
 }

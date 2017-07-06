@@ -1,0 +1,6638 @@
+{
+  "Pennsauken/Route 73 Station": {
+    "name": "Pennsauken/Route 73 Station",
+    "lat": 39.993404,
+    "long": -75.039083,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Kessler Memorial Hospital": {
+    "name": "Kessler Memorial Hospital",
+    "lat": 39.813901,
+    "long": -74.98812,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Childrens Hospital Of NJ (At Rwjuh)": {
+    "name": "Childrens Hospital Of NJ (At Rwjuh)",
+    "lat": 40.495759,
+    "long": -74.450651,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "DU": {
+    "name": "DU",
+    "lat": 40.761308,
+    "long": -74.419303,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Garfield Station": {
+    "name": "Garfield Station",
+    "lat": 40.866669,
+    "long": -74.10556,
+    "departureVisionEnabled": true,
+    "departureVisionId": "GD"
+  },
+  "Cape Regional Medical Center": {
+    "name": "Cape Regional Medical Center",
+    "lat": 39.087427,
+    "long": -74.818652,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "NDHS": {
+    "name": "NDHS",
+    "lat": 40.258145,
+    "long": -74.741898,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Princeton University": {
+    "name": "Princeton University",
+    "lat": 40.348749,
+    "long": -74.663093,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Memorial Medical Center": {
+    "name": "Memorial Medical Center",
+    "lat": 40.475007,
+    "long": -74.286282,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "UCCC": {
+    "name": "UCCC",
+    "lat": 40.668098,
+    "long": -74.318284,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Union Center - Union Twp": {
+    "name": "Union Center - Union Twp",
+    "lat": 40.695224,
+    "long": -74.265734,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Garden State Parkway Exit 165 - Paramus": {
+    "name": "Garden State Parkway Exit 165 - Paramus",
+    "lat": 40.96402,
+    "long": -74.0642,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Annandale Station": {
+    "name": "Annandale Station",
+    "lat": 40.645173,
+    "long": -74.878569,
+    "departureVisionEnabled": true,
+    "departureVisionId": "AN"
+  },
+  "Trinitas Hospital - Williamson St Campus": {
+    "name": "Trinitas Hospital - Williamson St Campus",
+    "lat": 40.659537,
+    "long": -74.214393,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "New Brunswick Station": {
+    "name": "New Brunswick Station",
+    "lat": 40.497278,
+    "long": -74.445751,
+    "departureVisionEnabled": true,
+    "departureVisionId": "NB"
+  },
+  "UCCP": {
+    "name": "UCCP",
+    "lat": 40.620453,
+    "long": -74.42021,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Saint Peters College": {
+    "name": "Saint Peters College",
+    "lat": 40.872528,
+    "long": -73.952493,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Passaic Bus Terminal": {
+    "name": "Passaic Bus Terminal",
+    "lat": 40.863048,
+    "long": -74.12732,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "United Nations": {
+    "name": "United Nations",
+    "lat": 40.750747,
+    "long": -73.968428,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "NJPAC/Center Street": {
+    "name": "NJPAC/Center Street",
+    "lat": 40.739501,
+    "long": -74.16558,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bloomfield Avenue Station (Newark)": {
+    "name": "Bloomfield Avenue Station (Newark)",
+    "lat": 40.765978,
+    "long": -74.180212,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Freehold Mall": {
+    "name": "Freehold Mall",
+    "lat": 40.24592,
+    "long": -74.28257,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Felician College": {
+    "name": "Felician College",
+    "lat": 40.865088,
+    "long": -74.093941,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Ramsey Route 17 Station": {
+    "name": "Ramsey Route 17 Station",
+    "lat": 41.07513,
+    "long": -74.145485,
+    "departureVisionEnabled": true,
+    "departureVisionId": "17"
+  },
+  "Lib [810 South Main St]": {
+    "name": "Lib [810 South Main St]",
+    "lat": 39.384155,
+    "long": -74.529282,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Jacob Javits Center": {
+    "name": "Jacob Javits Center",
+    "lat": 40.755819,
+    "long": -74.002011,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "FC": {
+    "name": "FC",
+    "lat": 40.865077,
+    "long": -74.093955,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "CCCB": {
+    "name": "CCCB",
+    "lat": 39.782442,
+    "long": -75.034364,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Monmouth College": {
+    "name": "Monmouth College",
+    "lat": 40.23813,
+    "long": -74.000908,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Fairleigh Dickinson  Rutherford Campus": {
+    "name": "Fairleigh Dickinson  Rutherford Campus",
+    "lat": 40.831662,
+    "long": -74.112256,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Newark Bears Stadium [Broad-Bridge St]": {
+    "name": "Newark Bears Stadium [Broad-Bridge St]",
+    "lat": 40.746319,
+    "long": -74.17025,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Runnells Special Hospital Of Union Co": {
+    "name": "Runnells Special Hospital Of Union Co",
+    "lat": 40.667912,
+    "long": -74.423897,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [8100 Atlantic Ave]": {
+    "name": "Lib [8100 Atlantic Ave]",
+    "lat": 39.328198,
+    "long": -74.498993,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "ACCC - Hamilton": {
+    "name": "ACCC - Hamilton",
+    "lat": 39.101882,
+    "long": -74.81961,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Newland Hospital": {
+    "name": "Newland Hospital",
+    "lat": 39.480519,
+    "long": -75.013091,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Broadway Station Fair Lawn": {
+    "name": "Broadway Station Fair Lawn",
+    "lat": 40.922507,
+    "long": -74.115233,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Berkeley Heights Hospital": {
+    "name": "Berkeley Heights Hospital",
+    "lat": 40.667912,
+    "long": -74.423897,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [19 East Prospect St]": {
+    "name": "Lib [19 East Prospect St]",
+    "lat": 41.011528,
+    "long": -74.121821,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Garfield Avenue Station (HBLR)": {
+    "name": "Garfield Avenue Station (HBLR)",
+    "lat": 40.708528,
+    "long": -74.072403,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "RWJHNB": {
+    "name": "RWJHNB",
+    "lat": 40.495951,
+    "long": -74.45025,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "SHLS": {
+    "name": "SHLS",
+    "lat": 40.736648,
+    "long": -74.168064,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Aquarium Station (River Line)": {
+    "name": "Aquarium Station (River Line)",
+    "lat": 39.944548,
+    "long": -75.130022,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Mahwah Station": {
+    "name": "Mahwah Station",
+    "lat": 41.094416,
+    "long": -74.146617,
+    "departureVisionEnabled": true,
+    "departureVisionId": "MZ"
+  },
+  "West Essex General Hospital": {
+    "name": "West Essex General Hospital",
+    "lat": 40.78499,
+    "long": -74.335628,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [1619 Riverton Rd]": {
+    "name": "Lib [1619 Riverton Rd]",
+    "lat": 39.997951,
+    "long": -74.994012,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "South Hackensack Airport": {
+    "name": "South Hackensack Airport",
+    "lat": 40.86263,
+    "long": -74.037881,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Asbury Park Station": {
+    "name": "Asbury Park Station",
+    "lat": 40.215359,
+    "long": -74.014782,
+    "departureVisionEnabled": true,
+    "departureVisionId": "AP"
+  },
+  "Jake Brown Park & Ride": {
+    "name": "Jake Brown Park & Ride",
+    "lat": 40.416716,
+    "long": -74.303947,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Princeton Station": {
+    "name": "Princeton Station",
+    "lat": 40.342088,
+    "long": -74.65887,
+    "departureVisionEnabled": true,
+    "departureVisionId": "PR"
+  },
+  "Mount Tabor Station": {
+    "name": "Mount Tabor Station",
+    "lat": 40.875906,
+    "long": -74.481912,
+    "departureVisionEnabled": true,
+    "departureVisionId": "TB"
+  },
+  "Pollak And Hague Hospital": {
+    "name": "Pollak And Hague Hospital",
+    "lat": 40.721004,
+    "long": -74.064789,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Millburn Station": {
+    "name": "Millburn Station",
+    "lat": 40.725622,
+    "long": -74.303752,
+    "departureVisionEnabled": true,
+    "departureVisionId": "MB"
+  },
+  "Meadowview Nursing Home": {
+    "name": "Meadowview Nursing Home",
+    "lat": 39.672119,
+    "long": -74.977501,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Mountain Station": {
+    "name": "Mountain Station",
+    "lat": 40.75537,
+    "long": -74.253024,
+    "departureVisionEnabled": true,
+    "departureVisionId": "MT"
+  },
+  "South Amboy Station": {
+    "name": "South Amboy Station",
+    "lat": 40.48431,
+    "long": -74.28014,
+    "departureVisionEnabled": true,
+    "departureVisionId": "CH"
+  },
+  "Hampton Behavioral Health Center": {
+    "name": "Hampton Behavioral Health Center",
+    "lat": 40.009435,
+    "long": -74.842453,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Rutgers University (Newark Campus)": {
+    "name": "Rutgers University (Newark Campus)",
+    "lat": 40.741959,
+    "long": -74.173723,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Harlem": {
+    "name": "Harlem",
+    "lat": 40.8078,
+    "long": -73.945551,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "IHS": {
+    "name": "IHS",
+    "lat": 40.728625,
+    "long": -74.233761,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Green Brook Hospital": {
+    "name": "Green Brook Hospital",
+    "lat": 40.618107,
+    "long": -74.444718,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Newark Airport Terminal A": {
+    "name": "Newark Airport Terminal A",
+    "lat": 40.688299,
+    "long": -74.183571,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Newark Airport Terminal B": {
+    "name": "Newark Airport Terminal B",
+    "lat": 40.689477,
+    "long": -74.178401,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Newark Airport Terminal C": {
+    "name": "Newark Airport Terminal C",
+    "lat": 40.694339,
+    "long": -74.17674,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [201 15th Street South]": {
+    "name": "Lib [201 15th Street South]",
+    "lat": 39.402759,
+    "long": -74.37474,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Millington Station": {
+    "name": "Millington Station",
+    "lat": 40.673518,
+    "long": -74.523603,
+    "departureVisionEnabled": true,
+    "departureVisionId": "GO"
+  },
+  "Avandale Park & Ride": {
+    "name": "Avandale Park & Ride",
+    "lat": 39.71195,
+    "long": -74.97614,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Highland Avenue Station": {
+    "name": "Highland Avenue Station",
+    "lat": 40.766865,
+    "long": -74.24374,
+    "departureVisionEnabled": true,
+    "departureVisionId": "HI"
+  },
+  "Seaside Heights": {
+    "name": "Seaside Heights",
+    "lat": 39.940087,
+    "long": -74.075613,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "MOCC": {
+    "name": "MOCC",
+    "lat": 40.856955,
+    "long": -74.574636,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lincoln Harbor Station Weehawken": {
+    "name": "Lincoln Harbor Station Weehawken",
+    "lat": 40.75936,
+    "long": -74.023901,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Basking Ridge Station": {
+    "name": "Basking Ridge Station",
+    "lat": 40.71138,
+    "long": -74.555267,
+    "departureVisionEnabled": true,
+    "departureVisionId": "BI"
+  },
+  "Inverness Park & Ride": {
+    "name": "Inverness Park & Ride",
+    "lat": 40.38673,
+    "long": -74.30704,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Ridgewood Bus Terminal": {
+    "name": "Ridgewood Bus Terminal",
+    "lat": 40.9785,
+    "long": -74.11842,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Elizabeth General [Closed]": {
+    "name": "Elizabeth General [Closed]",
+    "lat": 40.66156,
+    "long": -74.203813,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "The Plaza": {
+    "name": "The Plaza",
+    "lat": 40.763999,
+    "long": -73.973221,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Wesmont Station": {
+    "name": "Wesmont Station",
+    "lat": 40.854979,
+    "long": -74.096951,
+    "departureVisionEnabled": true,
+    "departureVisionId": "WM"
+  },
+  "Camden County College": {
+    "name": "Camden County College",
+    "lat": 39.786098,
+    "long": -75.035495,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Little Silver Station": {
+    "name": "Little Silver Station",
+    "lat": 40.326715,
+    "long": -74.041054,
+    "departureVisionEnabled": true,
+    "departureVisionId": "LS"
+  },
+  "Far Hills Station": {
+    "name": "Far Hills Station",
+    "lat": 40.685715,
+    "long": -74.633734,
+    "departureVisionEnabled": true,
+    "departureVisionId": "FH"
+  },
+  "College Of NJ [Was Trenton State ]": {
+    "name": "College Of NJ [Was Trenton State ]",
+    "lat": 40.26848,
+    "long": -74.78224,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Egg Harbor City Station": {
+    "name": "Egg Harbor City Station",
+    "lat": 39.526443,
+    "long": -74.648025,
+    "departureVisionEnabled": true,
+    "departureVisionId": "EH"
+  },
+  "Rutgers Sebs (Formerly Cook College)": {
+    "name": "Rutgers Sebs (Formerly Cook College)",
+    "lat": 40.483938,
+    "long": -74.43344,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [16 Broadway]": {
+    "name": "Lib [16 Broadway]",
+    "lat": 39.973987,
+    "long": -74.581106,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Great Adventure": {
+    "name": "Great Adventure",
+    "lat": 40.140409,
+    "long": -74.444411,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Craig Road Park & Ride": {
+    "name": "Craig Road Park & Ride",
+    "lat": 40.28746,
+    "long": -74.29654,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Cape May Bus Terminal": {
+    "name": "Cape May Bus Terminal",
+    "lat": 38.93514,
+    "long": -74.92269,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Ridgewood Station": {
+    "name": "Ridgewood Station",
+    "lat": 40.980631,
+    "long": -74.120592,
+    "departureVisionEnabled": true,
+    "departureVisionId": "RW"
+  },
+  "Otisville Station": {
+    "name": "Otisville Station",
+    "lat": 41.471789,
+    "long": -74.529211,
+    "departureVisionEnabled": true,
+    "departureVisionId": "OS"
+  },
+  "Manasquan Station": {
+    "name": "Manasquan Station",
+    "lat": 40.120573,
+    "long": -74.047685,
+    "departureVisionEnabled": true,
+    "departureVisionId": "SQ"
+  },
+  "Beth Israel Hospital - Passaic": {
+    "name": "Beth Israel Hospital - Passaic",
+    "lat": 40.869448,
+    "long": -74.121142,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Graves Family Health Center": {
+    "name": "Graves Family Health Center",
+    "lat": 40.914709,
+    "long": -74.177613,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [239 Liberty St]": {
+    "name": "Lib [239 Liberty St]",
+    "lat": 40.851241,
+    "long": -74.04376,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Short Hills Station": {
+    "name": "Short Hills Station",
+    "lat": 40.725249,
+    "long": -74.323751,
+    "departureVisionEnabled": true,
+    "departureVisionId": "RT"
+  },
+  "Greystone Park Psychiatric Hospital": {
+    "name": "Greystone Park Psychiatric Hospital",
+    "lat": 40.842428,
+    "long": -74.510702,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Raritan Station": {
+    "name": "Raritan Station",
+    "lat": 40.57101,
+    "long": -74.634361,
+    "departureVisionEnabled": true,
+    "departureVisionId": "RA"
+  },
+  "Rockefeller Center": {
+    "name": "Rockefeller Center",
+    "lat": 40.758469,
+    "long": -73.979053,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Mannington": {
+    "name": "Mannington",
+    "lat": 39.580279,
+    "long": -75.463536,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Childrens Specialized Hosp At Neew Bruns": {
+    "name": "Childrens Specialized Hosp At Neew Bruns",
+    "lat": 40.495063,
+    "long": -74.451993,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Childrens Specialized Hosp At Roselle Pk": {
+    "name": "Childrens Specialized Hosp At Roselle Pk",
+    "lat": 40.660266,
+    "long": -74.274372,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Burlington South Station": {
+    "name": "Burlington South Station",
+    "lat": 40.072878,
+    "long": -74.865361,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [274 Main St]": {
+    "name": "Lib [274 Main St]",
+    "lat": 40.870259,
+    "long": -74.046442,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Morris County Cultural Center": {
+    "name": "Morris County Cultural Center",
+    "lat": 40.794808,
+    "long": -74.448152,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [Rte 70 And Plymouth Dr]": {
+    "name": "Lib [Rte 70 And Plymouth Dr]",
+    "lat": 39.893878,
+    "long": -74.910911,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "BRCC": {
+    "name": "BRCC",
+    "lat": 40.331464,
+    "long": -74.127345,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [107 Cedar St]": {
+    "name": "Lib [107 Cedar St]",
+    "lat": 40.85456,
+    "long": -74.022078,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Waldwick Station": {
+    "name": "Waldwick Station",
+    "lat": 41.012736,
+    "long": -74.123412,
+    "departureVisionEnabled": true,
+    "departureVisionId": "WK"
+  },
+  "Mercer County Airport": {
+    "name": "Mercer County Airport",
+    "lat": 40.276836,
+    "long": -74.828229,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Virtua West Jersey Hospital - Marlton": {
+    "name": "Virtua West Jersey Hospital - Marlton",
+    "lat": 39.880336,
+    "long": -74.917473,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Delawanna Station": {
+    "name": "Delawanna Station",
+    "lat": 40.831369,
+    "long": -74.131262,
+    "departureVisionEnabled": true,
+    "departureVisionId": "DL"
+  },
+  "Port Imperial Station Weehawken": {
+    "name": "Port Imperial Station Weehawken",
+    "lat": 40.775931,
+    "long": -74.012769,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Hillsdale Station": {
+    "name": "Hillsdale Station",
+    "lat": 41.002416,
+    "long": -74.041033,
+    "departureVisionEnabled": true,
+    "departureVisionId": "HD"
+  },
+  "Willowbrook Mall": {
+    "name": "Willowbrook Mall",
+    "lat": 40.887139,
+    "long": -74.261191,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Ocean Medical Center": {
+    "name": "Ocean Medical Center",
+    "lat": 40.078118,
+    "long": -74.129386,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Rider University": {
+    "name": "Rider University",
+    "lat": 40.279604,
+    "long": -74.732009,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Six Flags Great Adventure": {
+    "name": "Six Flags Great Adventure",
+    "lat": 40.140409,
+    "long": -74.444411,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Community Center For Mental": {
+    "name": "Community Center For Mental",
+    "lat": 40.938719,
+    "long": -73.995571,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "MICC": {
+    "name": "MICC",
+    "lat": 40.502029,
+    "long": -74.370522,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Gillette Station": {
+    "name": "Gillette Station",
+    "lat": 40.678256,
+    "long": -74.468314,
+    "departureVisionEnabled": true,
+    "departureVisionId": "GI"
+  },
+  "CUCC": {
+    "name": "CUCC",
+    "lat": 39.436319,
+    "long": -75.040932,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Greenbrook Regional Center": {
+    "name": "Greenbrook Regional Center",
+    "lat": 40.588901,
+    "long": -74.496799,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [1 North Tennessee Ave]": {
+    "name": "Lib [1 North Tennessee Ave]",
+    "lat": 39.362109,
+    "long": -74.42804,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Wayne/Route 23 Transit Center Rail Station": {
+    "name": "Wayne/Route 23 Transit Center Rail Station",
+    "lat": 40.900259,
+    "long": -74.256971,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "VA Hospital - Lyons": {
+    "name": "VA Hospital - Lyons",
+    "lat": 40.665908,
+    "long": -74.554313,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bergenline Avenue Station": {
+    "name": "Bergenline Avenue Station",
+    "lat": 40.782082,
+    "long": -74.021819,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "SJH Elmer Hospital": {
+    "name": "SJH Elmer Hospital",
+    "lat": 39.592467,
+    "long": -75.175742,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St James Hosp (Emerg Rm/Outpatient Only)": {
+    "name": "St James Hosp (Emerg Rm/Outpatient Only)",
+    "lat": 40.727778,
+    "long": -74.163182,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Absecon Station": {
+    "name": "Absecon Station",
+    "lat": 39.424333,
+    "long": -74.502091,
+    "departureVisionEnabled": true,
+    "departureVisionId": "AB"
+  },
+  "Glen Ridge Hospital": {
+    "name": "Glen Ridge Hospital",
+    "lat": 40.812477,
+    "long": -74.200092,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Howell Park & Ride": {
+    "name": "Howell Park & Ride",
+    "lat": 40.211307,
+    "long": -74.258007,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "MU": {
+    "name": "MU",
+    "lat": 40.281599,
+    "long": -74.001573,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "CACC": {
+    "name": "CACC",
+    "lat": 39.782442,
+    "long": -75.034364,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Rutgers Student Center": {
+    "name": "Rutgers Student Center",
+    "lat": 40.49904,
+    "long": -74.447642,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Saint Peters Prep": {
+    "name": "Saint Peters Prep",
+    "lat": 40.716107,
+    "long": -74.044883,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "West Jersey Hospital Voorhees": {
+    "name": "West Jersey Hospital Voorhees",
+    "lat": 39.863409,
+    "long": -74.958331,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Cornwall Station": {
+    "name": "Cornwall Station",
+    "lat": 41.437078,
+    "long": -74.101871,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Hazlet Station": {
+    "name": "Hazlet Station",
+    "lat": 40.415385,
+    "long": -74.190393,
+    "departureVisionEnabled": true,
+    "departureVisionId": "HZ"
+  },
+  "Sussex": {
+    "name": "Sussex",
+    "lat": 41.207079,
+    "long": -74.602543,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Health Village": {
+    "name": "Health Village",
+    "lat": 40.880768,
+    "long": -74.557111,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Mothers Park & Ride": {
+    "name": "Mothers Park & Ride",
+    "lat": 40.92231,
+    "long": -74.26771,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "George Washington Bridge Bus Terminal": {
+    "name": "George Washington Bridge Bus Terminal",
+    "lat": 40.848833,
+    "long": -73.93854,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Burlington Towne Centre Station": {
+    "name": "Burlington Towne Centre Station",
+    "lat": 40.077679,
+    "long": -74.858171,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Essex County Hospital Center": {
+    "name": "Essex County Hospital Center",
+    "lat": 40.851523,
+    "long": -74.232908,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Sayreville Park & Ride": {
+    "name": "Sayreville Park & Ride",
+    "lat": 40.477599,
+    "long": -74.298288,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Westminster Choir College": {
+    "name": "Westminster Choir College",
+    "lat": 40.355219,
+    "long": -74.653422,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "West Deptford High School": {
+    "name": "West Deptford High School",
+    "lat": 39.856438,
+    "long": -75.161311,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Harriman Station": {
+    "name": "Harriman Station",
+    "lat": 41.293359,
+    "long": -74.139863,
+    "departureVisionEnabled": true,
+    "departureVisionId": "RM"
+  },
+  "Hackettstown Regional Medical Center": {
+    "name": "Hackettstown Regional Medical Center",
+    "lat": 40.861577,
+    "long": -74.813842,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Riverview Medical Center": {
+    "name": "Riverview Medical Center",
+    "lat": 40.353178,
+    "long": -74.064331,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Underwood Memorial Hospital": {
+    "name": "Underwood Memorial Hospital",
+    "lat": 39.843389,
+    "long": -75.149184,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Allwood Road Park & Ride": {
+    "name": "Allwood Road Park & Ride",
+    "lat": 40.853828,
+    "long": -74.175212,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Hawthorne Station": {
+    "name": "Hawthorne Station",
+    "lat": 40.942539,
+    "long": -74.152411,
+    "departureVisionEnabled": true,
+    "departureVisionId": "HW"
+  },
+  "Kingsland Station": {
+    "name": "Kingsland Station",
+    "lat": 40.810121,
+    "long": -74.117334,
+    "departureVisionEnabled": true,
+    "departureVisionId": "KG"
+  },
+  "Lib [49 Hudson Ave]": {
+    "name": "Lib [49 Hudson Ave]",
+    "lat": 40.829382,
+    "long": -73.974075,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Grove Street Light Rail Station Bloomfield": {
+    "name": "Grove Street Light Rail Station Bloomfield",
+    "lat": 40.779186,
+    "long": -74.189311,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bergen Community College East Hall": {
+    "name": "Bergen Community College East Hall",
+    "lat": 40.951867,
+    "long": -74.094014,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Union County College - Plainfield": {
+    "name": "Union County College - Plainfield",
+    "lat": 40.620387,
+    "long": -74.420138,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Ramapo College": {
+    "name": "Ramapo College",
+    "lat": 41.082879,
+    "long": -74.17805,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "East Orange General Hospital": {
+    "name": "East Orange General Hospital",
+    "lat": 40.754479,
+    "long": -74.214431,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [427 High Street]": {
+    "name": "Lib [427 High Street]",
+    "lat": 40.076901,
+    "long": -74.857767,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "CAC": {
+    "name": "CAC",
+    "lat": 40.835528,
+    "long": -74.26694,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Middletown North High School": {
+    "name": "Middletown North High School",
+    "lat": 40.401508,
+    "long": -74.100532,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Dumont B - West Shore": {
+    "name": "Dumont B - West Shore",
+    "lat": 40.94139,
+    "long": -73.9957,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Peapack Station": {
+    "name": "Peapack Station",
+    "lat": 40.708796,
+    "long": -74.658469,
+    "departureVisionEnabled": true,
+    "departureVisionId": "PC"
+  },
+  "Upper Montclair Station": {
+    "name": "Upper Montclair Station",
+    "lat": 40.842006,
+    "long": -74.209365,
+    "departureVisionEnabled": true,
+    "departureVisionId": "UM"
+  },
+  "NJIT": {
+    "name": "NJIT",
+    "lat": 40.742787,
+    "long": -74.176188,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Terminal B": {
+    "name": "Terminal B",
+    "lat": 40.691859,
+    "long": -74.17719,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Terminal C": {
+    "name": "Terminal C",
+    "lat": 40.695421,
+    "long": -74.177513,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Terminal A": {
+    "name": "Terminal A",
+    "lat": 40.688022,
+    "long": -74.181929,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lyons Station": {
+    "name": "Lyons Station",
+    "lat": 40.684849,
+    "long": -74.549467,
+    "departureVisionEnabled": true,
+    "departureVisionId": "LY"
+  },
+  "Lib [1 Swift Ave]": {
+    "name": "Lib [1 Swift Ave]",
+    "lat": 39.371799,
+    "long": -74.625472,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Pascack Valley Hospital": {
+    "name": "Pascack Valley Hospital",
+    "lat": 40.984059,
+    "long": -74.016051,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Penn Station New York": {
+    "name": "Penn Station New York",
+    "lat": 40.750051,
+    "long": -73.992358,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Midland Park - Wortendyke Station": {
+    "name": "Midland Park - Wortendyke Station",
+    "lat": 40.997538,
+    "long": -74.151753,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St Michaels Medical Center": {
+    "name": "St Michaels Medical Center",
+    "lat": 40.743458,
+    "long": -74.175834,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bay Street Station": {
+    "name": "Bay Street Station",
+    "lat": 40.808178,
+    "long": -74.208681,
+    "departureVisionEnabled": true,
+    "departureVisionId": "MC"
+  },
+  "Anderson Street Station": {
+    "name": "Anderson Street Station",
+    "lat": 40.894458,
+    "long": -74.043781,
+    "departureVisionEnabled": true,
+    "departureVisionId": "AS"
+  },
+  "Gibbs College": {
+    "name": "Gibbs College",
+    "lat": 40.79931,
+    "long": -74.35682,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Circle Line": {
+    "name": "Circle Line",
+    "lat": 40.76198,
+    "long": -74.001081,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Journal Square Transportation Center": {
+    "name": "Journal Square Transportation Center",
+    "lat": 40.73205,
+    "long": -74.06199,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Pennsauken Hs": {
+    "name": "Pennsauken Hs",
+    "lat": 39.988404,
+    "long": -75.02911,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [840 Teaneck Rd]": {
+    "name": "Lib [840 Teaneck Rd]",
+    "lat": 40.884982,
+    "long": -74.006375,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lincoln Park Station": {
+    "name": "Lincoln Park Station",
+    "lat": 40.924138,
+    "long": -74.301823,
+    "departureVisionEnabled": true,
+    "departureVisionId": "LP"
+  },
+  "Lib [239 Midland Ave": {
+    "name": "Lib [239 Midland Ave",
+    "lat": 40.960351,
+    "long": -74.089825,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "EWR Newark Airport Station": {
+    "name": "EWR Newark Airport Station",
+    "lat": 40.704417,
+    "long": -74.190714,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Memorial Jr Hs": {
+    "name": "Memorial Jr Hs",
+    "lat": 39.477817,
+    "long": -75.001411,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "TECEO": {
+    "name": "TECEO",
+    "lat": 40.764523,
+    "long": -74.220185,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Brick Church Station": {
+    "name": "Brick Church Station",
+    "lat": 40.765136,
+    "long": -74.218609,
+    "departureVisionEnabled": true,
+    "departureVisionId": "BU"
+  },
+  "Edison Station": {
+    "name": "Edison Station",
+    "lat": 40.519148,
+    "long": -74.410972,
+    "departureVisionEnabled": true,
+    "departureVisionId": "ED"
+  },
+  "South Street Seaport": {
+    "name": "South Street Seaport",
+    "lat": 40.70744,
+    "long": -74.004052,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bloomfield College": {
+    "name": "Bloomfield College",
+    "lat": 40.795512,
+    "long": -74.196043,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "JFK Medical Center - Muhlenberg Campus": {
+    "name": "JFK Medical Center - Muhlenberg Campus",
+    "lat": 40.60733,
+    "long": -74.40561,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Nanuet Station": {
+    "name": "Nanuet Station",
+    "lat": 41.090017,
+    "long": -74.014791,
+    "departureVisionEnabled": true,
+    "departureVisionId": "NN"
+  },
+  "Pequannock": {
+    "name": "Pequannock",
+    "lat": 40.952368,
+    "long": -74.292881,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [51 Egbert St]": {
+    "name": "Lib [51 Egbert St]",
+    "lat": 39.973878,
+    "long": -74.679791,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "CCM": {
+    "name": "CCM",
+    "lat": 40.856955,
+    "long": -74.574636,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [2305 Atlantic Ave]": {
+    "name": "Lib [2305 Atlantic Ave]",
+    "lat": 39.31145,
+    "long": -74.527759,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Irvington Bus Terminal": {
+    "name": "Irvington Bus Terminal",
+    "lat": 40.726389,
+    "long": -74.22733,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Chinatown": {
+    "name": "Chinatown",
+    "lat": 40.71682,
+    "long": -73.997772,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "ECC": {
+    "name": "ECC",
+    "lat": 40.737438,
+    "long": -74.176203,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Netcong Station": {
+    "name": "Netcong Station",
+    "lat": 40.897557,
+    "long": -74.707317,
+    "departureVisionEnabled": true,
+    "departureVisionId": "NT"
+  },
+  "Bordentown Station": {
+    "name": "Bordentown Station",
+    "lat": 40.148088,
+    "long": -74.714751,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "River Edge Station": {
+    "name": "River Edge Station",
+    "lat": 40.935148,
+    "long": -74.02914,
+    "departureVisionEnabled": true,
+    "departureVisionId": "RG"
+  },
+  "Montclair State University": {
+    "name": "Montclair State University",
+    "lat": 40.862742,
+    "long": -74.201757,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Kennedy Memorial Hospital - Washington": {
+    "name": "Kennedy Memorial Hospital - Washington",
+    "lat": 39.73446,
+    "long": -75.06685,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Middlesex County College": {
+    "name": "Middlesex County College",
+    "lat": 40.50209,
+    "long": -74.370561,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Watsessing Avenue Station": {
+    "name": "Watsessing Avenue Station",
+    "lat": 40.782743,
+    "long": -74.198451,
+    "departureVisionEnabled": true,
+    "departureVisionId": "WT"
+  },
+  "Mt Carmel Guild Behavioral Healthcare": {
+    "name": "Mt Carmel Guild Behavioral Healthcare",
+    "lat": 40.737007,
+    "long": -74.169246,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Middletown New York Station": {
+    "name": "Middletown New York Station",
+    "lat": 41.457488,
+    "long": -74.37039,
+    "departureVisionEnabled": true,
+    "departureVisionId": "MD"
+  },
+  "Metuchen Station": {
+    "name": "Metuchen Station",
+    "lat": 40.540738,
+    "long": -74.360671,
+    "departureVisionEnabled": true,
+    "departureVisionId": "MU"
+  },
+  "Lake Drive School": {
+    "name": "Lake Drive School",
+    "lat": 40.892904,
+    "long": -74.44033,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "KU": {
+    "name": "KU",
+    "lat": 40.678788,
+    "long": -74.230643,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Thomas Edison College - E. Orange": {
+    "name": "Thomas Edison College - E. Orange",
+    "lat": 40.764536,
+    "long": -74.22012,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [1303 Burlington Ave]": {
+    "name": "Lib [1303 Burlington Ave]",
+    "lat": 40.052986,
+    "long": -74.948254,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St Lawrence Rehab Center": {
+    "name": "St Lawrence Rehab Center",
+    "lat": 40.288699,
+    "long": -74.733413,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Burlington County College - Willingboro": {
+    "name": "Burlington County College - Willingboro",
+    "lat": 40.052578,
+    "long": -74.894551,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Graduate College": {
+    "name": "Graduate College",
+    "lat": 40.344877,
+    "long": -74.66032,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Susquehanna Bank Center": {
+    "name": "Susquehanna Bank Center",
+    "lat": 39.940845,
+    "long": -75.129822,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Upsala College": {
+    "name": "Upsala College",
+    "lat": 41.18676,
+    "long": -74.610264,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "West Milford Park & Ride - Greenwood Lake NJ": {
+    "name": "West Milford Park & Ride - Greenwood Lake NJ",
+    "lat": 41.149641,
+    "long": -74.34741,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [400 Broad St]": {
+    "name": "Lib [400 Broad St]",
+    "lat": 40.119657,
+    "long": -74.805393,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "GCC": {
+    "name": "GCC",
+    "lat": 39.780209,
+    "long": -75.128912,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Mt. Olive Station": {
+    "name": "Mt. Olive Station",
+    "lat": 40.907378,
+    "long": -74.730653,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Meadowlands Hospital": {
+    "name": "Meadowlands Hospital",
+    "lat": 40.791048,
+    "long": -74.072342,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "University Of Pheonix": {
+    "name": "University Of Pheonix",
+    "lat": 40.726556,
+    "long": -74.033105,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [30 Wyckoff Ave]": {
+    "name": "Lib [30 Wyckoff Ave]",
+    "lat": 41.056487,
+    "long": -74.146891,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Belmar Station": {
+    "name": "Belmar Station",
+    "lat": 40.18059,
+    "long": -74.027301,
+    "departureVisionEnabled": true,
+    "departureVisionId": "BS"
+  },
+  "Spring Valley Station": {
+    "name": "Spring Valley Station",
+    "lat": 41.111978,
+    "long": -74.043991,
+    "departureVisionEnabled": true,
+    "departureVisionId": "SV"
+  },
+  "Cinnaminson Station": {
+    "name": "Cinnaminson Station",
+    "lat": 40.016859,
+    "long": -74.999302,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Orange Street": {
+    "name": "Orange Street",
+    "lat": 40.751328,
+    "long": -74.185822,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Medford Care Center": {
+    "name": "Medford Care Center",
+    "lat": 39.869879,
+    "long": -74.844973,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Wildwood Terminal": {
+    "name": "Wildwood Terminal",
+    "lat": 38.98593,
+    "long": -74.82303,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "International Wildlife Conservation Park": {
+    "name": "International Wildlife Conservation Park",
+    "lat": 40.84267,
+    "long": -73.87833,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "New Brunswick Theological Seminary": {
+    "name": "New Brunswick Theological Seminary",
+    "lat": 40.500974,
+    "long": -74.44885,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [340 Mayhill St]": {
+    "name": "Lib [340 Mayhill St]",
+    "lat": 40.904926,
+    "long": -74.08942,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Carnegie Hall": {
+    "name": "Carnegie Hall",
+    "lat": 40.764988,
+    "long": -73.978764,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Pennsauken Transit Center Bus Stop": {
+    "name": "Pennsauken Transit Center Bus Stop",
+    "lat": 39.977859,
+    "long": -75.06136,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Seamans Institute": {
+    "name": "Seamans Institute",
+    "lat": 40.687828,
+    "long": -74.144691,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "New Jersey City Univ.(Old Jers.City Sta)": {
+    "name": "New Jersey City Univ.(Old Jers.City Sta)",
+    "lat": 40.709128,
+    "long": -74.08597,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Ho-Ho-Kus Station": {
+    "name": "Ho-Ho-Kus Station",
+    "lat": 40.997369,
+    "long": -74.113521,
+    "departureVisionEnabled": true,
+    "departureVisionId": "UF"
+  },
+  "Lib [132 West Washington Ave]": {
+    "name": "Lib [132 West Washington Ave]",
+    "lat": 39.392359,
+    "long": -74.524154,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Rt. 23 Wayne Transit Center": {
+    "name": "Rt. 23 Wayne Transit Center",
+    "lat": 40.900259,
+    "long": -74.256971,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Linden High School": {
+    "name": "Linden High School",
+    "lat": 40.63545,
+    "long": -74.265855,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Kennedy Memorial Hospital - Stratford": {
+    "name": "Kennedy Memorial Hospital - Stratford",
+    "lat": 39.82769,
+    "long": -75.00965,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Fanwood Station": {
+    "name": "Fanwood Station",
+    "lat": 40.641062,
+    "long": -74.385003,
+    "departureVisionEnabled": true,
+    "departureVisionId": "FW"
+  },
+  "Lebanon Station": {
+    "name": "Lebanon Station",
+    "lat": 40.636908,
+    "long": -74.835766,
+    "departureVisionEnabled": true,
+    "departureVisionId": "ON"
+  },
+  "Union Hill Park & Ride": {
+    "name": "Union Hill Park & Ride",
+    "lat": 40.339072,
+    "long": -74.304902,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Marlboro Park & Ride": {
+    "name": "Marlboro Park & Ride",
+    "lat": 40.313465,
+    "long": -74.249645,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [213 Anderson Ave]": {
+    "name": "Lib [213 Anderson Ave]",
+    "lat": 40.815544,
+    "long": -73.995685,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib Willingboro": {
+    "name": "Lib Willingboro",
+    "lat": 40.031708,
+    "long": -74.894642,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Saddle Brook Hospital": {
+    "name": "Saddle Brook Hospital",
+    "lat": 40.896288,
+    "long": -74.090062,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Virtua Health - Camden": {
+    "name": "Virtua Health - Camden",
+    "lat": 39.929439,
+    "long": -75.109052,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [111 West 2nd St]": {
+    "name": "Lib [111 West 2nd St]",
+    "lat": 39.964128,
+    "long": -74.949289,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Empire State Bldg": {
+    "name": "Empire State Bldg",
+    "lat": 40.748358,
+    "long": -73.984623,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "GRHS": {
+    "name": "GRHS",
+    "lat": 39.822634,
+    "long": -75.141677,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Port Authority Bus Terminal": {
+    "name": "Port Authority Bus Terminal",
+    "lat": 40.756367,
+    "long": -73.990753,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Meadowlands (Stadium events)": {
+    "name": "Meadowlands (Stadium events)",
+    "lat": 40.813053,
+    "long": -74.072114,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St Peters Prep": {
+    "name": "St Peters Prep",
+    "lat": 40.716107,
+    "long": -74.044883,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Rahway Hospital": {
+    "name": "Rahway Hospital",
+    "lat": 40.612068,
+    "long": -74.290713,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Mount Arlington Station": {
+    "name": "Mount Arlington Station",
+    "lat": 40.89659,
+    "long": -74.632731,
+    "departureVisionEnabled": true,
+    "departureVisionId": "HV"
+  },
+  "Red Bull Arena": {
+    "name": "Red Bull Arena",
+    "lat": 40.740225,
+    "long": -74.155843,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Newark Airport Terminal B Bus Stop": {
+    "name": "Newark Airport Terminal B Bus Stop",
+    "lat": 40.68948,
+    "long": -74.1784,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "36th Street (Camden)": {
+    "name": "36th Street (Camden)",
+    "lat": 39.96144,
+    "long": -75.079222,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Somerset Christian College": {
+    "name": "Somerset Christian College",
+    "lat": 40.53226,
+    "long": -74.580101,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [6500 Atlantic Ave]": {
+    "name": "Lib [6500 Atlantic Ave]",
+    "lat": 39.336329,
+    "long": -74.482191,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Memorial High Junior High School": {
+    "name": "Memorial High Junior High School",
+    "lat": 39.402301,
+    "long": -75.032856,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Georgian Court College": {
+    "name": "Georgian Court College",
+    "lat": 40.097327,
+    "long": -74.226073,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [200 North Stiles Ave]": {
+    "name": "Lib [200 North Stiles Ave]",
+    "lat": 39.95973,
+    "long": -74.995973,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Watchung Avenue Station": {
+    "name": "Watchung Avenue Station",
+    "lat": 40.829519,
+    "long": -74.206931,
+    "departureVisionEnabled": true,
+    "departureVisionId": "WG"
+  },
+  "Caldwell College": {
+    "name": "Caldwell College",
+    "lat": 40.835487,
+    "long": -74.266952,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Dumont Hospital": {
+    "name": "Dumont Hospital",
+    "lat": 40.938719,
+    "long": -73.995571,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Camden Walter Rand Transportation Center": {
+    "name": "Camden Walter Rand Transportation Center",
+    "lat": 39.94336,
+    "long": -75.11843,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [92 Hathaway St]": {
+    "name": "Lib [92 Hathaway St]",
+    "lat": 40.856111,
+    "long": -74.113273,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "PRHS": {
+    "name": "PRHS",
+    "lat": 40.358875,
+    "long": -74.654966,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Summit Medical Group - Berkeley Heights": {
+    "name": "Summit Medical Group - Berkeley Heights",
+    "lat": 40.67941,
+    "long": -74.410781,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Monorail Stop D3 Parking": {
+    "name": "Monorail Stop D3 Parking",
+    "lat": 40.67622,
+    "long": -74.188372,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "BEC": {
+    "name": "BEC",
+    "lat": 40.900487,
+    "long": -74.187074,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Newfoundland Park & Ride - West Milford NJ": {
+    "name": "Newfoundland Park & Ride - West Milford NJ",
+    "lat": 41.04607,
+    "long": -74.43596,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St Clares Hospital - Sussex": {
+    "name": "St Clares Hospital - Sussex",
+    "lat": 41.207328,
+    "long": -74.602899,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Plainfield Station": {
+    "name": "Plainfield Station",
+    "lat": 40.618425,
+    "long": -74.42016,
+    "departureVisionEnabled": true,
+    "departureVisionId": "PF"
+  },
+  "West Jersey Hospital Marlton": {
+    "name": "West Jersey Hospital Marlton",
+    "lat": 39.880267,
+    "long": -74.917508,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Marlboro Hospital": {
+    "name": "Marlboro Hospital",
+    "lat": 40.339479,
+    "long": -74.225332,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Devry Institute": {
+    "name": "Devry Institute",
+    "lat": 40.464109,
+    "long": -74.449887,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Rahway Station": {
+    "name": "Rahway Station",
+    "lat": 40.606338,
+    "long": -74.276692,
+    "departureVisionEnabled": true,
+    "departureVisionId": "RH"
+  },
+  "Central Park": {
+    "name": "Central Park",
+    "lat": 40.769219,
+    "long": -73.984773,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Brookdale Community College": {
+    "name": "Brookdale Community College",
+    "lat": 40.332039,
+    "long": -74.131771,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Mountain Avenue Station": {
+    "name": "Mountain Avenue Station",
+    "lat": 40.848717,
+    "long": -74.205303,
+    "departureVisionEnabled": true,
+    "departureVisionId": "MS"
+  },
+  "Soho": {
+    "name": "Soho",
+    "lat": 40.723788,
+    "long": -74.000371,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Mccorriston High School": {
+    "name": "Mccorriston High School",
+    "lat": 40.219559,
+    "long": -74.715561,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [51 Baker St]": {
+    "name": "Lib [51 Baker St]",
+    "lat": 40.729179,
+    "long": -74.275912,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Washington Park Light Rail Station": {
+    "name": "Washington Park Light Rail Station",
+    "lat": 40.743944,
+    "long": -74.169849,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [420 Hackensack St]": {
+    "name": "Lib [420 Hackensack St]",
+    "lat": 40.838395,
+    "long": -74.091031,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Columbus Hosp (Emerg Rm/Outpatient Only)": {
+    "name": "Columbus Hosp (Emerg Rm/Outpatient Only)",
+    "lat": 40.772984,
+    "long": -74.187019,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St Josephs Hospital - Wayne": {
+    "name": "St Josephs Hospital - Wayne",
+    "lat": 40.951299,
+    "long": -74.209903,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Newcombe Hospital Center": {
+    "name": "Newcombe Hospital Center",
+    "lat": 39.480519,
+    "long": -75.013091,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "High Bridge Station": {
+    "name": "High Bridge Station",
+    "lat": 40.666884,
+    "long": -74.895863,
+    "departureVisionEnabled": true,
+    "departureVisionId": "HG"
+  },
+  "Lib [91 Warren Ave]": {
+    "name": "Lib [91 Warren Ave]",
+    "lat": 40.99878,
+    "long": -74.111889,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Vineland Terminal": {
+    "name": "Vineland Terminal",
+    "lat": 39.48707,
+    "long": -75.03389,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Cass Street Station Trenton": {
+    "name": "Cass Street Station Trenton",
+    "lat": 40.205959,
+    "long": -74.754642,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Westwood Station": {
+    "name": "Westwood Station",
+    "lat": 40.990817,
+    "long": -74.032693,
+    "departureVisionEnabled": true,
+    "departureVisionId": "WW"
+  },
+  "Clifton Stadium": {
+    "name": "Clifton Stadium",
+    "lat": 40.8835,
+    "long": -74.148051,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Personalize Home Care": {
+    "name": "Personalize Home Care",
+    "lat": 40.776388,
+    "long": -74.238819,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [280 High Street]": {
+    "name": "Lib [280 High Street]",
+    "lat": 40.974408,
+    "long": -73.966993,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "County Vocational And Tech High School": {
+    "name": "County Vocational And Tech High School",
+    "lat": 40.420049,
+    "long": -74.384813,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "University Of Medicine And Denistry": {
+    "name": "University Of Medicine And Denistry",
+    "lat": 40.75417,
+    "long": -74.031562,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [200 Dahlia Ave]": {
+    "name": "Lib [200 Dahlia Ave]",
+    "lat": 40.92103,
+    "long": -74.02294,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [306 Main St]": {
+    "name": "Lib [306 Main St]",
+    "lat": 40.012,
+    "long": -75.015577,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Point Pleasant Beach Station": {
+    "name": "Point Pleasant Beach Station",
+    "lat": 40.092718,
+    "long": -74.048191,
+    "departureVisionEnabled": true,
+    "departureVisionId": "PP"
+  },
+  "Harborside Financial Center Station": {
+    "name": "Harborside Financial Center Station",
+    "lat": 40.719059,
+    "long": -74.03407,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Hightstown Hospital": {
+    "name": "Hightstown Hospital",
+    "lat": 40.267629,
+    "long": -74.530205,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Greyhound Bus Terminal Philadelphia": {
+    "name": "Greyhound Bus Terminal Philadelphia",
+    "lat": 39.95304,
+    "long": -75.15725,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Ramsey Main Street Station": {
+    "name": "Ramsey Main Street Station",
+    "lat": 41.056422,
+    "long": -74.141877,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "PU": {
+    "name": "PU",
+    "lat": 40.348799,
+    "long": -74.663132,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [180 Washington Ave]": {
+    "name": "Lib [180 Washington Ave]",
+    "lat": 40.941629,
+    "long": -73.993395,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Radburn Station": {
+    "name": "Radburn Station",
+    "lat": 40.939919,
+    "long": -74.121613,
+    "departureVisionEnabled": true,
+    "departureVisionId": "FZ"
+  },
+  "Salem County Memorial Hospital": {
+    "name": "Salem County Memorial Hospital",
+    "lat": 39.603431,
+    "long": -75.415042,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Washington Street Light Rail Station": {
+    "name": "Washington Street Light Rail Station",
+    "lat": 40.738249,
+    "long": -74.173811,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "University Hospital": {
+    "name": "University Hospital",
+    "lat": 40.74262,
+    "long": -74.191272,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "North Branch Station": {
+    "name": "North Branch Station",
+    "lat": 40.592022,
+    "long": -74.683802,
+    "departureVisionEnabled": true,
+    "departureVisionId": "OR"
+  },
+  "Lib [500 West Crescent Ave]": {
+    "name": "Lib [500 West Crescent Ave]",
+    "lat": 41.028709,
+    "long": -74.138473,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Betty Bacharach Rehab Hospital": {
+    "name": "Betty Bacharach Rehab Hospital",
+    "lat": 39.47337,
+    "long": -74.520831,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Gloucester County College": {
+    "name": "Gloucester County College",
+    "lat": 39.780119,
+    "long": -75.128901,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Essex Street (HBLR)": {
+    "name": "Essex Street (HBLR)",
+    "lat": 40.712948,
+    "long": -74.03642,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Davenport Avenue Station Newark": {
+    "name": "Davenport Avenue Station Newark",
+    "lat": 40.772658,
+    "long": -74.178761,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "PHHS": {
+    "name": "PHHS",
+    "lat": 40.696934,
+    "long": -75.191094,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Atlantic Cape Comm Coll - Mays Landing": {
+    "name": "Atlantic Cape Comm Coll - Mays Landing",
+    "lat": 39.465637,
+    "long": -74.683297,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "BHS": {
+    "name": "BHS",
+    "lat": 40.798499,
+    "long": -74.197072,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Stockton State College": {
+    "name": "Stockton State College",
+    "lat": 39.477719,
+    "long": -74.548772,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "NBC Studios": {
+    "name": "NBC Studios",
+    "lat": 40.758469,
+    "long": -73.979053,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Rehab Center South": {
+    "name": "Rehab Center South",
+    "lat": 39.926759,
+    "long": -75.095351,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Brick Twp Park & Ride": {
+    "name": "Brick Twp Park & Ride",
+    "lat": 40.09668,
+    "long": -74.139457,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [11 East Grand Ave]": {
+    "name": "Lib [11 East Grand Ave]",
+    "lat": 41.040408,
+    "long": -74.028523,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [116 Paris Ave]": {
+    "name": "Lib [116 Paris Ave]",
+    "lat": 41.007763,
+    "long": -73.951858,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Healthsouth Rehab Hospital (Toms River)": {
+    "name": "Healthsouth Rehab Hospital (Toms River)",
+    "lat": 39.961478,
+    "long": -74.217421,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Monorail Stop D1 Avis/Hertz/National": {
+    "name": "Monorail Stop D1 Avis/Hertz/National",
+    "lat": 40.683301,
+    "long": -74.18967,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Citi Field": {
+    "name": "Citi Field",
+    "lat": 40.75357,
+    "long": -73.849296,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "MSU Station": {
+    "name": "MSU Station",
+    "lat": 40.869782,
+    "long": -74.197436,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Laguardia Airport": {
+    "name": "Laguardia Airport",
+    "lat": 40.77313,
+    "long": -73.868993,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St Josephs ChildrenS Hospital": {
+    "name": "St Josephs ChildrenS Hospital",
+    "lat": 40.902679,
+    "long": -74.166962,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Msu Bus Stop": {
+    "name": "Msu Bus Stop",
+    "lat": 40.857919,
+    "long": -74.202021,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Broad Street Station Newark": {
+    "name": "Broad Street Station Newark",
+    "lat": 40.747626,
+    "long": -74.17194,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [451 Egg Harbor Rd]": {
+    "name": "Lib [451 Egg Harbor Rd]",
+    "lat": 39.631818,
+    "long": -74.798353,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [320 Main St]": {
+    "name": "Lib [320 Main St]",
+    "lat": 40.852513,
+    "long": -73.973002,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Schibanoff Park & Ride": {
+    "name": "Schibanoff Park & Ride",
+    "lat": 40.27402,
+    "long": -74.29362,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Atlantic City International Airport": {
+    "name": "Atlantic City International Airport",
+    "lat": 39.451006,
+    "long": -74.571963,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "MOHS": {
+    "name": "MOHS",
+    "lat": 40.821594,
+    "long": -74.211391,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Jersey City Medical Center": {
+    "name": "Jersey City Medical Center",
+    "lat": 40.716686,
+    "long": -74.050016,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Berkeley College - Woodland Park": {
+    "name": "Berkeley College - Woodland Park",
+    "lat": 40.900188,
+    "long": -74.186639,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Princeton High School": {
+    "name": "Princeton High School",
+    "lat": 40.35896,
+    "long": -74.655023,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bernardsville Station": {
+    "name": "Bernardsville Station",
+    "lat": 40.716847,
+    "long": -74.571023,
+    "departureVisionEnabled": true,
+    "departureVisionId": "BV"
+  },
+  "Hackettstown Station": {
+    "name": "Hackettstown Station",
+    "lat": 40.851444,
+    "long": -74.835352,
+    "departureVisionEnabled": true,
+    "departureVisionId": "HQ"
+  },
+  "Florence Station": {
+    "name": "Florence Station",
+    "lat": 40.100048,
+    "long": -74.805112,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Douglass Campus (Rutgers New Brunswick)": {
+    "name": "Douglass Campus (Rutgers New Brunswick)",
+    "lat": 40.485319,
+    "long": -74.436911,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Sloatsburg Station": {
+    "name": "Sloatsburg Station",
+    "lat": 41.157138,
+    "long": -74.191304,
+    "departureVisionEnabled": true,
+    "departureVisionId": "XG"
+  },
+  "Morristown Station": {
+    "name": "Morristown Station",
+    "lat": 40.797118,
+    "long": -74.474086,
+    "departureVisionEnabled": true,
+    "departureVisionId": "MR"
+  },
+  "Lib [50 West Clinton Ave": {
+    "name": "Lib [50 West Clinton Ave",
+    "lat": 40.923691,
+    "long": -73.999346,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "South Jersey Behavioral Health Resources": {
+    "name": "South Jersey Behavioral Health Resources",
+    "lat": 39.945869,
+    "long": -75.122442,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Military Park Light Rail Station": {
+    "name": "Military Park Light Rail Station",
+    "lat": 40.737429,
+    "long": -74.171133,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [40 Farragut Ave]": {
+    "name": "Lib [40 Farragut Ave]",
+    "lat": 39.450217,
+    "long": -74.726128,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Palisades Medical Center": {
+    "name": "Palisades Medical Center",
+    "lat": 40.793347,
+    "long": -73.997572,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "34th Street Station (Bayonne)": {
+    "name": "34th Street Station (Bayonne)",
+    "lat": 40.671932,
+    "long": -74.108095,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Metropolitan Museum Of Art": {
+    "name": "Metropolitan Museum Of Art",
+    "lat": 40.777679,
+    "long": -73.96323,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Plainfield Health Care": {
+    "name": "Plainfield Health Care",
+    "lat": 40.599509,
+    "long": -74.455282,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "BLC": {
+    "name": "BLC",
+    "lat": 40.795556,
+    "long": -74.19618,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "William Paterson University - Business": {
+    "name": "William Paterson University - Business",
+    "lat": 40.965949,
+    "long": -74.224077,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Route 17 Ramsey Station": {
+    "name": "Route 17 Ramsey Station",
+    "lat": 41.07513,
+    "long": -74.145485,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Carteret Park & Ride": {
+    "name": "Carteret Park & Ride",
+    "lat": 40.59084,
+    "long": -74.22844,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Gateway Regional High School": {
+    "name": "Gateway Regional High School",
+    "lat": 39.822634,
+    "long": -75.141677,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "New York Stock Exchange": {
+    "name": "New York Stock Exchange",
+    "lat": 40.706355,
+    "long": -74.011148,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [1100 North Kings Hwy]": {
+    "name": "Lib [1100 North Kings Hwy]",
+    "lat": 39.920478,
+    "long": -75.003192,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Hudson Co Community College (Admissions)": {
+    "name": "Hudson Co Community College (Admissions)",
+    "lat": 40.73054,
+    "long": -74.062315,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Newport Light Rail Station": {
+    "name": "Newport Light Rail Station",
+    "lat": 40.726819,
+    "long": -74.036233,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Mt. Arlington Station": {
+    "name": "Mt. Arlington Station",
+    "lat": 40.89659,
+    "long": -74.632731,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Madison Station": {
+    "name": "Madison Station",
+    "lat": 40.757028,
+    "long": -74.415102,
+    "departureVisionEnabled": true,
+    "departureVisionId": "MA"
+  },
+  "Gladstone Station": {
+    "name": "Gladstone Station",
+    "lat": 40.720284,
+    "long": -74.666368,
+    "departureVisionEnabled": true,
+    "departureVisionId": "GL"
+  },
+  "American Museum Of Natural History": {
+    "name": "American Museum Of Natural History",
+    "lat": 40.781978,
+    "long": -73.97171,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Jersey Avenue Station (Northeast Corridor)": {
+    "name": "Jersey Avenue Station (Northeast Corridor)",
+    "lat": 40.476912,
+    "long": -74.46736,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Watchung Park & Ride": {
+    "name": "Watchung Park & Ride",
+    "lat": 40.644537,
+    "long": -74.410339,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Walter Rand Transportation Center": {
+    "name": "Walter Rand Transportation Center",
+    "lat": 39.94336,
+    "long": -75.11843,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Monorail Stop E Shuttles": {
+    "name": "Monorail Stop E Shuttles",
+    "lat": 40.696161,
+    "long": -74.178665,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Ridgewood Hospital Assoc  Valley Hospit": {
+    "name": "Ridgewood Hospital Assoc  Valley Hospit",
+    "lat": 40.982289,
+    "long": -74.10202,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "New Providence Station": {
+    "name": "New Providence Station",
+    "lat": 40.712024,
+    "long": -74.386498,
+    "departureVisionEnabled": true,
+    "departureVisionId": "NV"
+  },
+  "Doctors Park": {
+    "name": "Doctors Park",
+    "lat": 40.849159,
+    "long": -74.824302,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St Elizabeth College": {
+    "name": "St Elizabeth College",
+    "lat": 40.777999,
+    "long": -74.443602,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "TSC": {
+    "name": "TSC",
+    "lat": 40.272488,
+    "long": -74.782133,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Madison Square Garden NY": {
+    "name": "Madison Square Garden NY",
+    "lat": 40.75032,
+    "long": -73.991121,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Allenhurst Station": {
+    "name": "Allenhurst Station",
+    "lat": 40.237659,
+    "long": -74.006769,
+    "departureVisionEnabled": true,
+    "departureVisionId": "AH"
+  },
+  "Middletown New Jersey Station": {
+    "name": "Middletown New Jersey Station",
+    "lat": 40.38978,
+    "long": -74.116131,
+    "departureVisionEnabled": true,
+    "departureVisionId": "MI"
+  },
+  "Lindenwold Station": {
+    "name": "Lindenwold Station",
+    "lat": 39.833811,
+    "long": -75.000314,
+    "departureVisionEnabled": true,
+    "departureVisionId": "LW"
+  },
+  "Camden High School": {
+    "name": "Camden High School",
+    "lat": 39.934311,
+    "long": -75.098274,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Millville Senior High School": {
+    "name": "Millville Senior High School",
+    "lat": 39.397889,
+    "long": -75.018333,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Newark Airport Rail Station": {
+    "name": "Newark Airport Rail Station",
+    "lat": 40.704417,
+    "long": -74.190714,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [150 Park Ave]": {
+    "name": "Lib [150 Park Ave]",
+    "lat": 40.826338,
+    "long": -74.106761,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "North Bergen Park & Ride": {
+    "name": "North Bergen Park & Ride",
+    "lat": 40.778135,
+    "long": -74.043366,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Rowan University (Campbell Library)": {
+    "name": "Rowan University (Campbell Library)",
+    "lat": 39.706978,
+    "long": -75.114093,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Walnut Street Station": {
+    "name": "Walnut Street Station",
+    "lat": 40.817218,
+    "long": -74.20963,
+    "departureVisionEnabled": true,
+    "departureVisionId": "WA"
+  },
+  "Old Bridge Park & Ride": {
+    "name": "Old Bridge Park & Ride",
+    "lat": 40.44685,
+    "long": -74.29936,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Stockholm Park & Ride - Hardyston": {
+    "name": "Stockholm Park & Ride - Hardyston",
+    "lat": 41.09763,
+    "long": -74.53098,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [241 Mill Road]": {
+    "name": "Lib [241 Mill Road]",
+    "lat": 39.367077,
+    "long": -74.556258,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "JFK Hospital - Washington Twp": {
+    "name": "JFK Hospital - Washington Twp",
+    "lat": 39.73446,
+    "long": -75.06685,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Paterson Station": {
+    "name": "Paterson Station",
+    "lat": 40.914889,
+    "long": -74.167327,
+    "departureVisionEnabled": true,
+    "departureVisionId": "RN"
+  },
+  "Rutgers University Marine Science Ctr": {
+    "name": "Rutgers University Marine Science Ctr",
+    "lat": 39.595046,
+    "long": -74.34586,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib Southampton Twp": {
+    "name": "Lib Southampton Twp",
+    "lat": 39.935593,
+    "long": -74.750333,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Morristown Memorial Hospital": {
+    "name": "Morristown Memorial Hospital",
+    "lat": 40.788026,
+    "long": -74.465553,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Childrens Specialized Hosp At Toms River": {
+    "name": "Childrens Specialized Hosp At Toms River",
+    "lat": 40.011488,
+    "long": -74.222213,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Danforth Avenue Station Jersey City": {
+    "name": "Danforth Avenue Station Jersey City",
+    "lat": 40.693588,
+    "long": -74.088971,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "South Orange Station": {
+    "name": "South Orange Station",
+    "lat": 40.745952,
+    "long": -74.260538,
+    "departureVisionEnabled": true,
+    "departureVisionId": "SO"
+  },
+  "Meridian Care Nursing Home": {
+    "name": "Meridian Care Nursing Home",
+    "lat": 39.872189,
+    "long": -74.932913,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "MSU": {
+    "name": "MSU",
+    "lat": 40.869782,
+    "long": -74.197436,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [348 Lakehurst Rd]": {
+    "name": "Lib [348 Lakehurst Rd]",
+    "lat": 39.965306,
+    "long": -74.575841,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "State Hospital": {
+    "name": "State Hospital",
+    "lat": 39.494678,
+    "long": -75.051842,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "North Elizabeth Station": {
+    "name": "North Elizabeth Station",
+    "lat": 40.68027,
+    "long": -74.206165,
+    "departureVisionEnabled": true,
+    "departureVisionId": "NZ"
+  },
+  "Hunterdon Medical Center": {
+    "name": "Hunterdon Medical Center",
+    "lat": 40.532317,
+    "long": -74.860301,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Gloucester Co Health Service Complex": {
+    "name": "Gloucester Co Health Service Complex",
+    "lat": 39.739146,
+    "long": -75.047258,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Spring Lake": {
+    "name": "Spring Lake",
+    "lat": 40.151549,
+    "long": -74.035462,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Ocean City Transportation Center": {
+    "name": "Ocean City Transportation Center",
+    "lat": 39.27914,
+    "long": -74.57808,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Ocean County Mall ": {
+    "name": "Ocean County Mall ",
+    "lat": 39.978939,
+    "long": -74.182773,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "World Trade Center PATH Station": {
+    "name": "World Trade Center PATH Station",
+    "lat": 40.711787,
+    "long": -74.010525,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Haddonfield PATCO": {
+    "name": "Haddonfield PATCO",
+    "lat": 39.897649,
+    "long": -75.03719,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [300 Haworth Ave]": {
+    "name": "Lib [300 Haworth Ave]",
+    "lat": 40.960748,
+    "long": -73.990792,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Mt. Tabor Station": {
+    "name": "Mt. Tabor Station",
+    "lat": 40.875906,
+    "long": -74.481912,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Kean University": {
+    "name": "Kean University",
+    "lat": 40.680599,
+    "long": -74.232934,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Times Square": {
+    "name": "Times Square",
+    "lat": 40.757716,
+    "long": -73.990955,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Delanco Station": {
+    "name": "Delanco Station",
+    "lat": 40.048109,
+    "long": -74.950821,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lakeland County Hospital": {
+    "name": "Lakeland County Hospital",
+    "lat": 39.786468,
+    "long": -75.071462,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Don Bosco College  Sussex County Commun": {
+    "name": "Don Bosco College  Sussex County Commun",
+    "lat": 41.06481,
+    "long": -74.755134,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Cherry Hill High School East": {
+    "name": "Cherry Hill High School East",
+    "lat": 39.878418,
+    "long": -74.963832,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Montvale Station": {
+    "name": "Montvale Station",
+    "lat": 41.040879,
+    "long": -74.029152,
+    "departureVisionEnabled": true,
+    "departureVisionId": "ZM"
+  },
+  "County College Of Morris": {
+    "name": "County College Of Morris",
+    "lat": 40.855963,
+    "long": -74.575808,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Hackensack Medical Center  South Bergen": {
+    "name": "Hackensack Medical Center  South Bergen",
+    "lat": 40.859366,
+    "long": -74.074086,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Rutgers Univ (New Brunswick Campus)": {
+    "name": "Rutgers Univ (New Brunswick Campus)",
+    "lat": 40.498357,
+    "long": -74.444731,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Rider College": {
+    "name": "Rider College",
+    "lat": 40.27901,
+    "long": -74.732205,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Stirling Station": {
+    "name": "Stirling Station",
+    "lat": 40.674584,
+    "long": -74.49372,
+    "departureVisionEnabled": true,
+    "departureVisionId": "SG"
+  },
+  "Kilmer School": {
+    "name": "Kilmer School",
+    "lat": 40.240328,
+    "long": -74.790463,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "LA Mama E.T.C.": {
+    "name": "LA Mama E.T.C.",
+    "lat": 40.726422,
+    "long": -73.98999,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Garwood Station": {
+    "name": "Garwood Station",
+    "lat": 40.652569,
+    "long": -74.324794,
+    "departureVisionEnabled": true,
+    "departureVisionId": "GW"
+  },
+  "Morris County College [Gym]": {
+    "name": "Morris County College [Gym]",
+    "lat": 40.855963,
+    "long": -74.575808,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Holly House Senior Complex": {
+    "name": "Holly House Senior Complex",
+    "lat": 40.267629,
+    "long": -74.530205,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "NJ Library For The Blind": {
+    "name": "NJ Library For The Blind",
+    "lat": 40.24948,
+    "long": -74.804803,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Princeton House [ Medical Center ]": {
+    "name": "Princeton House [ Medical Center ]",
+    "lat": 40.376878,
+    "long": -74.625807,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "ACCC - Cape May": {
+    "name": "ACCC - Cape May",
+    "lat": 39.101882,
+    "long": -74.81961,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Montclair Art Museum": {
+    "name": "Montclair Art Museum",
+    "lat": 40.819207,
+    "long": -74.22439,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bergen Regional Medical Center": {
+    "name": "Bergen Regional Medical Center",
+    "lat": 40.956407,
+    "long": -74.05865,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Parkway Tower Industries": {
+    "name": "Parkway Tower Industries",
+    "lat": 40.505219,
+    "long": -74.396802,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Plainfield High School": {
+    "name": "Plainfield High School",
+    "lat": 40.611791,
+    "long": -74.412804,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Little Brook School": {
+    "name": "Little Brook School",
+    "lat": 40.363478,
+    "long": -74.639453,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Plauderville Station": {
+    "name": "Plauderville Station",
+    "lat": 40.88492,
+    "long": -74.10269,
+    "departureVisionEnabled": true,
+    "departureVisionId": "PL"
+  },
+  "Matawan Station": {
+    "name": "Matawan Station",
+    "lat": 40.420161,
+    "long": -74.223702,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Atlantic City Rail Terminal": {
+    "name": "Atlantic City Rail Terminal",
+    "lat": 39.3633,
+    "long": -74.44148,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Suffern Station": {
+    "name": "Suffern Station",
+    "lat": 41.11354,
+    "long": -74.153442,
+    "departureVisionEnabled": true,
+    "departureVisionId": "SF"
+  },
+  "Kessler Institute For Rehab": {
+    "name": "Kessler Institute For Rehab",
+    "lat": 40.753389,
+    "long": -74.212221,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Greenwood Lake Airport": {
+    "name": "Greenwood Lake Airport",
+    "lat": 41.13672,
+    "long": -74.343011,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lyndhurst Station": {
+    "name": "Lyndhurst Station",
+    "lat": 40.816478,
+    "long": -74.124161,
+    "departureVisionEnabled": true,
+    "departureVisionId": "LN"
+  },
+  "Newark Penn Station": {
+    "name": "Newark Penn Station",
+    "lat": 40.734223,
+    "long": -74.16455,
+    "departureVisionEnabled": true,
+    "departureVisionId": "NP"
+  },
+  "Philadelphia 30th Street Station": {
+    "name": "Philadelphia 30th Street Station",
+    "lat": 39.956567,
+    "long": -75.182327,
+    "departureVisionEnabled": true,
+    "departureVisionId": "PH"
+  },
+  "Cook Campus (Now Sebs) - Rutgers N Bruns": {
+    "name": "Cook Campus (Now Sebs) - Rutgers N Bruns",
+    "lat": 40.483938,
+    "long": -74.43344,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [18 East Union St]": {
+    "name": "Lib [18 East Union St]",
+    "lat": 40.143602,
+    "long": -74.707644,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [100 Riveredge Rd]": {
+    "name": "Lib [100 Riveredge Rd]",
+    "lat": 40.927684,
+    "long": -73.969518,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "New York Botanical Garden": {
+    "name": "New York Botanical Garden",
+    "lat": 40.86109,
+    "long": -73.88072,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Riverton Station": {
+    "name": "Riverton Station",
+    "lat": 40.009748,
+    "long": -75.011992,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Penn Station Newark": {
+    "name": "Penn Station Newark",
+    "lat": 40.734223,
+    "long": -74.16455,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [20 Palisade Ave]": {
+    "name": "Lib [20 Palisade Ave]",
+    "lat": 40.972679,
+    "long": -74.026576,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "ROU": {
+    "name": "ROU",
+    "lat": 39.707019,
+    "long": -75.114354,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Virtua West Jersey Hospital - Voorhees": {
+    "name": "Virtua West Jersey Hospital - Voorhees",
+    "lat": 39.863409,
+    "long": -74.958331,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Secaucus Junction Station": {
+    "name": "Secaucus Junction Station",
+    "lat": 40.76119,
+    "long": -74.075821,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bridgeton Hospital": {
+    "name": "Bridgeton Hospital",
+    "lat": 39.435647,
+    "long": -75.220092,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Denville Station": {
+    "name": "Denville Station",
+    "lat": 40.8839,
+    "long": -74.481513,
+    "departureVisionEnabled": true,
+    "departureVisionId": "DV"
+  },
+  "Monmouth Medical Center": {
+    "name": "Monmouth Medical Center",
+    "lat": 40.295555,
+    "long": -73.983593,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Passaic County College": {
+    "name": "Passaic County College",
+    "lat": 40.918128,
+    "long": -74.168321,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bound Brook Station": {
+    "name": "Bound Brook Station",
+    "lat": 40.560931,
+    "long": -74.530614,
+    "departureVisionEnabled": true,
+    "departureVisionId": "BK"
+  },
+  "Elberon Station": {
+    "name": "Elberon Station",
+    "lat": 40.265292,
+    "long": -73.997617,
+    "departureVisionEnabled": true,
+    "departureVisionId": "EL"
+  },
+  "Virtua Memorial Hospital - Burlington Co": {
+    "name": "Virtua Memorial Hospital - Burlington Co",
+    "lat": 39.986255,
+    "long": -74.795553,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Nj Orthopedic Hospital": {
+    "name": "Nj Orthopedic Hospital",
+    "lat": 40.7664,
+    "long": -74.234302,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Immaculata High School": {
+    "name": "Immaculata High School",
+    "lat": 40.580108,
+    "long": -74.612561,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Camden County Health Services Center": {
+    "name": "Camden County Health Services Center",
+    "lat": 39.786468,
+    "long": -75.071462,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Hoboken Light Rail": {
+    "name": "Hoboken Light Rail",
+    "lat": 40.734048,
+    "long": -74.029207,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Robert Wood Johnson Hospital - New Bruns": {
+    "name": "Robert Wood Johnson Hospital - New Bruns",
+    "lat": 40.495951,
+    "long": -74.45025,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Branch Brook Park Light Rail Station": {
+    "name": "Branch Brook Park Light Rail Station",
+    "lat": 40.780531,
+    "long": -74.175614,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Palmyra Station": {
+    "name": "Palmyra Station",
+    "lat": 40.00404,
+    "long": -75.021713,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Mountain Lakes Station": {
+    "name": "Mountain Lakes Station",
+    "lat": 40.885949,
+    "long": -74.433601,
+    "departureVisionEnabled": true,
+    "departureVisionId": "ML"
+  },
+  "Bayonne Medical Center": {
+    "name": "Bayonne Medical Center",
+    "lat": 40.667955,
+    "long": -74.113153,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St Clares Hospital - Denville": {
+    "name": "St Clares Hospital - Denville",
+    "lat": 40.886711,
+    "long": -74.455046,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Woodbridge Station": {
+    "name": "Woodbridge Station",
+    "lat": 40.55661,
+    "long": -74.27775,
+    "departureVisionEnabled": true,
+    "departureVisionId": "WB"
+  },
+  "Hatch Middle School": {
+    "name": "Hatch Middle School",
+    "lat": 39.931592,
+    "long": -75.095797,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Paramus Catholic High School": {
+    "name": "Paramus Catholic High School",
+    "lat": 40.955698,
+    "long": -74.09392,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Wood Ridge Station": {
+    "name": "Wood Ridge Station",
+    "lat": 40.843974,
+    "long": -74.078716,
+    "departureVisionEnabled": true,
+    "departureVisionId": "WR"
+  },
+  "Dorado Park & Ride": {
+    "name": "Dorado Park & Ride",
+    "lat": 40.0946,
+    "long": -74.14632,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [307 High St]": {
+    "name": "Lib [307 High St]",
+    "lat": 39.999409,
+    "long": -74.790672,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "City Stadium - Newark": {
+    "name": "City Stadium - Newark",
+    "lat": 40.77042,
+    "long": -74.18325,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St Barnabas Clinic": {
+    "name": "St Barnabas Clinic",
+    "lat": 40.773357,
+    "long": -74.354159,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Atlanticare Medical Center - Mainland": {
+    "name": "Atlanticare Medical Center - Mainland",
+    "lat": 39.477099,
+    "long": -74.544742,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "HCCC": {
+    "name": "HCCC",
+    "lat": 40.774489,
+    "long": -74.033811,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "2nd Street Station (Hoboken)": {
+    "name": "2nd Street Station (Hoboken)",
+    "lat": 40.740827,
+    "long": -74.042511,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Montclair High School": {
+    "name": "Montclair High School",
+    "lat": 40.822487,
+    "long": -74.213338,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Rutgers University (Camden Campus)": {
+    "name": "Rutgers University (Camden Campus)",
+    "lat": 39.947949,
+    "long": -75.1204,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [509 Hillsdale Ave]": {
+    "name": "Lib [509 Hillsdale Ave]",
+    "lat": 41.002649,
+    "long": -74.045852,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "33rd Street PATH Station": {
+    "name": "33rd Street PATH Station",
+    "lat": 40.749111,
+    "long": -73.98824,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Yankee Stadium": {
+    "name": "Yankee Stadium",
+    "lat": 40.826706,
+    "long": -73.92929,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "NY Public Library": {
+    "name": "NY Public Library",
+    "lat": 40.753479,
+    "long": -73.980881,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Washington Twp High School": {
+    "name": "Washington Twp High School",
+    "lat": 39.739993,
+    "long": -75.076176,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Ocean City Airport": {
+    "name": "Ocean City Airport",
+    "lat": 39.266849,
+    "long": -74.598962,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Jersey Avenue Light Rail (HBLR)": {
+    "name": "Jersey Avenue Light Rail (HBLR)",
+    "lat": 40.716568,
+    "long": -74.048893,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Beverly/Edgewater Park Station": {
+    "name": "Beverly/Edgewater Park Station",
+    "lat": 40.061188,
+    "long": -74.915793,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Memorial Hospital Of Salem County": {
+    "name": "Memorial Hospital Of Salem County",
+    "lat": 39.603431,
+    "long": -75.415042,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Essex County College - Newark": {
+    "name": "Essex County College - Newark",
+    "lat": 40.73752,
+    "long": -74.176133,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Dumont A": {
+    "name": "Dumont A",
+    "lat": 40.94144,
+    "long": -73.99204,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [56 Russell St]": {
+    "name": "Lib [56 Russell St]",
+    "lat": 41.013079,
+    "long": -73.984372,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Perth Amboy Station": {
+    "name": "Perth Amboy Station",
+    "lat": 40.509398,
+    "long": -74.273752,
+    "departureVisionEnabled": true,
+    "departureVisionId": "PE"
+  },
+  "South Jersey Healthcare Regional Med Ctr": {
+    "name": "South Jersey Healthcare Regional Med Ctr",
+    "lat": 39.444575,
+    "long": -75.000251,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Green Brook Some": {
+    "name": "Green Brook Some",
+    "lat": 40.588386,
+    "long": -74.498852,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Little Italy": {
+    "name": "Little Italy",
+    "lat": 40.71816,
+    "long": -73.997931,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Fort Lee": {
+    "name": "Fort Lee",
+    "lat": 40.85211,
+    "long": -73.97125,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "West Jersey Hospital Berlin": {
+    "name": "West Jersey Hospital Berlin",
+    "lat": 39.783769,
+    "long": -74.918322,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Union Station": {
+    "name": "Union Station",
+    "lat": 40.683668,
+    "long": -74.238602,
+    "departureVisionEnabled": true,
+    "departureVisionId": "US"
+  },
+  "JFK Johnson Rehabilitation Institute": {
+    "name": "JFK Johnson Rehabilitation Institute",
+    "lat": 40.557616,
+    "long": -74.349924,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "JCSC": {
+    "name": "JCSC",
+    "lat": 40.708018,
+    "long": -74.08727,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Memorial Hs": {
+    "name": "Memorial Hs",
+    "lat": 39.403509,
+    "long": -75.030131,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Crest Haven Complex Health Clinic": {
+    "name": "Crest Haven Complex Health Clinic",
+    "lat": 39.099928,
+    "long": -74.804686,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Cherry Hill Mall": {
+    "name": "Cherry Hill Mall",
+    "lat": 39.942839,
+    "long": -75.027001,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Philadelphia International Airport": {
+    "name": "Philadelphia International Airport",
+    "lat": 39.877289,
+    "long": -75.244371,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "45th Street Station (Bayonne)": {
+    "name": "45th Street Station (Bayonne)",
+    "lat": 40.67867,
+    "long": -74.102511,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Holmdel Hospital": {
+    "name": "Holmdel Hospital",
+    "lat": 40.40441,
+    "long": -74.193622,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [315 Rock Rd]": {
+    "name": "Lib [315 Rock Rd]",
+    "lat": 40.962318,
+    "long": -74.126143,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "JF Kennedy Stadium": {
+    "name": "JF Kennedy Stadium",
+    "lat": 40.744398,
+    "long": -74.162112,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [245 Lake St]": {
+    "name": "Lib [245 Lake St]",
+    "lat": 41.058918,
+    "long": -74.094895,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bergen County Academies": {
+    "name": "Bergen County Academies",
+    "lat": 40.90215,
+    "long": -74.034893,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Berkeley Heights Station": {
+    "name": "Berkeley Heights Station",
+    "lat": 40.682345,
+    "long": -74.442649,
+    "departureVisionEnabled": true,
+    "departureVisionId": "BY"
+  },
+  "Summit Station": {
+    "name": "Summit Station",
+    "lat": 40.716549,
+    "long": -74.357807,
+    "departureVisionEnabled": true,
+    "departureVisionId": "ST"
+  },
+  "Vineland State School": {
+    "name": "Vineland State School",
+    "lat": 39.484939,
+    "long": -74.999333,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Hinchcliffe Stadium": {
+    "name": "Hinchcliffe Stadium",
+    "lat": 40.919389,
+    "long": -74.182823,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Symmes Drive - Manalapan Mall": {
+    "name": "Symmes Drive - Manalapan Mall",
+    "lat": 40.292883,
+    "long": -74.301645,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Hammonton Station": {
+    "name": "Hammonton Station",
+    "lat": 39.631673,
+    "long": -74.799457,
+    "departureVisionEnabled": true,
+    "departureVisionId": "HN"
+  },
+  "New Bridge Landing Station": {
+    "name": "New Bridge Landing Station",
+    "lat": 40.910856,
+    "long": -74.035044,
+    "departureVisionEnabled": true,
+    "departureVisionId": "NH"
+  },
+  "Hamilton High School North": {
+    "name": "Hamilton High School North",
+    "lat": 40.229238,
+    "long": -74.707293,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bradley Beach Station": {
+    "name": "Bradley Beach Station",
+    "lat": 40.203753,
+    "long": -74.018891,
+    "departureVisionEnabled": true,
+    "departureVisionId": "BB"
+  },
+  "Warren County Community College": {
+    "name": "Warren County Community College",
+    "lat": 40.746338,
+    "long": -75.019206,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "BECC": {
+    "name": "BECC",
+    "lat": 40.951519,
+    "long": -74.093909,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Newark Airport North Terminal": {
+    "name": "Newark Airport North Terminal",
+    "lat": 40.705278,
+    "long": -74.171373,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "PCHS": {
+    "name": "PCHS",
+    "lat": 40.952812,
+    "long": -74.093988,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [144 Woodfield Rd]": {
+    "name": "Lib [144 Woodfield Rd]",
+    "lat": 40.987413,
+    "long": -74.061365,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "8th Street Station (Bayonne)": {
+    "name": "8th Street Station (Bayonne)",
+    "lat": 40.654298,
+    "long": -74.129142,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Sussex County Community College  Don Bo": {
+    "name": "Sussex County Community College  Don Bo",
+    "lat": 41.064514,
+    "long": -74.755272,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Landis Jr Hs": {
+    "name": "Landis Jr Hs",
+    "lat": 39.486619,
+    "long": -75.035421,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "National Tennis Center": {
+    "name": "National Tennis Center",
+    "lat": 40.75551,
+    "long": -73.843232,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [520 Godwin Ave]": {
+    "name": "Lib [520 Godwin Ave]",
+    "lat": 40.990052,
+    "long": -74.141156,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "GCC Business - Industry Training Ctr": {
+    "name": "GCC Business - Industry Training Ctr",
+    "lat": 39.826344,
+    "long": -75.171944,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Grand Central Station": {
+    "name": "Grand Central Station",
+    "lat": 40.752117,
+    "long": -73.977673,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bronx Zoo (Asia Gate)": {
+    "name": "Bronx Zoo (Asia Gate)",
+    "lat": 40.842609,
+    "long": -73.878172,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "R.Wood Johnson Rehab Center": {
+    "name": "R.Wood Johnson Rehab Center",
+    "lat": 40.55784,
+    "long": -74.349994,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Rice Stadium": {
+    "name": "Rice Stadium",
+    "lat": 40.853209,
+    "long": -73.827111,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Teterboro Airport": {
+    "name": "Teterboro Airport",
+    "lat": 40.86172,
+    "long": -74.058701,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Grove Street PATH Station": {
+    "name": "Grove Street PATH Station",
+    "lat": 40.719535,
+    "long": -74.043016,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Rutgers Lane Hospital - Union Twp": {
+    "name": "Rutgers Lane Hospital - Union Twp",
+    "lat": 40.673928,
+    "long": -74.266296,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "East Orange Station": {
+    "name": "East Orange Station",
+    "lat": 40.760979,
+    "long": -74.210461,
+    "departureVisionEnabled": true,
+    "departureVisionId": "EO"
+  },
+  "Overlook Hospital": {
+    "name": "Overlook Hospital",
+    "lat": 40.712389,
+    "long": -74.354002,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [3o6 East Jimmie Leeds Rd]": {
+    "name": "Lib [3o6 East Jimmie Leeds Rd]",
+    "lat": 39.46776,
+    "long": -74.501356,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Aldrich Road Park & Ride": {
+    "name": "Aldrich Road Park & Ride",
+    "lat": 40.15616,
+    "long": -74.22714,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Orange Station": {
+    "name": "Orange Station",
+    "lat": 40.771883,
+    "long": -74.233103,
+    "departureVisionEnabled": true,
+    "departureVisionId": "OG"
+  },
+  "Yeshivas Be Er Yitzchok": {
+    "name": "Yeshivas Be Er Yitzchok",
+    "lat": 40.682109,
+    "long": -74.212903,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Montclair State University Station": {
+    "name": "Montclair State University Station",
+    "lat": 40.869782,
+    "long": -74.197436,
+    "departureVisionEnabled": true,
+    "departureVisionId": "UV"
+  },
+  "Lib [125 North Maple Ave]": {
+    "name": "Lib [125 North Maple Ave]",
+    "lat": 40.982125,
+    "long": -74.112578,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Convent Station": {
+    "name": "Convent Station",
+    "lat": 40.779043,
+    "long": -74.443435,
+    "departureVisionEnabled": true,
+    "departureVisionId": "CN"
+  },
+  "BUCC": {
+    "name": "BUCC",
+    "lat": 39.966564,
+    "long": -74.637875,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Raritan Valley Community College": {
+    "name": "Raritan Valley Community College",
+    "lat": 40.606609,
+    "long": -74.694313,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lakewood Airport": {
+    "name": "Lakewood Airport",
+    "lat": 40.068738,
+    "long": -74.167101,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Pope Paul Vi Hs": {
+    "name": "Pope Paul Vi Hs",
+    "lat": 39.897788,
+    "long": -75.062904,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "BCC - Willingboro": {
+    "name": "BCC - Willingboro",
+    "lat": 40.052578,
+    "long": -74.894551,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Rutgers University (Piscataway Campus)": {
+    "name": "Rutgers University (Piscataway Campus)",
+    "lat": 40.55173,
+    "long": -74.482031,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Rt. 17 Ramsey Station": {
+    "name": "Rt. 17 Ramsey Station",
+    "lat": 41.07513,
+    "long": -74.145485,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Museum Of Modern Art": {
+    "name": "Museum Of Modern Art",
+    "lat": 40.760546,
+    "long": -73.976163,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Library Middletown": {
+    "name": "Library Middletown",
+    "lat": 40.404106,
+    "long": -74.110128,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Absecon Manor Nursing Home": {
+    "name": "Absecon Manor Nursing Home",
+    "lat": 39.442043,
+    "long": -74.497628,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Monmouth University": {
+    "name": "Monmouth University",
+    "lat": 40.281659,
+    "long": -74.001583,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Hamilton High School West": {
+    "name": "Hamilton High School West",
+    "lat": 40.197659,
+    "long": -74.723423,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [180 Sylvan Ave]": {
+    "name": "Lib [180 Sylvan Ave]",
+    "lat": 40.870524,
+    "long": -73.955855,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Garden State Community Hospital": {
+    "name": "Garden State Community Hospital",
+    "lat": 39.880911,
+    "long": -74.921929,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Buttonwood Hospital": {
+    "name": "Buttonwood Hospital",
+    "lat": 39.969458,
+    "long": -74.67038,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St Barnabas Hospital - Toms River": {
+    "name": "St Barnabas Hospital - Toms River",
+    "lat": 40.011959,
+    "long": -74.21702,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "West Caldwell Care Center": {
+    "name": "West Caldwell Care Center",
+    "lat": 40.848898,
+    "long": -74.291881,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Cedar Grove Hospital": {
+    "name": "Cedar Grove Hospital",
+    "lat": 40.850129,
+    "long": -74.244641,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Texas Road Park & Ride": {
+    "name": "Texas Road Park & Ride",
+    "lat": 40.362033,
+    "long": -74.304553,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Mercer County Geriatric": {
+    "name": "Mercer County Geriatric",
+    "lat": 40.230309,
+    "long": -74.705079,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Robert Wood Johnson Hospital - Rahway": {
+    "name": "Robert Wood Johnson Hospital - Rahway",
+    "lat": 40.612068,
+    "long": -74.290713,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [23 West Union St]": {
+    "name": "Lib [23 West Union St]",
+    "lat": 40.079323,
+    "long": -74.859452,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Central Park Zoo": {
+    "name": "Central Park Zoo",
+    "lat": 40.770518,
+    "long": -73.968451,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Atco Station": {
+    "name": "Atco Station",
+    "lat": 39.783549,
+    "long": -74.907588,
+    "departureVisionEnabled": true,
+    "departureVisionId": "AO"
+  },
+  "Harsimus Cove Station": {
+    "name": "Harsimus Cove Station",
+    "lat": 40.722668,
+    "long": -74.037281,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Warren County Vocational School": {
+    "name": "Warren County Vocational School",
+    "lat": 40.74214,
+    "long": -75.031195,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [500 Midland Ave]": {
+    "name": "Lib [500 Midland Ave]",
+    "lat": 40.880921,
+    "long": -74.101181,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Newark Museum": {
+    "name": "Newark Museum",
+    "lat": 40.742954,
+    "long": -74.171137,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Millville Hospital": {
+    "name": "Millville Hospital",
+    "lat": 39.4097,
+    "long": -75.039662,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Boonton Station": {
+    "name": "Boonton Station",
+    "lat": 40.903378,
+    "long": -74.407733,
+    "departureVisionEnabled": true,
+    "departureVisionId": "BN"
+  },
+  "Intrepid Sea-Air-Space Museum": {
+    "name": "Intrepid Sea-Air-Space Museum",
+    "lat": 40.764229,
+    "long": -73.998493,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Elizabeth Station": {
+    "name": "Elizabeth Station",
+    "lat": 40.667859,
+    "long": -74.215171,
+    "departureVisionEnabled": true,
+    "departureVisionId": "EZ"
+  },
+  "Jersey City State College": {
+    "name": "Jersey City State College",
+    "lat": 40.709128,
+    "long": -74.08597,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "TECT": {
+    "name": "TECT",
+    "lat": 40.22059,
+    "long": -74.767972,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [1350 Hornberger Ave]": {
+    "name": "Lib [1350 Hornberger Ave]",
+    "lat": 40.116237,
+    "long": -74.779261,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "PLHS": {
+    "name": "PLHS",
+    "lat": 40.611791,
+    "long": -74.412804,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [305 New Jersey Ave]": {
+    "name": "Lib [305 New Jersey Ave]",
+    "lat": 39.427933,
+    "long": -74.503929,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Campbell Hall Station": {
+    "name": "Campbell Hall Station",
+    "lat": 41.450919,
+    "long": -74.266551,
+    "departureVisionEnabled": true,
+    "departureVisionId": "CB"
+  },
+  "Bloomfield Rail Station": {
+    "name": "Bloomfield Rail Station",
+    "lat": 40.792709,
+    "long": -74.200043,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [49 Park Ave]": {
+    "name": "Lib [49 Park Ave]",
+    "lat": 40.990628,
+    "long": -74.034543,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Mountain View Station": {
+    "name": "Mountain View Station",
+    "lat": 40.914407,
+    "long": -74.268155,
+    "departureVisionEnabled": true,
+    "departureVisionId": "MV"
+  },
+  "WWHS": {
+    "name": "WWHS",
+    "lat": 39.947239,
+    "long": -75.078463,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Basking Ridge Va Hospital": {
+    "name": "Basking Ridge Va Hospital",
+    "lat": 40.672359,
+    "long": -74.555562,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Liberty State Park Light Rail Station": {
+    "name": "Liberty State Park Light Rail Station",
+    "lat": 40.707799,
+    "long": -74.05848,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Helen Fuld Med Ctr (Now Capital Health)": {
+    "name": "Helen Fuld Med Ctr (Now Capital Health)",
+    "lat": 40.235883,
+    "long": -74.752855,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Trenton State [ Now College Of Nj ]": {
+    "name": "Trenton State [ Now College Of Nj ]",
+    "lat": 40.271359,
+    "long": -74.783011,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "NY Penn Station": {
+    "name": "NY Penn Station",
+    "lat": 40.750051,
+    "long": -73.992358,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Hoboken Univ. Medical Center (St Marys)": {
+    "name": "Hoboken Univ. Medical Center (St Marys)",
+    "lat": 40.740723,
+    "long": -74.033691,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Fairleigh Dickinson  Hackensack Campus": {
+    "name": "Fairleigh Dickinson  Hackensack Campus",
+    "lat": 40.896198,
+    "long": -74.036791,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St Clares Hospital - Dover": {
+    "name": "St Clares Hospital - Dover",
+    "lat": 40.883612,
+    "long": -74.538855,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Waldorf Astoria": {
+    "name": "Waldorf Astoria",
+    "lat": 40.756499,
+    "long": -73.974352,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Red Bank Station": {
+    "name": "Red Bank Station",
+    "lat": 40.348284,
+    "long": -74.074535,
+    "departureVisionEnabled": true,
+    "departureVisionId": "RB"
+  },
+  "Princeton Medical Center": {
+    "name": "Princeton Medical Center",
+    "lat": 40.357729,
+    "long": -74.663202,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Fools Company Space": {
+    "name": "Fools Company Space",
+    "lat": 40.758028,
+    "long": -73.989594,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Trenton Transit Center River Line Station": {
+    "name": "Trenton Transit Center River Line Station",
+    "lat": 40.216282,
+    "long": -74.754523,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "RIU": {
+    "name": "RIU",
+    "lat": 40.27901,
+    "long": -74.732205,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Pennsauken Airport Circle": {
+    "name": "Pennsauken Airport Circle",
+    "lat": 39.932741,
+    "long": -75.083135,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Woodbine Developmental Center": {
+    "name": "Woodbine Developmental Center",
+    "lat": 39.236282,
+    "long": -74.806627,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Riverfront Stadium": {
+    "name": "Riverfront Stadium",
+    "lat": 40.746015,
+    "long": -74.16966,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [375 Larch Ave]": {
+    "name": "Lib [375 Larch Ave]",
+    "lat": 40.879345,
+    "long": -74.030281,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Jersey Shore Medical Center  Fitkin Hos": {
+    "name": "Jersey Shore Medical Center  Fitkin Hos",
+    "lat": 40.207299,
+    "long": -74.041992,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "University Of Medicine And Dentistry": {
+    "name": "University Of Medicine And Dentistry",
+    "lat": 40.74262,
+    "long": -74.191272,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [417 Warren St]": {
+    "name": "Lib [417 Warren St]",
+    "lat": 40.065014,
+    "long": -74.918465,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bergen Comm College - Mega Structure": {
+    "name": "Bergen Comm College - Mega Structure",
+    "lat": 40.95199,
+    "long": -74.094027,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Clara Maass Medical Center": {
+    "name": "Clara Maass Medical Center",
+    "lat": 40.78428,
+    "long": -74.176062,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bridgewater Station": {
+    "name": "Bridgewater Station",
+    "lat": 40.559909,
+    "long": -74.551741,
+    "departureVisionEnabled": true,
+    "departureVisionId": "BW"
+  },
+  "Roselle Park Station": {
+    "name": "Roselle Park Station",
+    "lat": 40.667155,
+    "long": -74.266319,
+    "departureVisionEnabled": true,
+    "departureVisionId": "RL"
+  },
+  "Gordons Corner Park & Ride": {
+    "name": "Gordons Corner Park & Ride",
+    "lat": 40.31202,
+    "long": -74.30304,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lake Hopatcong Station": {
+    "name": "Lake Hopatcong Station",
+    "lat": 40.904219,
+    "long": -74.665694,
+    "departureVisionEnabled": true,
+    "departureVisionId": "HP"
+  },
+  "Little Falls Station": {
+    "name": "Little Falls Station",
+    "lat": 40.880669,
+    "long": -74.235372,
+    "departureVisionEnabled": true,
+    "departureVisionId": "FA"
+  },
+  "ACHS": {
+    "name": "ACHS",
+    "lat": 39.36032,
+    "long": -74.46214,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Woodcliff Lake Station": {
+    "name": "Woodcliff Lake Station",
+    "lat": 41.021078,
+    "long": -74.040772,
+    "departureVisionEnabled": true,
+    "departureVisionId": "WL"
+  },
+  "William Paterson Univ - (Wayne Hall)": {
+    "name": "William Paterson Univ - (Wayne Hall)",
+    "lat": 40.944123,
+    "long": -74.201877,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Exchange Place Station": {
+    "name": "Exchange Place Station",
+    "lat": 40.716277,
+    "long": -74.032866,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "West Side Avenue Station": {
+    "name": "West Side Avenue Station",
+    "lat": 40.714784,
+    "long": -74.087708,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Salisbury Mills Cornwall Station": {
+    "name": "Salisbury Mills Cornwall Station",
+    "lat": 41.437078,
+    "long": -74.101871,
+    "departureVisionEnabled": true,
+    "departureVisionId": "CW"
+  },
+  "College Of St Elizabeth": {
+    "name": "College Of St Elizabeth",
+    "lat": 40.777999,
+    "long": -74.443602,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Teterboro Station": {
+    "name": "Teterboro Station",
+    "lat": 40.86486,
+    "long": -74.062676,
+    "departureVisionEnabled": true,
+    "departureVisionId": "TE"
+  },
+  "Boro Hall Glen Rock Station": {
+    "name": "Boro Hall Glen Rock Station",
+    "lat": 40.96137,
+    "long": -74.1293,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Broad Street Light Rail Station (Newark)": {
+    "name": "Broad Street Light Rail Station (Newark)",
+    "lat": 40.747206,
+    "long": -74.171506,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Linden Station": {
+    "name": "Linden Station",
+    "lat": 40.629487,
+    "long": -74.251772,
+    "departureVisionEnabled": true,
+    "departureVisionId": "LI"
+  },
+  "Netherwood Station": {
+    "name": "Netherwood Station",
+    "lat": 40.629148,
+    "long": -74.403455,
+    "departureVisionEnabled": true,
+    "departureVisionId": "NE"
+  },
+  "Essex County Airport": {
+    "name": "Essex County Airport",
+    "lat": 40.873599,
+    "long": -74.277673,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Valley Hospital": {
+    "name": "Valley Hospital",
+    "lat": 40.982273,
+    "long": -74.102024,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Audubon Airport": {
+    "name": "Audubon Airport",
+    "lat": 39.894119,
+    "long": -75.091483,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Essex Street Station (PVL)": {
+    "name": "Essex Street Station (PVL)",
+    "lat": 40.878973,
+    "long": -74.05189,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Medical Arts High School": {
+    "name": "Medical Arts High School",
+    "lat": 39.925698,
+    "long": -75.093811,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Salem County Nursing Home": {
+    "name": "Salem County Nursing Home",
+    "lat": 39.709995,
+    "long": -75.317943,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Montclair Heights Station": {
+    "name": "Montclair Heights Station",
+    "lat": 40.857538,
+    "long": -74.202493,
+    "departureVisionEnabled": true,
+    "departureVisionId": "HS"
+  },
+  "Glen Ridge Station": {
+    "name": "Glen Ridge Station",
+    "lat": 40.80059,
+    "long": -74.204652,
+    "departureVisionEnabled": true,
+    "departureVisionId": "GG"
+  },
+  "Museum Of Early Trades And Crafts": {
+    "name": "Museum Of Early Trades And Crafts",
+    "lat": 40.75916,
+    "long": -74.417011,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Atlanticare Medical Center - Ac Div.": {
+    "name": "Atlanticare Medical Center - Ac Div.",
+    "lat": 39.3579,
+    "long": -74.433622,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [257 2nd St]": {
+    "name": "Lib [257 2nd St]",
+    "lat": 40.846594,
+    "long": -73.996884,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Martin Luther King Drive Light Rail Station Jersey City": {
+    "name": "Martin Luther King Drive Light Rail Station Jersey City",
+    "lat": 40.71234,
+    "long": -74.077504,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Metropark Station": {
+    "name": "Metropark Station",
+    "lat": 40.56864,
+    "long": -74.329391,
+    "departureVisionEnabled": true,
+    "departureVisionId": "MP"
+  },
+  "Passaic Station": {
+    "name": "Passaic Station",
+    "lat": 40.849416,
+    "long": -74.133926,
+    "departureVisionEnabled": true,
+    "departureVisionId": "PS"
+  },
+  "Witherspoon School": {
+    "name": "Witherspoon School",
+    "lat": 40.361357,
+    "long": -74.656032,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Cooper University Hospital (Voorhees)": {
+    "name": "Cooper University Hospital (Voorhees)",
+    "lat": 39.867248,
+    "long": -74.941722,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Chatham Station": {
+    "name": "Chatham Station",
+    "lat": 40.740137,
+    "long": -74.384812,
+    "departureVisionEnabled": true,
+    "departureVisionId": "CM"
+  },
+  "Clifton Station": {
+    "name": "Clifton Station",
+    "lat": 40.867998,
+    "long": -74.153199,
+    "departureVisionEnabled": true,
+    "departureVisionId": "IF"
+  },
+  "Anthony M Yelencsics Community Hospital": {
+    "name": "Anthony M Yelencsics Community Hospital",
+    "lat": 40.557616,
+    "long": -74.349924,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "NJ State Hospital (Trenton Psychiatric)": {
+    "name": "NJ State Hospital (Trenton Psychiatric)",
+    "lat": 40.2428,
+    "long": -74.807522,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Centenary College": {
+    "name": "Centenary College",
+    "lat": 40.846018,
+    "long": -74.838813,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Garden State Cancer Center": {
+    "name": "Garden State Cancer Center",
+    "lat": 40.793602,
+    "long": -74.171302,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "JFK Hospital - Cherry Hill": {
+    "name": "JFK Hospital - Cherry Hill",
+    "lat": 39.928329,
+    "long": -75.013563,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Evesham Nursing Home": {
+    "name": "Evesham Nursing Home",
+    "lat": 39.895377,
+    "long": -74.938282,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Warren Street Light Rail Station": {
+    "name": "Warren Street Light Rail Station",
+    "lat": 40.74208,
+    "long": -74.181592,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Princeton Airport": {
+    "name": "Princeton Airport",
+    "lat": 40.397318,
+    "long": -74.651923,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Childrens Specialzd Hosp At Mountainside": {
+    "name": "Childrens Specialzd Hosp At Mountainside",
+    "lat": 40.669449,
+    "long": -74.355372,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Mennen Sports Arena": {
+    "name": "Mennen Sports Arena",
+    "lat": 40.820399,
+    "long": -74.474893,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [210 Lee Street]": {
+    "name": "Lib [210 Lee Street]",
+    "lat": 40.908305,
+    "long": -74.119687,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "CRRNJ Museum": {
+    "name": "CRRNJ Museum",
+    "lat": 40.708339,
+    "long": -74.037629,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Chrysler Building": {
+    "name": "Chrysler Building",
+    "lat": 40.751715,
+    "long": -73.975852,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Englewood Hospital": {
+    "name": "Englewood Hospital",
+    "lat": 40.905298,
+    "long": -73.966762,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lincoln Center For The Performing Arts": {
+    "name": "Lincoln Center For The Performing Arts",
+    "lat": 40.772247,
+    "long": -73.982571,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Seton Hall University": {
+    "name": "Seton Hall University",
+    "lat": 40.747804,
+    "long": -74.27195,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Harrison PATH Station": {
+    "name": "Harrison PATH Station",
+    "lat": 40.740225,
+    "long": -74.155843,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Kennedy Memorial Hospital - Cherry Hill": {
+    "name": "Kennedy Memorial Hospital - Cherry Hill",
+    "lat": 39.928329,
+    "long": -75.013442,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Westfield Station": {
+    "name": "Westfield Station",
+    "lat": 40.649453,
+    "long": -74.347629,
+    "departureVisionEnabled": true,
+    "departureVisionId": "WF"
+  },
+  "St Clares Hospital - Boonton Twp": {
+    "name": "St Clares Hospital - Boonton Twp",
+    "lat": 40.910269,
+    "long": -74.42699,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Deborah Heart And Lung Center": {
+    "name": "Deborah Heart And Lung Center",
+    "lat": 39.972919,
+    "long": -74.583432,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bergen Pine Hospital": {
+    "name": "Bergen Pine Hospital",
+    "lat": 40.956407,
+    "long": -74.05865,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Glen Rock Main Line Station": {
+    "name": "Glen Rock Main Line Station",
+    "lat": 40.962208,
+    "long": -74.133485,
+    "departureVisionEnabled": true,
+    "departureVisionId": "RS"
+  },
+  "Woodrow Wilson High School": {
+    "name": "Woodrow Wilson High School",
+    "lat": 39.947239,
+    "long": -75.078463,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Action Park": {
+    "name": "Action Park",
+    "lat": 41.19132,
+    "long": -74.505401,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Radio City Music Hall": {
+    "name": "Radio City Music Hall",
+    "lat": 40.7599,
+    "long": -73.980441,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Princeton Junction Station": {
+    "name": "Princeton Junction Station",
+    "lat": 40.316316,
+    "long": -74.623753,
+    "departureVisionEnabled": true,
+    "departureVisionId": "PJ"
+  },
+  "Newark Airport North Cargo Area": {
+    "name": "Newark Airport North Cargo Area",
+    "lat": 40.70528,
+    "long": -74.17137,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Kennedy Dialysis Center": {
+    "name": "Kennedy Dialysis Center",
+    "lat": 39.764219,
+    "long": -75.085513,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Wpu Business School": {
+    "name": "Wpu Business School",
+    "lat": 40.965949,
+    "long": -74.224077,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Burlington County College - Pemberton": {
+    "name": "Burlington County College - Pemberton",
+    "lat": 39.96663,
+    "long": -74.643642,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Mercer County Community College": {
+    "name": "Mercer County Community College",
+    "lat": 40.249132,
+    "long": -74.661564,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Felician College - Rutherford": {
+    "name": "Felician College - Rutherford",
+    "lat": 40.831662,
+    "long": -74.112256,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "FDUH": {
+    "name": "FDUH",
+    "lat": 40.899316,
+    "long": -74.035192,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Marin Boulevard Light Rail Station": {
+    "name": "Marin Boulevard Light Rail Station",
+    "lat": 40.71588,
+    "long": -74.042662,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Princeton Care Center": {
+    "name": "Princeton Care Center",
+    "lat": 40.377117,
+    "long": -74.651954,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "FDUM": {
+    "name": "FDUM",
+    "lat": 40.774059,
+    "long": -74.44068,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Robert Wood Johnson Hospital - Hamilton": {
+    "name": "Robert Wood Johnson Hospital - Hamilton",
+    "lat": 40.225402,
+    "long": -74.688569,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Mountain Creek": {
+    "name": "Mountain Creek",
+    "lat": 41.19132,
+    "long": -74.505401,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Morris Plains Station": {
+    "name": "Morris Plains Station",
+    "lat": 40.828642,
+    "long": -74.478194,
+    "departureVisionEnabled": true,
+    "departureVisionId": "MX"
+  },
+  "Port Jervis Station": {
+    "name": "Port Jervis Station",
+    "lat": 41.374899,
+    "long": -74.694622,
+    "departureVisionEnabled": true,
+    "departureVisionId": "PO"
+  },
+  "FDUR": {
+    "name": "FDUR",
+    "lat": 40.831708,
+    "long": -74.112314,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Atlantic City Bus Terminal": {
+    "name": "Atlantic City Bus Terminal",
+    "lat": 39.36012,
+    "long": -74.43546,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "FDUT": {
+    "name": "FDUT",
+    "lat": 40.897697,
+    "long": -74.028067,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Ancora Psychiatric Hospital": {
+    "name": "Ancora Psychiatric Hospital",
+    "lat": 39.681529,
+    "long": -74.853883,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Emerson Station": {
+    "name": "Emerson Station",
+    "lat": 40.975038,
+    "long": -74.027467,
+    "departureVisionEnabled": true,
+    "departureVisionId": "EN"
+  },
+  "Newark Broad Street Station": {
+    "name": "Newark Broad Street Station",
+    "lat": 40.747626,
+    "long": -74.17194,
+    "departureVisionEnabled": true,
+    "departureVisionId": "ND"
+  },
+  "Avenel Station": {
+    "name": "Avenel Station",
+    "lat": 40.57762,
+    "long": -74.27753,
+    "departureVisionEnabled": true,
+    "departureVisionId": "AV"
+  },
+  "Silver Lake Light Rail Station": {
+    "name": "Silver Lake Light Rail Station",
+    "lat": 40.780893,
+    "long": -74.1808,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Institute Of Technology": {
+    "name": "Institute Of Technology",
+    "lat": 39.777965,
+    "long": -75.129272,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Cumberland County College": {
+    "name": "Cumberland County College",
+    "lat": 39.436319,
+    "long": -75.040932,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Passaic Stadium": {
+    "name": "Passaic Stadium",
+    "lat": 40.849378,
+    "long": -74.124203,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [505 Palisades Ave]": {
+    "name": "Lib [505 Palisades Ave]",
+    "lat": 40.820309,
+    "long": -73.98858,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St Peters University Hospital": {
+    "name": "St Peters University Hospital",
+    "lat": 40.50192,
+    "long": -74.459302,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Prudential Center": {
+    "name": "Prudential Center",
+    "lat": 40.733611,
+    "long": -74.171111,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Virtua West Jersey Hospital - Berlin": {
+    "name": "Virtua West Jersey Hospital - Berlin",
+    "lat": 39.783678,
+    "long": -74.918232,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Atlantic City High School": {
+    "name": "Atlantic City High School",
+    "lat": 39.36032,
+    "long": -74.46214,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Broadway Bus Terminal - Paterson": {
+    "name": "Broadway Bus Terminal - Paterson",
+    "lat": 40.918638,
+    "long": -74.17447,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "SIT": {
+    "name": "SIT",
+    "lat": 40.74556,
+    "long": -74.026202,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [375 Kinderkamack Rd]": {
+    "name": "Lib [375 Kinderkamack Rd]",
+    "lat": 40.908474,
+    "long": -74.036772,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Nutley Museum": {
+    "name": "Nutley Museum",
+    "lat": 40.818969,
+    "long": -74.164013,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Garden State Plaza": {
+    "name": "Garden State Plaza",
+    "lat": 40.918238,
+    "long": -74.078131,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [801 Shore Rd]": {
+    "name": "Lib [801 Shore Rd]",
+    "lat": 39.312749,
+    "long": -74.596282,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Monmouth Museum /Cultural Center Brookda": {
+    "name": "Monmouth Museum /Cultural Center Brookda",
+    "lat": 40.332039,
+    "long": -74.131771,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Meadowview County Hospital": {
+    "name": "Meadowview County Hospital",
+    "lat": 40.784189,
+    "long": -74.056662,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Entertainment Center Station Camden": {
+    "name": "Entertainment Center Station Camden",
+    "lat": 39.941868,
+    "long": -75.129352,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Union County College - Cranford": {
+    "name": "Union County College - Cranford",
+    "lat": 40.667909,
+    "long": -74.31809,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Mount Olive Station": {
+    "name": "Mount Olive Station",
+    "lat": 40.907378,
+    "long": -74.730653,
+    "departureVisionEnabled": true,
+    "departureVisionId": "OL"
+  },
+  "Somers Point Hospital": {
+    "name": "Somers Point Hospital",
+    "lat": 39.314799,
+    "long": -74.595023,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [100 W Prospect St]": {
+    "name": "Lib [100 W Prospect St]",
+    "lat": 41.012791,
+    "long": -74.12944,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Toms River Park & Ride": {
+    "name": "Toms River Park & Ride",
+    "lat": 39.95164,
+    "long": -74.20524,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Kimball Medical Center": {
+    "name": "Kimball Medical Center",
+    "lat": 40.074119,
+    "long": -74.217343,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [984 Tuckerton Rd]": {
+    "name": "Lib [984 Tuckerton Rd]",
+    "lat": 39.883208,
+    "long": -74.876967,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [4115 Ventnor Ave]": {
+    "name": "Lib [4115 Ventnor Ave]",
+    "lat": 39.349178,
+    "long": -74.459531,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Hamilton Station": {
+    "name": "Hamilton Station",
+    "lat": 40.255309,
+    "long": -74.70412,
+    "departureVisionEnabled": true,
+    "departureVisionId": "HL"
+  },
+  "Centra State Medical Center": {
+    "name": "Centra State Medical Center",
+    "lat": 40.236053,
+    "long": -74.311232,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Liberty International Newark Airport": {
+    "name": "Liberty International Newark Airport",
+    "lat": 40.689477,
+    "long": -74.178401,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "CCCCA": {
+    "name": "CCCCA",
+    "lat": 39.946379,
+    "long": -75.118462,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Atlantic Street Station Newark": {
+    "name": "Atlantic Street Station Newark",
+    "lat": 40.744162,
+    "long": -74.168489,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Spring Lake Station": {
+    "name": "Spring Lake Station",
+    "lat": 40.150559,
+    "long": -74.035481,
+    "departureVisionEnabled": true,
+    "departureVisionId": "LA"
+  },
+  "SHU": {
+    "name": "SHU",
+    "lat": 40.747804,
+    "long": -74.27195,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Trenton Central High School": {
+    "name": "Trenton Central High School",
+    "lat": 40.219009,
+    "long": -74.744351,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "CCCCH": {
+    "name": "CCCCH",
+    "lat": 39.903294,
+    "long": -74.968163,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "JFK Medical Center": {
+    "name": "JFK Medical Center",
+    "lat": 40.55784,
+    "long": -74.349994,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "New Jersey City University": {
+    "name": "New Jersey City University",
+    "lat": 40.709128,
+    "long": -74.08597,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [198 Summit St]": {
+    "name": "Lib [198 Summit St]",
+    "lat": 40.996133,
+    "long": -73.96075,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Southern Ocean County Hospital": {
+    "name": "Southern Ocean County Hospital",
+    "lat": 39.764258,
+    "long": -74.27337,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St Peters City College": {
+    "name": "St Peters City College",
+    "lat": 40.726912,
+    "long": -74.071075,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "VA Hospital - East Orange": {
+    "name": "VA Hospital - East Orange",
+    "lat": 40.753953,
+    "long": -74.234502,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Maplewood Station": {
+    "name": "Maplewood Station",
+    "lat": 40.731149,
+    "long": -74.275424,
+    "departureVisionEnabled": true,
+    "departureVisionId": "MW"
+  },
+  "Capital Health System - Fuld Campus": {
+    "name": "Capital Health System - Fuld Campus",
+    "lat": 40.235883,
+    "long": -74.752855,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Salem Community College": {
+    "name": "Salem Community College",
+    "lat": 39.701585,
+    "long": -75.469597,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "MCCC": {
+    "name": "MCCC",
+    "lat": 40.249132,
+    "long": -74.661564,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [810 Franklin St]": {
+    "name": "Lib [810 Franklin St]",
+    "lat": 40.046361,
+    "long": -74.953988,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Community Memorial Hospital": {
+    "name": "Community Memorial Hospital",
+    "lat": 39.965459,
+    "long": -74.217163,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "SCC": {
+    "name": "SCC",
+    "lat": 39.701585,
+    "long": -75.469597,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Tuxedo Station": {
+    "name": "Tuxedo Station",
+    "lat": 41.194208,
+    "long": -74.18446,
+    "departureVisionEnabled": true,
+    "departureVisionId": "TC"
+  },
+  "Garden State Parkway Exit 120": {
+    "name": "Garden State Parkway Exit 120",
+    "lat": 40.43282,
+    "long": -74.25197,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Norfolk Street Light Rail Station": {
+    "name": "Norfolk Street Light Rail Station",
+    "lat": 40.745349,
+    "long": -74.183351,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "LHS": {
+    "name": "LHS",
+    "lat": 40.63545,
+    "long": -74.265855,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Cherry Hill High School West": {
+    "name": "Cherry Hill High School West",
+    "lat": 39.930233,
+    "long": -75.022565,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Monorail Stop D2 Other Rental Cars": {
+    "name": "Monorail Stop D2 Other Rental Cars",
+    "lat": 40.67976,
+    "long": -74.189021,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lakewood Terminal": {
+    "name": "Lakewood Terminal",
+    "lat": 40.09077,
+    "long": -74.21264,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "County Vocational And Technology HS": {
+    "name": "County Vocational And Technology HS",
+    "lat": 40.528059,
+    "long": -74.280121,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "CEC": {
+    "name": "CEC",
+    "lat": 40.846838,
+    "long": -74.83853,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [53 Union Ave]": {
+    "name": "Lib [53 Union Ave]",
+    "lat": 40.941697,
+    "long": -73.960643,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Matawan Medical Center": {
+    "name": "Matawan Medical Center",
+    "lat": 40.407969,
+    "long": -74.235722,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St Josephs Regional Medical Center": {
+    "name": "St Josephs Regional Medical Center",
+    "lat": 40.902679,
+    "long": -74.166962,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Wayne/Route 23 Transit Center": {
+    "name": "Wayne/Route 23 Transit Center",
+    "lat": 40.90091,
+    "long": -74.25604,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Somerset Medical Center": {
+    "name": "Somerset Medical Center",
+    "lat": 40.568388,
+    "long": -74.595823,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "New York Penn Station": {
+    "name": "New York Penn Station",
+    "lat": 40.750051,
+    "long": -73.992358,
+    "departureVisionEnabled": true,
+    "departureVisionId": "NY"
+  },
+  "Lib [33 West Passaic St]": {
+    "name": "Lib [33 West Passaic St]",
+    "lat": 40.909921,
+    "long": -74.073963,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Westminster College": {
+    "name": "Westminster College",
+    "lat": 40.355219,
+    "long": -74.653422,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Robinson Vocational Institute": {
+    "name": "Robinson Vocational Institute",
+    "lat": 40.240196,
+    "long": -74.736386,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bayshore Community Hospital": {
+    "name": "Bayshore Community Hospital",
+    "lat": 40.40441,
+    "long": -74.193622,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Tonnelle Avenue Station North Bergen": {
+    "name": "Tonnelle Avenue Station North Bergen",
+    "lat": 40.78754,
+    "long": -74.03156,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Christ Hospital": {
+    "name": "Christ Hospital",
+    "lat": 40.73461,
+    "long": -74.050312,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [301 Davis Ave]": {
+    "name": "Lib [301 Davis Ave]",
+    "lat": 39.354568,
+    "long": -74.569521,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Atlantic Cape Comm Coll - Cape May": {
+    "name": "Atlantic Cape Comm Coll - Cape May",
+    "lat": 39.101871,
+    "long": -74.819585,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "WTHS": {
+    "name": "WTHS",
+    "lat": 39.739993,
+    "long": -75.076176,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "UMD": {
+    "name": "UMD",
+    "lat": 40.74265,
+    "long": -74.19125,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "JERSEY GARDENS CINEMA": {
+    "name": "JERSEY GARDENS CINEMA",
+    "lat": 40.65853,
+    "long": -74.16737,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Glen Rock Boro Hall Station": {
+    "name": "Glen Rock Boro Hall Station",
+    "lat": 40.96137,
+    "long": -74.1293,
+    "departureVisionEnabled": true,
+    "departureVisionId": "GK"
+  },
+  "St Patricks Cathedral": {
+    "name": "St Patricks Cathedral",
+    "lat": 40.758538,
+    "long": -73.9772,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lourdes Medical Center": {
+    "name": "Lourdes Medical Center",
+    "lat": 40.048558,
+    "long": -74.882932,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bader Field": {
+    "name": "Bader Field",
+    "lat": 39.36032,
+    "long": -74.46214,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "SEC": {
+    "name": "SEC",
+    "lat": 40.777999,
+    "long": -74.443602,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bergen Regional Medical Ctr": {
+    "name": "Bergen Regional Medical Ctr",
+    "lat": 40.956407,
+    "long": -74.058711,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Oradell Station": {
+    "name": "Oradell Station",
+    "lat": 40.953478,
+    "long": -74.029983,
+    "departureVisionEnabled": true,
+    "departureVisionId": "OD"
+  },
+  "Capital Health System - Mercer Campus": {
+    "name": "Capital Health System - Mercer Campus",
+    "lat": 40.228698,
+    "long": -74.775831,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Pine Avenue - Union Twp": {
+    "name": "Pine Avenue - Union Twp",
+    "lat": 40.697766,
+    "long": -74.270541,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bergen Museum And Art Center": {
+    "name": "Bergen Museum And Art Center",
+    "lat": 40.956407,
+    "long": -74.058711,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Mountainside Hospital": {
+    "name": "Mountainside Hospital",
+    "lat": 40.812477,
+    "long": -74.200092,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [301 Division Ave]": {
+    "name": "Lib [301 Division Ave]",
+    "lat": 40.858569,
+    "long": -74.077223,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "White House Station": {
+    "name": "White House Station",
+    "lat": 40.615616,
+    "long": -74.77066,
+    "departureVisionEnabled": true,
+    "departureVisionId": "WH"
+  },
+  "Sovereign Arena": {
+    "name": "Sovereign Arena",
+    "lat": 40.21298,
+    "long": -74.759177,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [227 Fort Lee Rd]": {
+    "name": "Lib [227 Fort Lee Rd]",
+    "lat": 40.862224,
+    "long": -73.988765,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St Michaels Med Center - Columbus Campus": {
+    "name": "St Michaels Med Center - Columbus Campus",
+    "lat": 40.772984,
+    "long": -74.187019,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bonnel Court - Union Twp": {
+    "name": "Bonnel Court - Union Twp",
+    "lat": 40.696076,
+    "long": -74.272277,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Springfield Center - Springfield Twp": {
+    "name": "Springfield Center - Springfield Twp",
+    "lat": 40.71051,
+    "long": -74.31266,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "West Point Military Academy": {
+    "name": "West Point Military Academy",
+    "lat": 41.394678,
+    "long": -73.96248,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Croyden Hall": {
+    "name": "Croyden Hall",
+    "lat": 40.412348,
+    "long": -74.055323,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Clifton Commons Park & Ride": {
+    "name": "Clifton Commons Park & Ride",
+    "lat": 40.827067,
+    "long": -74.141111,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [210 Ridge Road]": {
+    "name": "Lib [210 Ridge Road]",
+    "lat": 40.788459,
+    "long": -74.133381,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "John F Kennedy International Airport": {
+    "name": "John F Kennedy International Airport",
+    "lat": 40.66045,
+    "long": -73.830441,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "New York Aquarium For Wildlife Conserv.": {
+    "name": "New York Aquarium For Wildlife Conserv.",
+    "lat": 40.575359,
+    "long": -73.976531,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Burlington County College - Mt Laurel": {
+    "name": "Burlington County College - Mt Laurel",
+    "lat": 39.97336,
+    "long": -74.898452,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Philadelphia Greyhound Bus Terminal": {
+    "name": "Philadelphia Greyhound Bus Terminal",
+    "lat": 39.95304,
+    "long": -75.15725,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Childrens Hospital Of NJ (At Beth Isrl)": {
+    "name": "Childrens Hospital Of NJ (At Beth Isrl)",
+    "lat": 40.709958,
+    "long": -74.213621,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "CHS": {
+    "name": "CHS",
+    "lat": 39.934311,
+    "long": -75.098274,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Cranford County College": {
+    "name": "Cranford County College",
+    "lat": 40.665295,
+    "long": -74.215435,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "The Crossings": {
+    "name": "The Crossings",
+    "lat": 40.040368,
+    "long": -74.956385,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [345 Lafayette Ave]": {
+    "name": "Lib [345 Lafayette Ave]",
+    "lat": 40.949918,
+    "long": -74.155343,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [31 Engle Street]": {
+    "name": "Lib [31 Engle Street]",
+    "lat": 40.933611,
+    "long": -73.953144,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Walter Rand Transportation Center Light Rail Stop": {
+    "name": "Walter Rand Transportation Center Light Rail Stop",
+    "lat": 39.942428,
+    "long": -75.119171,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Cherry Hill Station": {
+    "name": "Cherry Hill Station",
+    "lat": 39.928449,
+    "long": -75.041661,
+    "departureVisionEnabled": true,
+    "departureVisionId": "CY"
+  },
+  "Roebling Station": {
+    "name": "Roebling Station",
+    "lat": 40.115837,
+    "long": -74.786092,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Beth Israel Hospital - Newark": {
+    "name": "Beth Israel Hospital - Newark",
+    "lat": 40.709958,
+    "long": -74.213621,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Welking Neuro Hospital": {
+    "name": "Welking Neuro Hospital",
+    "lat": 40.818999,
+    "long": -74.684111,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Richard Street Light Rail Station": {
+    "name": "Richard Street Light Rail Station",
+    "lat": 40.700159,
+    "long": -74.07988,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Warren Hospital": {
+    "name": "Warren Hospital",
+    "lat": 40.701269,
+    "long": -75.17942,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Cooper Street/Rutgers Station Camden": {
+    "name": "Cooper Street/Rutgers Station Camden",
+    "lat": 39.947618,
+    "long": -75.12471,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Trenton Transit Center": {
+    "name": "Trenton Transit Center",
+    "lat": 40.218518,
+    "long": -74.753923,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Newark Airport Terminal A Bus Stop": {
+    "name": "Newark Airport Terminal A Bus Stop",
+    "lat": 40.688179,
+    "long": -74.182441,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Trenton Transit Center Bus Stop": {
+    "name": "Trenton Transit Center Bus Stop",
+    "lat": 40.218839,
+    "long": -74.754974,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Park Ridge Station": {
+    "name": "Park Ridge Station",
+    "lat": 41.032307,
+    "long": -74.036161,
+    "departureVisionEnabled": true,
+    "departureVisionId": "PV"
+  },
+  "Washington Memorial Hospital": {
+    "name": "Washington Memorial Hospital",
+    "lat": 39.734345,
+    "long": -75.067235,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "SPC": {
+    "name": "SPC",
+    "lat": 40.726912,
+    "long": -74.071075,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Hoboken Terminal Bus Lanes": {
+    "name": "Hoboken Terminal Bus Lanes",
+    "lat": 40.735611,
+    "long": -74.028985,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [685 Elm Ave]": {
+    "name": "Lib [685 Elm Ave]",
+    "lat": 40.933611,
+    "long": -74.037746,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Fairlawn DPW": {
+    "name": "Fairlawn DPW",
+    "lat": 40.94969,
+    "long": -74.10528,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Newark Penn Station Light Rail": {
+    "name": "Newark Penn Station Light Rail",
+    "lat": 40.734223,
+    "long": -74.16455,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lloyd Road Park & Ride - Aberdeen": {
+    "name": "Lloyd Road Park & Ride - Aberdeen",
+    "lat": 40.41643,
+    "long": -74.21318,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Newark Airport N Terminal": {
+    "name": "Newark Airport N Terminal",
+    "lat": 40.705278,
+    "long": -74.171373,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Meadowlands (Racetrack)": {
+    "name": "Meadowlands (Racetrack)",
+    "lat": 40.820569,
+    "long": -74.071861,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Fairleigh Dickinson [ Teaneck Campus ]": {
+    "name": "Fairleigh Dickinson [ Teaneck Campus ]",
+    "lat": 40.897612,
+    "long": -74.028007,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Rutherford Station": {
+    "name": "Rutherford Station",
+    "lat": 40.828248,
+    "long": -74.100556,
+    "departureVisionEnabled": true,
+    "departureVisionId": "RF"
+  },
+  "St Barnabas Medical Center": {
+    "name": "St Barnabas Medical Center",
+    "lat": 40.765498,
+    "long": -74.301621,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "WPU": {
+    "name": "WPU",
+    "lat": 40.944221,
+    "long": -74.202126,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Pennco Tech": {
+    "name": "Pennco Tech",
+    "lat": 39.802528,
+    "long": -75.056133,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Phillipsburg High School": {
+    "name": "Phillipsburg High School",
+    "lat": 40.696668,
+    "long": -75.191093,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Ocean County College": {
+    "name": "Ocean County College",
+    "lat": 40.00039,
+    "long": -74.161153,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "30th Street Station Philadelphia": {
+    "name": "30th Street Station Philadelphia",
+    "lat": 39.956567,
+    "long": -75.182327,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Pearl River Station": {
+    "name": "Pearl River Station",
+    "lat": 41.058181,
+    "long": -74.022313,
+    "departureVisionEnabled": true,
+    "departureVisionId": "PQ"
+  },
+  "Preakness Hospital": {
+    "name": "Preakness Hospital",
+    "lat": 40.935444,
+    "long": -74.203978,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [116 East Century Rd]": {
+    "name": "Lib [116 East Century Rd]",
+    "lat": 40.927051,
+    "long": -74.061515,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Saint Elizabeth College": {
+    "name": "Saint Elizabeth College",
+    "lat": 40.777988,
+    "long": -74.44354,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Hackensack Bus Terminal": {
+    "name": "Hackensack Bus Terminal",
+    "lat": 40.8818,
+    "long": -74.04201,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Allendale Station": {
+    "name": "Allendale Station",
+    "lat": 41.030902,
+    "long": -74.130957,
+    "departureVisionEnabled": true,
+    "departureVisionId": "AZ"
+  },
+  "Lib [470 Dekorte Drive]": {
+    "name": "Lib [470 Dekorte Drive]",
+    "lat": 41.020261,
+    "long": -74.19993,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Childrens Specialzd Hosp At Fanwood Plza": {
+    "name": "Childrens Specialzd Hosp At Fanwood Plza",
+    "lat": 40.641879,
+    "long": -74.38127,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Holy Name Hospital": {
+    "name": "Holy Name Hospital",
+    "lat": 40.882338,
+    "long": -74.008651,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Pennsauken Transit Center Station": {
+    "name": "Pennsauken Transit Center Station",
+    "lat": 39.977769,
+    "long": -75.061796,
+    "departureVisionEnabled": true,
+    "departureVisionId": "PN"
+  },
+  "Hamilton Avenue Light Rail Station Trenton": {
+    "name": "Hamilton Avenue Light Rail Station Trenton",
+    "lat": 40.213388,
+    "long": -74.756413,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Morris Museum": {
+    "name": "Morris Museum",
+    "lat": 40.795888,
+    "long": -74.447562,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Trinitas Hospital - New Point Campus": {
+    "name": "Trinitas Hospital - New Point Campus",
+    "lat": 40.658912,
+    "long": -74.197963,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Chilton Memorial Hospital": {
+    "name": "Chilton Memorial Hospital",
+    "lat": 40.960378,
+    "long": -74.308472,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St Marys Hospital": {
+    "name": "St Marys Hospital",
+    "lat": 40.851471,
+    "long": -74.129008,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [90 Hardenburgh Ave]": {
+    "name": "Lib [90 Hardenburgh Ave]",
+    "lat": 40.957369,
+    "long": -73.967594,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Somerville Station": {
+    "name": "Somerville Station",
+    "lat": 40.566075,
+    "long": -74.61397,
+    "departureVisionEnabled": true,
+    "departureVisionId": "SM"
+  },
+  "Murray Hill Station": {
+    "name": "Murray Hill Station",
+    "lat": 40.695073,
+    "long": -74.403134,
+    "departureVisionEnabled": true,
+    "departureVisionId": "MH"
+  },
+  "Bloomfield Hs": {
+    "name": "Bloomfield Hs",
+    "lat": 40.798499,
+    "long": -74.197072,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Newport Nursing And Rehab Center": {
+    "name": "Newport Nursing And Rehab Center",
+    "lat": 40.704091,
+    "long": -74.09235,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Towaco Station": {
+    "name": "Towaco Station",
+    "lat": 40.922809,
+    "long": -74.343839,
+    "departureVisionEnabled": true,
+    "departureVisionId": "TO"
+  },
+  "Riverside Station": {
+    "name": "Riverside Station",
+    "lat": 40.03891,
+    "long": -74.959444,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Broadway Theatres": {
+    "name": "Broadway Theatres",
+    "lat": 40.760108,
+    "long": -73.984823,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [100 Ridge Rd]": {
+    "name": "Lib [100 Ridge Rd]",
+    "lat": 41.088877,
+    "long": -74.15834,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Raritan Bay Medical Center - Perth Amboy": {
+    "name": "Raritan Bay Medical Center - Perth Amboy",
+    "lat": 40.519619,
+    "long": -74.28291,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Long Branch Station": {
+    "name": "Long Branch Station",
+    "lat": 40.297145,
+    "long": -73.988331,
+    "departureVisionEnabled": true,
+    "departureVisionId": "LB"
+  },
+  "JERSEY GARDENS MALL": {
+    "name": "JERSEY GARDENS MALL",
+    "lat": 40.66171,
+    "long": -74.17103,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Cumberland Family Shelter": {
+    "name": "Cumberland Family Shelter",
+    "lat": 39.430589,
+    "long": -74.92477,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Our Lady Of Lourdes Hospital": {
+    "name": "Our Lady Of Lourdes Hospital",
+    "lat": 39.928359,
+    "long": -75.09756,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [51 Park Ave]": {
+    "name": "Lib [51 Park Ave]",
+    "lat": 41.033477,
+    "long": -74.038332,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Bay Head Station": {
+    "name": "Bay Head Station",
+    "lat": 40.077178,
+    "long": -74.046201,
+    "departureVisionEnabled": true,
+    "departureVisionId": "BH"
+  },
+  "Childrens Specialized Hosp At Newark": {
+    "name": "Childrens Specialized Hosp At Newark",
+    "lat": 40.761684,
+    "long": -74.184463,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Cooper University Hospital (Camden)": {
+    "name": "Cooper University Hospital (Camden)",
+    "lat": 39.941227,
+    "long": -75.11501,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "9th Street - Congress Street (HBLR)": {
+    "name": "9th Street - Congress Street (HBLR)",
+    "lat": 40.748797,
+    "long": -74.038496,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Cranford Station": {
+    "name": "Cranford Station",
+    "lat": 40.655523,
+    "long": -74.303226,
+    "departureVisionEnabled": true,
+    "departureVisionId": "XC"
+  },
+  "SSC": {
+    "name": "SSC",
+    "lat": 39.477719,
+    "long": -74.548772,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St Josephs Wayne Hospital (Wayne GenL)": {
+    "name": "St Josephs Wayne Hospital (Wayne GenL)",
+    "lat": 40.945539,
+    "long": -74.204953,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St Michaels Med Center - St James Campus": {
+    "name": "St Michaels Med Center - St James Campus",
+    "lat": 40.727778,
+    "long": -74.163182,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [200 Woodland Ave]": {
+    "name": "Lib [200 Woodland Ave]",
+    "lat": 41.008009,
+    "long": -74.168111,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Multi Care Health Center": {
+    "name": "Multi Care Health Center",
+    "lat": 40.627358,
+    "long": -74.316653,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Hoboken Terminal": {
+    "name": "Hoboken Terminal",
+    "lat": 40.734843,
+    "long": -74.028043,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "MetLife Stadium": {
+    "name": "MetLife Stadium",
+    "lat": 40.813053,
+    "long": -74.072114,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "CNJ": {
+    "name": "CNJ",
+    "lat": 40.271359,
+    "long": -74.783011,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St Vincents Hospital": {
+    "name": "St Vincents Hospital",
+    "lat": 40.808359,
+    "long": -74.214722,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Dunellen Station": {
+    "name": "Dunellen Station",
+    "lat": 40.590869,
+    "long": -74.463043,
+    "departureVisionEnabled": true,
+    "departureVisionId": "DN"
+  },
+  "Trenton Psychiatric Hospital": {
+    "name": "Trenton Psychiatric Hospital",
+    "lat": 40.2428,
+    "long": -74.807522,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "BCC - Mount Laurel": {
+    "name": "BCC - Mount Laurel",
+    "lat": 39.975659,
+    "long": -74.89715,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "22nd Street Station (Bayonne)": {
+    "name": "22nd Street Station (Bayonne)",
+    "lat": 40.661968,
+    "long": -74.116641,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Madison Square Garden": {
+    "name": "Madison Square Garden",
+    "lat": 40.750556,
+    "long": -73.993611,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Pyne Point Jr High School": {
+    "name": "Pyne Point Jr High School",
+    "lat": 39.953948,
+    "long": -75.113402,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Greenwich Village": {
+    "name": "Greenwich Village",
+    "lat": 40.731628,
+    "long": -73.999112,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "RWJHH": {
+    "name": "RWJHH",
+    "lat": 40.225402,
+    "long": -74.688569,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Aberdeen Matawan Station": {
+    "name": "Aberdeen Matawan Station",
+    "lat": 40.420161,
+    "long": -74.223702,
+    "departureVisionEnabled": true,
+    "departureVisionId": "AM"
+  },
+  "Park Avenue Light Rail Station": {
+    "name": "Park Avenue Light Rail Station",
+    "lat": 40.758538,
+    "long": -74.185061,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "RWJHR": {
+    "name": "RWJHR",
+    "lat": 40.612068,
+    "long": -74.290713,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Hackensack Medical Center": {
+    "name": "Hackensack Medical Center",
+    "lat": 40.884409,
+    "long": -74.057732,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "St Francis Medical Center": {
+    "name": "St Francis Medical Center",
+    "lat": 40.217038,
+    "long": -74.742923,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Monmouth Park Station": {
+    "name": "Monmouth Park Station",
+    "lat": 40.313427,
+    "long": -74.015172,
+    "departureVisionEnabled": true,
+    "departureVisionId": "MK"
+  },
+  "Thomas Edison College - Trenton": {
+    "name": "Thomas Edison College - Trenton",
+    "lat": 40.22059,
+    "long": -74.767972,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Newton Memorial Hospital": {
+    "name": "Newton Memorial Hospital",
+    "lat": 41.058902,
+    "long": -74.753922,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Riverside Church": {
+    "name": "Riverside Church",
+    "lat": 40.812628,
+    "long": -73.963012,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Runb": {
+    "name": "Runb",
+    "lat": 40.498319,
+    "long": -74.444822,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Richard Stockton State College": {
+    "name": "Richard Stockton State College",
+    "lat": 39.477719,
+    "long": -74.548772,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Staten Island Borough Hall": {
+    "name": "Staten Island Borough Hall",
+    "lat": 40.644858,
+    "long": -74.101193,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [10-01 Fairlawn Ave]": {
+    "name": "Lib [10-01 Fairlawn Ave]",
+    "lat": 40.935537,
+    "long": -74.133911,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "RSC": {
+    "name": "RSC",
+    "lat": 39.477719,
+    "long": -74.548772,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Dover Station": {
+    "name": "Dover Station",
+    "lat": 40.883417,
+    "long": -74.555884,
+    "departureVisionEnabled": true,
+    "departureVisionId": "DO"
+  },
+  "Stevens Institute Of Technology": {
+    "name": "Stevens Institute Of Technology",
+    "lat": 40.745579,
+    "long": -74.026173,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [459 Maywood Ave]": {
+    "name": "Lib [459 Maywood Ave]",
+    "lat": 40.901037,
+    "long": -74.062987,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "NJ Institute Of Technology": {
+    "name": "NJ Institute Of Technology",
+    "lat": 40.742787,
+    "long": -74.176188,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Shore Memorial Hospital": {
+    "name": "Shore Memorial Hospital",
+    "lat": 39.314799,
+    "long": -74.595023,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Drew University": {
+    "name": "Drew University",
+    "lat": 40.7613,
+    "long": -74.41918,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [39 Allen Ave]": {
+    "name": "Lib [39 Allen Ave]",
+    "lat": 39.896375,
+    "long": -74.825682,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Warwick NY Park & Ride": {
+    "name": "Warwick NY Park & Ride",
+    "lat": 41.2479,
+    "long": -74.33877,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [355 Valley Brook Ave]": {
+    "name": "Lib [355 Valley Brook Ave]",
+    "lat": 40.812159,
+    "long": -74.124798,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "HHSW": {
+    "name": "HHSW",
+    "lat": 40.197621,
+    "long": -74.723463,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Vince Lombardi Park & Ride": {
+    "name": "Vince Lombardi Park & Ride",
+    "lat": 40.82698,
+    "long": -74.02824,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Essex Co Vo-Tech Hs - Bloomfield Tech": {
+    "name": "Essex Co Vo-Tech Hs - Bloomfield Tech",
+    "lat": 40.787919,
+    "long": -74.191122,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Ikea-Paramus": {
+    "name": "Ikea-Paramus",
+    "lat": 40.92336,
+    "long": -74.074912,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Newark Airport Terminal C Bus Stop": {
+    "name": "Newark Airport Terminal C Bus Stop",
+    "lat": 40.694339,
+    "long": -74.17674,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Patient Care Inc": {
+    "name": "Patient Care Inc",
+    "lat": 40.777358,
+    "long": -74.239284,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "RVCC": {
+    "name": "RVCC",
+    "lat": 40.606609,
+    "long": -74.694313,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Freehold Center": {
+    "name": "Freehold Center",
+    "lat": 40.259178,
+    "long": -74.276451,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Essex County College - West Caldwell": {
+    "name": "Essex County College - West Caldwell",
+    "lat": 40.849342,
+    "long": -74.292938,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Chester Hospital": {
+    "name": "Chester Hospital",
+    "lat": 40.818999,
+    "long": -74.684111,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [527 Morse Ave]": {
+    "name": "Lib [527 Morse Ave]",
+    "lat": 40.831497,
+    "long": -74.005242,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Chester Morr Hospital": {
+    "name": "Chester Morr Hospital",
+    "lat": 40.818999,
+    "long": -74.684111,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "IZOD Center (event service)": {
+    "name": "IZOD Center (event service)",
+    "lat": 40.76119,
+    "long": -74.075821,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "BCC - Pemberton": {
+    "name": "BCC - Pemberton",
+    "lat": 39.96663,
+    "long": -74.643642,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Wayne General Hosp": {
+    "name": "Wayne General Hosp",
+    "lat": 40.945539,
+    "long": -74.204953,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "RUN": {
+    "name": "RUN",
+    "lat": 40.741959,
+    "long": -74.173723,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "RUP": {
+    "name": "RUP",
+    "lat": 40.551858,
+    "long": -74.482164,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Midtown Ferry Terminal": {
+    "name": "Midtown Ferry Terminal",
+    "lat": 40.760155,
+    "long": -74.002502,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Greenwood Lake - NY": {
+    "name": "Greenwood Lake - NY",
+    "lat": 41.222465,
+    "long": -74.294358,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "RUC": {
+    "name": "RUC",
+    "lat": 39.947908,
+    "long": -75.120382,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Pennsauken Transit Center River Line Station": {
+    "name": "Pennsauken Transit Center River Line Station",
+    "lat": 39.978278,
+    "long": -75.061962,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "NJ Home For Disabled Soldiers": {
+    "name": "NJ Home For Disabled Soldiers",
+    "lat": 40.554327,
+    "long": -74.333642,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Lib [2 Municipal Plaza]": {
+    "name": "Lib [2 Municipal Plaza]",
+    "lat": 41.024188,
+    "long": -74.244441,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Ringwood Park & Ride": {
+    "name": "Ringwood Park & Ride",
+    "lat": 41.08853,
+    "long": -74.26608,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Newark Penn Station Bus Lanes": {
+    "name": "Newark Penn Station Bus Lanes",
+    "lat": 40.73416,
+    "long": -74.16348,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Delbarton School": {
+    "name": "Delbarton School",
+    "lat": 40.80672,
+    "long": -74.444852,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "HHSN": {
+    "name": "HHSN",
+    "lat": 40.22923,
+    "long": -74.70729,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "Notre Dame High School": {
+    "name": "Notre Dame High School",
+    "lat": 40.258159,
+    "long": -74.741873,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  },
+  "JFK Hospital - Stratford": {
+    "name": "JFK Hospital - Stratford",
+    "lat": 39.82769,
+    "long": -75.00965,
+    "departureVisionEnabled": false,
+    "departureVisionId": null
+  }
+}
