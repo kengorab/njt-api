@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`API Stations getStationInfo should throw an error when given invalid station info 1`] = `"Invalid station name: some garbage station"`;
+
+exports[`API Trips getTripOptions should return a Promise which resolves to a list of trip options (given valid stations/date) 1`] = `
+Array [
+  Object {
+    "phases": Array [],
+  },
+]
+`;
+
+exports[`API Trips getTripOptions should return a rejected Promise when given invalid "from" station name 1`] = `[Error: Invalid fromStation: some garbage "from" station]`;
+
+exports[`API Trips getTripOptions should return a rejected Promise when given invalid "to" station name 1`] = `[Error: Invalid toStation: some garbage "to" station]`;
+
+exports[`API Trips getTripOptions should return a rejected Promise when given invalid date (passed as a string) 1`] = `[Error: Invalid date/time format: 19-35-2009]`;
+
+exports[`API Trips getTripOptions should return a rejected Promise when given invalid date (passed as a string) 2`] = `[Error: Invalid date/time format: 19-35-2009]`;
