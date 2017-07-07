@@ -6,16 +6,21 @@
   "author": "Ken Gorab",
   "license": "MIT",
   "scripts": {
-    "build": "node_modules/.bin/tsc"
+    "build": "node_modules/.bin/tsc",
+    "test": "jest --config ./config/jest/config.json"
   },
   "dependencies": {
     "@types/cheerio": "^0.22.2",
+    "@types/jest": "^20.0.2",
     "@types/lodash": "^4.14.68",
     "@types/node": "^8.0.7",
     "cheerio": "^1.0.0-rc.2",
+    "jasmine-reporters": "^2.2.1",
+    "jest": "^20.0.4",
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
     "node-fetch": "^1.7.1",
+    "ts-jest": "^20.0.6",
     "typescript": "^2.4.1"
   }
 }

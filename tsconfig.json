@@ -20,5 +20,11 @@
       "es2017",
       "dom"
     ]
-  }
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "./src/**/__test__/*"
+  ]
 }

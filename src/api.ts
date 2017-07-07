@@ -1,13 +1,12 @@
 import * as moment from 'moment'
 import * as TripManager from './manager/njt-trip-manager'
-import { TripPhase } from './manager/njt-trip-manager'
 import * as StationManager from './manager/station-manager'
 
 export async function getTripOptions(
   fromStation: string,
   toStation: string,
   when?: Date | string
-): Promise<TripPhase[][]> {
+): Promise<Trip[]> {
   const origin = StationManager.getStation(fromStation)
   if (!origin) {
     throw new Error(`Invalid fromStation: ${fromStation}`)
@@ -23,7 +22,7 @@ export async function getTripOptions(
     throw new Error(`Invalid date/time format: ${when}`)
   }
 
-  return await TripManager.getTripStagesFromNJTPage(origin, destination, tripDate)
+  return await TripManager.getTripOptionsFromNJTPage(origin, destination, tripDate)
 }
 
 export function getStationNames(): string[] {

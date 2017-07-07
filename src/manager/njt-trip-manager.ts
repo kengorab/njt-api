@@ -7,23 +7,8 @@ const departureRE = /depart\s*:\s*(.*)at\s*([\d|:]*)\s*(PM|AM)/i
 const boardRE = /board\s*:\s*train\s*(\d*)\s*toward\s*(.*)/i
 const arrivalRE = /arrive\s*:\s*(.*)at\s*([\d|:]*)\s*(PM|AM)/i
 
-export type TripPhase = {
-  departure: {
-    from: string
-    at: string
-  }
-  board: {
-    trainNumber: string
-    towards: string
-  }
-  arrival: {
-    destination: string
-    at: string
-  }
-}
-
 // Visible for testing
-export function getTripStages(tripString: string): TripPhase[] {
+export function getTripPhases(tripString: string): TripPhase[] {
   const tripStages = tripString.replace('\t', '')
     .split('\n')
     .map(line => line.trim())
@@ -45,15 +30,15 @@ export function getTripStages(tripString: string): TripPhase[] {
   })
 }
 
-export async function getTripStagesFromNJTPage(
+export async function getTripOptionsFromNJTPage(
   origin: StationInfo,
   destination: StationInfo,
   tripDate: moment.Moment
-): Promise<TripPhase[][]> {
+): Promise<Trip[]> {
   const njtPageText = await NJTDao.getNJTPageText(origin, destination, tripDate)
   const $ = cheerio.load(njtPageText)
   const panelTexts = $('.AccordionPanel .AccordionPanelContent')
     .map((_, panel) => $(panel).text())
     .get()
-  return panelTexts.map(panelText => getTripStages(panelText))
+  return panelTexts.map(panelText => ({ phases: getTripPhases(panelText) }))
 }

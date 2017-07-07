@@ -1,0 +1,17 @@
+{
+  "rootDir": "../../",
+  "moduleDirectories": [
+    "<rootDir>/src",
+    "<rootDir>/node_modules"
+  ],
+  "testRegex": "(/__test__/.*\\.(test))\\.(ts|js)$",
+  "setupTestFrameworkScriptFile": "<rootDir>/config/jest/setup.js",
+  "moduleFileExtensions": [
+    "js",
+    "ts",
+    "json"
+  ],
+  "transform": {
+    "\\.ts$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+  }
+}
