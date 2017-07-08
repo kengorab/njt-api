@@ -4,7 +4,7 @@
     "<rootDir>/src",
     "<rootDir>/node_modules"
   ],
-  "testRegex": "(/__test__/.*\\.(test))\\.(ts|js)$",
+  "testRegex": "(/__tests__/.*\\.(test))\\.(ts|js)$",
   "setupTestFrameworkScriptFile": "<rootDir>/config/jest/setup.js",
   "moduleFileExtensions": [
     "js",
