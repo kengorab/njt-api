@@ -8,8 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "node_modules/.bin/tsc",
-    "test": "jest --config ./config/jest/config.json",
-    "prepublish": "npm test && npm build"
+    "test": "jest --config ./config/jest/config.json"
   },
   "dependencies": {
     "@types/cheerio": "^0.22.2",
