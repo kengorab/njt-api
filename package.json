@@ -2,6 +2,7 @@
   "name": "njt-api",
   "version": "0.0.5",
   "description": "An API for accessing NJTransit train information",
+  "repository": "https://github.com/kengorab/njt-api",
   "main": "lib/index",
   "types": "lib/index",
   "author": "Ken Gorab",
