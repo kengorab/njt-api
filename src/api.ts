@@ -33,7 +33,7 @@ export function getStations(): { [name: string]: StationInfo } {
   return StationManager.getStations()
 }
 
-export function getStationInfo(stationName: string) {
+export function getStationInfo(stationName: string): StationInfo {
   const station = StationManager.getStation(stationName)
   if (!station) {
     throw new Error(`Invalid station name: ${stationName}`)

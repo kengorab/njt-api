@@ -11,7 +11,7 @@ import * as TripManager from '../manager/njt-trip-manager'
 
 describe('API', () => {
   beforeEach(() => {
-    (TripManager.getTripOptionsFromNJTPage as jest.Mock).mockClear()
+    (TripManager.getTripOptionsFromNJTPage as jest.Mock<Promise<Trip[]>>).mockClear()
   })
 
   describe('Stations', () => {
@@ -28,13 +28,13 @@ describe('API', () => {
     describe('getTripOptions', () => {
       it('should return a rejected Promise when given invalid "from" station name', async () => {
         const realStationName = _.sample(Object.keys(stationInfo))
-        const promise = API.Trips.getTripOptions('some garbage "from" station', realStationName, moment())
+        const promise = API.Trips.getTripOptions('some garbage "from" station', realStationName)
         await expect(promise).rejects.toMatchSnapshot()
       })
 
       it('should return a rejected Promise when given invalid "to" station name', async () => {
         const realStationName = _.sample(Object.keys(stationInfo))
-        const promise = API.Trips.getTripOptions(realStationName, 'some garbage "to" station', moment())
+        const promise = API.Trips.getTripOptions(realStationName, 'some garbage "to" station')
         await expect(promise).rejects.toMatchSnapshot()
       })
 
@@ -61,7 +61,8 @@ describe('API', () => {
         await API.Trips.getTripOptions(fromStationName, toStationName, moment())
 
         expect(TripManager.getTripOptionsFromNJTPage).toHaveBeenCalled()
-        const [fromStation, toStation, date] = (TripManager.getTripOptionsFromNJTPage as jest.Mock).mock.calls[0]
+        const [fromStation, toStation, date] =
+          (TripManager.getTripOptionsFromNJTPage as jest.Mock<Promise<Trip[]>>).mock.calls[0]
         expect(fromStation).toEqual(stationInfo[fromStationName])
         expect(toStation).toEqual(stationInfo[toStationName])
         expect(moment().diff(moment(date))).toBeLessThan(1000) // Verify dates are less than 1s apart (close enough)
