@@ -1,0 +1,5 @@
+config
+node_modules
+test-results
+**/_test_/
+**/_mocks_/
