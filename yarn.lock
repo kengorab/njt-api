@@ -1592,6 +1592,19 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
 
+njt-api@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/njt-api/-/njt-api-0.0.6.tgz#fdd60bfe7047ad3e34774a7c8377f046d72a4a54"
+  dependencies:
+    "@types/cheerio" "^0.22.2"
+    "@types/jest" "^20.0.2"
+    "@types/lodash" "^4.14.68"
+    "@types/node" "^8.0.7"
+    cheerio "^1.0.0-rc.2"
+    lodash "^4.17.4"
+    moment "^2.18.1"
+    node-fetch "^1.7.1"
+
 node-fetch@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-1.7.1.tgz#899cb3d0a3c92f952c47f1b876f4c8aeabd400d5"

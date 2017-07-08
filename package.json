@@ -2,7 +2,17 @@
   "name": "njt-api",
   "version": "0.0.6",
   "description": "An API for accessing NJTransit train information",
-  "repository": "https://github.com/kengorab/njt-api",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kengorab/njt-api"
+  },
+  "homepage": "https://github.com/kengorab/njt-api",
+  "keywords": [
+    "njt",
+    "njtransit",
+    "new jersey transit",
+    "trains"
+  ],
   "main": "lib/index",
   "types": "lib/index",
   "author": "Ken Gorab",
@@ -22,8 +32,8 @@
     "node-fetch": "^1.7.1"
   },
   "devDependencies": {
-    "jest": "^20.0.4",
     "jasmine-reporters": "^2.2.1",
+    "jest": "^20.0.4",
     "ts-jest": "^20.0.6",
     "typescript": "^2.4.1"
   }
