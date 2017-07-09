@@ -1,4 +1,5 @@
 .idea
+.travis.yml
 config
 node_modules
 test-results
