@@ -2,7 +2,7 @@ import * as moment from 'moment'
 import * as TripManager from './manager/njt-trip-manager'
 import * as StationManager from './manager/station-manager'
 
-export async function getTripOptions(
+async function getTripOptions(
   fromStation: string,
   toStation: string,
   when?: Date | string
@@ -25,19 +25,29 @@ export async function getTripOptions(
   return await TripManager.getTripOptionsFromNJTPage(origin, destination, tripDate)
 }
 
-export function getStationNames(): string[] {
+function getStationNames(): string[] {
   return StationManager.getStationNames()
 }
 
-export function getStations(): { [name: string]: StationInfo } {
+function getStations(): { [name: string]: StationInfo } {
   return StationManager.getStations()
 }
 
-export function getStationInfo(stationName: string): StationInfo {
+function getStationInfo(stationName: string): StationInfo {
   const station = StationManager.getStation(stationName)
   if (!station) {
     throw new Error(`Invalid station name: ${stationName}`)
   }
 
   return station
+}
+
+export const Trips = {
+  getTripOptions
+}
+
+export const Stations = {
+  getStationNames,
+  getStations,
+  getStationInfo
 }

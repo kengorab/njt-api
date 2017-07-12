@@ -7,10 +7,18 @@ A Javascript ([Typescript](https://www.typescriptlang.org/)) API for accessing t
 After installing this package with `yarn add njt-api` (or `npm install njt-api --save`), you can either import the default import, or import the `Stations` and `Trips` sub-sections of the API:
 
 ```javascript
-import NJTApi from 'njt-api'
+import * as NJTApi from 'njt-api'
 // or
 import { Trips, Stations } from 'njt-api'
 ```
+
+When using in a React Native project, you'll need to import slightly differently:
+
+```javascript
+import * as NJTApi from 'njt-api/native'
+```
+
+This is because underlying packages within the library (`cheerio`, namely) do not work within React Native, and need to be swapped out with compatible packages, depending on the context. Other than the change in import path though, the remainder of the API is the same.
 
 Each sub-section has its usages documented below, with signatures/types described using Typescript.
 

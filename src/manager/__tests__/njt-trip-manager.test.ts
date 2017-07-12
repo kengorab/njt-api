@@ -1,4 +1,5 @@
 jest.mock('../../dao/njt-dao')
+jest.mock('../../globals')
 
 import * as NJTTripManager from '../njt-trip-manager'
 import * as moment from 'moment'

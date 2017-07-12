@@ -8,3 +8,7 @@ jasmine.getEnv().addReporter(
     savePath: path.resolve(__dirname, '..', '..', 'test-results')
   })
 );
+
+//const globals = require('../../src/globals')
+//const cheerio = require('cheerio')
+//globals.cheerio = cheerio
