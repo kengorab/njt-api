@@ -25,6 +25,7 @@ declare type TripPhase = {
     destination: string
     at: string
   }
+  duration: number
 }
 
 declare type Trip = {

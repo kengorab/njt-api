@@ -8,6 +8,19 @@ const boardRE = /board\s*:\s*train\s*(\d*)\s*toward\s*(.*)/i
 const arrivalRE = /arrive\s*:\s*(.*)at\s*([\d|:]*)\s*(PM|AM)/i
 
 // Visible for testing
+export function getDuration(startTimeStr: string, endTimeStr: string): number {
+  const startTime = moment(startTimeStr, 'h:mm a')
+  const endTime = moment(endTimeStr, 'h:mm a')
+
+  // Handle the case when endTime is past midnight
+  if (endTime.isBefore(startTime)) {
+    return endTime.add(1, 'day').diff(startTime, 'm')
+  }
+
+  return endTime.diff(startTime, 'm')
+}
+
+// Visible for testing
 export function getTripPhases(tripString: string): TripPhase[] {
   const tripStages = tripString.replace('\t', '')
     .split('\n')
@@ -18,15 +31,19 @@ export function getTripPhases(tripString: string): TripPhase[] {
   const transfers = _.chunk(tripStages, 3)
   return transfers.map(([departureStr, boardingStr, arrivalStr]) => {
     const [from, dTime, dTimeAmPm] = departureRE.exec(departureStr)!!.slice(1)
-    const departure = { from: from.trim(), at: `${dTime} ${dTimeAmPm}` }
+    const departureTimeStr = `${dTime} ${dTimeAmPm}`
+    const departure = { from: from.trim(), at: departureTimeStr }
 
     const [trainNumber, towards] = boardRE.exec(boardingStr)!!.slice(1)
     const board = { trainNumber, towards }
 
     const [destination, aTime, aTimeAmPm] = arrivalRE.exec(arrivalStr)!!.slice(1)
-    const arrival = { destination: destination.trim(), at: `${aTime} ${aTimeAmPm}` }
+    const arrivalTimeStr = `${aTime} ${aTimeAmPm}`
+    const arrival = { destination: destination.trim(), at: arrivalTimeStr }
 
-    return { departure, board, arrival }
+    const duration = getDuration(departureTimeStr, arrivalTimeStr)
+
+    return { departure, board, arrival, duration }
   })
 }
 
