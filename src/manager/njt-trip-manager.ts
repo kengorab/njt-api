@@ -29,13 +29,13 @@ export function getTransferDurations(phases: TripPhase[]): number[] {
   return phases
     .map((phase, index, arr) => {
       if (index === arr.length - 1) {
-        return null
+        return 0
       }
 
       const nextPhase = arr[index + 1]
       return getDuration(phase.arrival.at, nextPhase.departure.at)
     })
-    .filter(_ => _ !== null)
+    .filter(_ => _ !== 0)
 }
 
 // Visible for testing
