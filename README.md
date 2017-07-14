@@ -61,6 +61,7 @@ where `Trip` is defined as:
 ```typescript
 type Trip = {
   phases: TripPhase[]
+  transferDurations: number[]  // For trips with multiple phases, the amount (in minutes) of each transfer wait
 }
 ```
 
@@ -80,7 +81,7 @@ type TripPhase = {
     destination: string
     at: string
   }
-  duration: number  // Duration of the trip phase, in minutes
+  duration: number  // Duration of the trip phase (in minutes)
 }
 ```
 
