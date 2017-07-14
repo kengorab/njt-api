@@ -80,6 +80,7 @@ type TripPhase = {
     destination: string
     at: string
   }
+  duration: number  // Duration of the trip phase, in minutes
 }
 ```
 
