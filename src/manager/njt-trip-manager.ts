@@ -21,6 +21,24 @@ export function getDuration(startTimeStr: string, endTimeStr: string): number {
 }
 
 // Visible for testing
+export function getTransferDurations(phases: TripPhase[]): number[] {
+  if (phases.length < 2) {
+    return []
+  }
+
+  return phases
+    .map((phase, index, arr) => {
+      if (index === arr.length - 1) {
+        return null
+      }
+
+      const nextPhase = arr[index + 1]
+      return getDuration(phase.arrival.at, nextPhase.departure.at)
+    })
+    .filter(_ => _ !== null)
+}
+
+// Visible for testing
 export function getTripPhases(tripString: string): TripPhase[] {
   const tripStages = tripString.replace('\t', '')
     .split('\n')
@@ -58,5 +76,11 @@ export async function getTripOptionsFromNJTPage(
   const panelTexts = $('.AccordionPanel .AccordionPanelContent')
     .map((_, panel) => $(panel).text())
     .get()
-  return panelTexts.map(panelText => ({ phases: getTripPhases(panelText) }))
+
+  return panelTexts.map(panelText => {
+    const phases = getTripPhases(panelText)
+    const transferDurations = getTransferDurations(phases)
+
+    return { phases, transferDurations }
+  })
 }

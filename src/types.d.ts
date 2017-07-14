@@ -30,6 +30,7 @@ declare type TripPhase = {
 
 declare type Trip = {
   phases: TripPhase[]
+  transferDurations: number[]
 }
 
 // The api for cheerio-without-node-native is exactly the same as
