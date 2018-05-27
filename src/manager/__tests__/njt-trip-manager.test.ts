@@ -1,4 +1,4 @@
-jest.mock('../../dao/njt-dao')
+jest.mock('../../dao/njt-trip-dao')
 jest.mock('../../globals')
 
 import * as NJTTripManager from '../njt-trip-manager'

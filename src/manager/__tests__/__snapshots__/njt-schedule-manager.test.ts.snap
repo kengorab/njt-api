@@ -1,0 +1,443 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getScheduleFromNJTPage should return schedule results (with no transfers) 1`] = `
+Array [
+  Object {
+    "arrivalTime": "06:45 AM",
+    "origin": Object {
+      "time": "05:50 AM",
+      "trainLine": "Morris & Essex",
+      "trainNumber": 6908,
+    },
+    "transfer": undefined,
+    "travelTime": 55,
+  },
+  Object {
+    "arrivalTime": "07:39 AM",
+    "origin": Object {
+      "time": "06:50 AM",
+      "trainLine": "Morris & Essex",
+      "trainNumber": 6910,
+    },
+    "transfer": undefined,
+    "travelTime": 49,
+  },
+  Object {
+    "arrivalTime": "08:39 AM",
+    "origin": Object {
+      "time": "07:50 AM",
+      "trainLine": "Morris & Essex",
+      "trainNumber": 6912,
+    },
+    "transfer": undefined,
+    "travelTime": 49,
+  },
+  Object {
+    "arrivalTime": "09:39 AM",
+    "origin": Object {
+      "time": "08:50 AM",
+      "trainLine": "Morris & Essex",
+      "trainNumber": 6914,
+    },
+    "transfer": undefined,
+    "travelTime": 49,
+  },
+  Object {
+    "arrivalTime": "10:39 AM",
+    "origin": Object {
+      "time": "09:50 AM",
+      "trainLine": "Morris & Essex",
+      "trainNumber": 6916,
+    },
+    "transfer": undefined,
+    "travelTime": 49,
+  },
+  Object {
+    "arrivalTime": "11:39 AM",
+    "origin": Object {
+      "time": "10:50 AM",
+      "trainLine": "Morris & Essex",
+      "trainNumber": 6918,
+    },
+    "transfer": undefined,
+    "travelTime": 49,
+  },
+  Object {
+    "arrivalTime": "12:40 PM",
+    "origin": Object {
+      "time": "11:50 AM",
+      "trainLine": "Morris & Essex",
+      "trainNumber": 6920,
+    },
+    "transfer": undefined,
+    "travelTime": 50,
+  },
+  Object {
+    "arrivalTime": "01:39 PM",
+    "origin": Object {
+      "time": "12:50 PM",
+      "trainLine": "Morris & Essex",
+      "trainNumber": 6922,
+    },
+    "transfer": undefined,
+    "travelTime": 49,
+  },
+  Object {
+    "arrivalTime": "02:39 PM",
+    "origin": Object {
+      "time": "01:50 PM",
+      "trainLine": "Morris & Essex",
+      "trainNumber": 6924,
+    },
+    "transfer": undefined,
+    "travelTime": 49,
+  },
+  Object {
+    "arrivalTime": "03:39 PM",
+    "origin": Object {
+      "time": "02:50 PM",
+      "trainLine": "Morris & Essex",
+      "trainNumber": 6926,
+    },
+    "transfer": undefined,
+    "travelTime": 49,
+  },
+  Object {
+    "arrivalTime": "04:39 PM",
+    "origin": Object {
+      "time": "03:50 PM",
+      "trainLine": "Morris & Essex",
+      "trainNumber": 6928,
+    },
+    "transfer": undefined,
+    "travelTime": 49,
+  },
+  Object {
+    "arrivalTime": "05:41 PM",
+    "origin": Object {
+      "time": "04:50 PM",
+      "trainLine": "Morris & Essex",
+      "trainNumber": 6930,
+    },
+    "transfer": undefined,
+    "travelTime": 51,
+  },
+  Object {
+    "arrivalTime": "06:39 PM",
+    "origin": Object {
+      "time": "05:50 PM",
+      "trainLine": "Morris & Essex",
+      "trainNumber": 6932,
+    },
+    "transfer": undefined,
+    "travelTime": 49,
+  },
+  Object {
+    "arrivalTime": "07:39 PM",
+    "origin": Object {
+      "time": "06:50 PM",
+      "trainLine": "Morris & Essex",
+      "trainNumber": 6934,
+    },
+    "transfer": undefined,
+    "travelTime": 49,
+  },
+  Object {
+    "arrivalTime": "08:40 PM",
+    "origin": Object {
+      "time": "07:50 PM",
+      "trainLine": "Morris & Essex",
+      "trainNumber": 6936,
+    },
+    "transfer": undefined,
+    "travelTime": 50,
+  },
+  Object {
+    "arrivalTime": "09:39 PM",
+    "origin": Object {
+      "time": "08:50 PM",
+      "trainLine": "Morris & Essex",
+      "trainNumber": 6938,
+    },
+    "transfer": undefined,
+    "travelTime": 49,
+  },
+  Object {
+    "arrivalTime": "10:39 PM",
+    "origin": Object {
+      "time": "09:50 PM",
+      "trainLine": "Morris & Essex",
+      "trainNumber": 6940,
+    },
+    "transfer": undefined,
+    "travelTime": 49,
+  },
+  Object {
+    "arrivalTime": "11:39 PM",
+    "origin": Object {
+      "time": "10:50 PM",
+      "trainLine": "Morris & Essex",
+      "trainNumber": 6942,
+    },
+    "transfer": undefined,
+    "travelTime": 49,
+  },
+  Object {
+    "arrivalTime": "12:39 AM",
+    "origin": Object {
+      "time": "11:50 PM",
+      "trainLine": "Morris & Essex",
+      "trainNumber": 6944,
+    },
+    "transfer": undefined,
+    "travelTime": 49,
+  },
+]
+`;
+
+exports[`getScheduleFromNJTPage should return schedule results (with transfers) 1`] = `
+Array [
+  Object {
+    "arrivalTime": "07:32 AM",
+    "origin": Object {
+      "time": "06:40 AM",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 3215,
+    },
+    "transfer": Object {
+      "arrivalTime": "07:11 AM",
+      "departureTime": "07:24 AM",
+      "station": "Long Branch",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 4315,
+    },
+    "travelTime": 52,
+  },
+  Object {
+    "arrivalTime": "08:53 AM",
+    "origin": Object {
+      "time": "08:08 AM",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 3221,
+    },
+    "transfer": Object {
+      "arrivalTime": "08:38 AM",
+      "departureTime": "08:45 AM",
+      "station": "Long Branch",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 4321,
+    },
+    "travelTime": 45,
+  },
+  Object {
+    "arrivalTime": "09:34 AM",
+    "origin": Object {
+      "time": "08:49 AM",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 3223,
+    },
+    "transfer": Object {
+      "arrivalTime": "09:23 AM",
+      "departureTime": "09:26 AM",
+      "station": "Long Branch",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 4323,
+    },
+    "travelTime": 45,
+  },
+  Object {
+    "arrivalTime": "11:36 AM",
+    "origin": Object {
+      "time": "10:53 AM",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 3231,
+    },
+    "transfer": Object {
+      "arrivalTime": "11:25 AM",
+      "departureTime": "11:28 AM",
+      "station": "Long Branch",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 4331,
+    },
+    "travelTime": 43,
+  },
+  Object {
+    "arrivalTime": "12:34 PM",
+    "origin": Object {
+      "time": "11:48 AM",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 3235,
+    },
+    "transfer": Object {
+      "arrivalTime": "12:23 PM",
+      "departureTime": "12:26 PM",
+      "station": "Long Branch",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 4335,
+    },
+    "travelTime": 46,
+  },
+  Object {
+    "arrivalTime": "02:34 PM",
+    "origin": Object {
+      "time": "01:50 PM",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 3243,
+    },
+    "transfer": Object {
+      "arrivalTime": "02:23 PM",
+      "departureTime": "02:26 PM",
+      "station": "Long Branch",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 4343,
+    },
+    "travelTime": 44,
+  },
+  Object {
+    "arrivalTime": "03:50 PM",
+    "origin": Object {
+      "time": "03:13 PM",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 2303,
+    },
+    "transfer": undefined,
+    "travelTime": 37,
+  },
+  Object {
+    "arrivalTime": "05:22 PM",
+    "origin": Object {
+      "time": "04:37 PM",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 3255,
+    },
+    "transfer": Object {
+      "arrivalTime": "05:07 PM",
+      "departureTime": "05:14 PM",
+      "station": "Long Branch",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 4355,
+    },
+    "travelTime": 45,
+  },
+  Object {
+    "arrivalTime": "06:12 PM",
+    "origin": Object {
+      "time": "05:36 PM",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 3361,
+    },
+    "transfer": undefined,
+    "travelTime": 36,
+  },
+  Object {
+    "arrivalTime": "06:39 PM",
+    "origin": Object {
+      "time": "06:02 PM",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 3363,
+    },
+    "transfer": undefined,
+    "travelTime": 37,
+  },
+  Object {
+    "arrivalTime": "07:18 PM",
+    "origin": Object {
+      "time": "06:30 PM",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 3269,
+    },
+    "transfer": Object {
+      "arrivalTime": "07:04 PM",
+      "departureTime": "07:09 PM",
+      "station": "Long Branch",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 4369,
+    },
+    "travelTime": 48,
+  },
+  Object {
+    "arrivalTime": "07:39 PM",
+    "origin": Object {
+      "time": "07:01 PM",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 3373,
+    },
+    "transfer": undefined,
+    "travelTime": 38,
+  },
+  Object {
+    "arrivalTime": "07:54 PM",
+    "origin": Object {
+      "time": "07:18 PM",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 2313,
+    },
+    "transfer": undefined,
+    "travelTime": 36,
+  },
+  Object {
+    "arrivalTime": "08:51 PM",
+    "origin": Object {
+      "time": "08:10 PM",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 3279,
+    },
+    "transfer": Object {
+      "arrivalTime": "08:39 PM",
+      "departureTime": "08:43 PM",
+      "station": "Long Branch",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 4379,
+    },
+    "travelTime": 41,
+  },
+  Object {
+    "arrivalTime": "10:08 PM",
+    "origin": Object {
+      "time": "09:25 PM",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 3283,
+    },
+    "transfer": Object {
+      "arrivalTime": "09:57 PM",
+      "departureTime": "10:00 PM",
+      "station": "Long Branch",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 4383,
+    },
+    "travelTime": 43,
+  },
+  Object {
+    "arrivalTime": "12:16 AM",
+    "origin": Object {
+      "time": "11:29 PM",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 3293,
+    },
+    "transfer": Object {
+      "arrivalTime": "12:05 AM",
+      "departureTime": "12:08 AM",
+      "station": "Long Branch",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 4393,
+    },
+    "travelTime": 47,
+  },
+  Object {
+    "arrivalTime": "01:11 AM",
+    "origin": Object {
+      "time": "12:23 AM",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 3297,
+    },
+    "transfer": Object {
+      "arrivalTime": "12:59 AM",
+      "departureTime": "01:03 AM",
+      "station": "Long Branch",
+      "trainLine": "North Jersey Coast",
+      "trainNumber": 4397,
+    },
+    "travelTime": 48,
+  },
+]
+`;

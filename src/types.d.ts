@@ -33,6 +33,27 @@ declare type Trip = {
   transferDurations: number[]
 }
 
+declare type ScheduleResult = {
+  origin: {
+    time: string
+    trainLine: string
+    trainNumber: number
+  }
+  transfer: null | {
+    arrivalTime: string
+    station: string
+    departureTime: string
+    trainLine: string
+    trainNumber: number
+  }
+  arrivalTime: string
+  travelTime: number
+}
+
+declare type Schedule = {
+  results: ScheduleResult[]
+}
+
 // The api for cheerio-without-node-native is exactly the same as
 // standard cheerio, but lacks a type definition under @types.
 declare module 'cheerio-without-node-native' {

@@ -1,4 +1,5 @@
 const stationInfo: { [name: string]: StationInfo } = require('../../data/station-info.json')
+const stationScheduleIds: { [name: string]: string } = require('../../data/schedule-ids.json')
 
 const stations = Object.keys(stationInfo)
 
@@ -12,4 +13,8 @@ export function getStations(): { [name: string]: StationInfo } {
 
 export function getStation(stationName: string): StationInfo | null {
   return stationInfo[stationName]
+}
+
+export function getScheduleIdForStation(stationName: string): string | null {
+  return stationScheduleIds[stationName]
 }

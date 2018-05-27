@@ -19,7 +19,8 @@
   "license": "MIT",
   "scripts": {
     "build": "node_modules/.bin/tsc",
-    "test": "jest --config ./config/jest/config.json"
+    "test": "jest --config ./config/jest/config.json",
+    "schedule-ids": "ts-node scripts/get-schedule-ids.js"
   },
   "dependencies": {
     "@types/cheerio": "^0.22.2",
@@ -38,6 +39,7 @@
     "jasmine-reporters": "^2.2.1",
     "jest": "^20.0.4",
     "ts-jest": "^20.0.6",
+    "ts-node": "^6.0.5",
     "typescript": "^2.4.1"
   }
 }
