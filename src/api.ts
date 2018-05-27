@@ -27,8 +27,8 @@ async function getTripOptions(
 }
 
 async function getScheduleForDay(
-  originStation: string,
-  destStation: string,
+  originStation: StationName,
+  destStation: StationName,
   when?: Date | string
 ): Promise<Schedule> {
   const originId = StationManager.getScheduleIdForStation(originStation)
