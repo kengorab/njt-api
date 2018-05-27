@@ -45,6 +45,52 @@ type StationInfo = {
 }
 ```
 
+## Schedule
+```javascript
+import { Schedule } from 'njt-api'
+```
+
+The `Schedule` API lists out all of the trips between two stations on a given date. When possible, use this API instead
+of the `Trips` API. There is only one function here:
+
+```typescript
+async function getScheduleForDay(originStation: string, destStation: string, when?: Date | string): Promise<Schedule>
+```
+
+where `Schedule` is defined as:
+
+```typescript
+type Schedule = {
+  results: ScheduleResult[]
+}
+```
+
+and `ScheduleResult` is:
+
+```typescript
+type ScheduleResult = {
+  origin: {
+    time: string
+    trainLine: string
+    trainNumber: number
+  }
+  transfer: null | {
+    arrivalTime: string
+    station: string
+    departureTime: string
+    trainLine: string
+    trainNumber: number
+  }
+  arrivalTime: string
+  travelTime: number
+}
+```
+
+Eventually there may be additional fields added to the `Schedule` type, but for now it's just the trips throughout the
+day. It's important to note that the `originStation` and `destStation` must be stations for which there are schedule ids
+(which are present in the `data/schedule-ids.json` file). The Promise will fail if unknown stations are passed, or if an
+invalidly-formatted time string is passed.
+
 ## Trips
 ```javascript
 import { Trips } from 'njt-api'
