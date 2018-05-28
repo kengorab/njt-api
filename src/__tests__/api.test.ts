@@ -1,5 +1,7 @@
 jest.mock('../manager/njt-trip-manager', () => ({
-  getTripOptionsFromNJTPage: jest.fn(() => Promise.resolve([{ phases: [] }]))
+  getTripOptionsFromNJTPage: jest.fn(() => {
+    return Promise.resolve([{ phases: [] }])
+  })
 }))
 
 const stationInfo = require('../../data/station-info.json')
@@ -27,13 +29,13 @@ describe('API', () => {
   describe('Trips', () => {
     describe('getTripOptions', () => {
       it('should return a rejected Promise when given invalid "from" station name', async () => {
-        const realStationName = _.sample(Object.keys(stationInfo))
+        const realStationName = _.sample(Object.keys(stationInfo))!!
         const promise = API.Trips.getTripOptions('some garbage "from" station', realStationName)
         await expect(promise).rejects.toMatchSnapshot()
       })
 
       it('should return a rejected Promise when given invalid "to" station name', async () => {
-        const realStationName = _.sample(Object.keys(stationInfo))
+        const realStationName = _.sample(Object.keys(stationInfo))!!
         const promise = API.Trips.getTripOptions(realStationName, 'some garbage "to" station')
         await expect(promise).rejects.toMatchSnapshot()
       })
@@ -52,13 +54,13 @@ describe('API', () => {
 
       it('should return a Promise which resolves to a list of trip options (given valid stations/date)', async () => {
         const [fromStation, toStation] = _.sampleSize(Object.keys(stationInfo), 2)
-        const promise = API.Trips.getTripOptions(fromStation, toStation, moment())
+        const promise = API.Trips.getTripOptions(fromStation, toStation, moment().toDate())
         await expect(promise).resolves.toMatchSnapshot()
       })
 
       it('should call TripManager for trip options, passing "to" and "from" stations, and date', async () => {
         const [fromStationName, toStationName] = _.sampleSize(Object.keys(stationInfo), 2)
-        await API.Trips.getTripOptions(fromStationName, toStationName, moment())
+        await API.Trips.getTripOptions(fromStationName, toStationName, moment().toDate())
 
         expect(TripManager.getTripOptionsFromNJTPage).toHaveBeenCalled()
         const [fromStation, toStation, date] =

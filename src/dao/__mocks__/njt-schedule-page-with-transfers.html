@@ -1,0 +1,705 @@
+
+<!--
+/**
+ * @ (#) sf_tr_schedules_results.jsp
+ *
+ * Copyright (c) 2005 NJ Transit
+ * One Penn Plaza East
+ * Newark, NJ 06101
+
+ * THIS  UNPUBLISHED WORK,  FIRST CREATED  IN 2005  AND UPDATED THEREAFTER,
+ * IS PROTECTED  UNDER THE  COPYRIGHT LAWS  OF THE UNITED STATES  AND OF
+ * OTHER COUNTRIES  THROUGHOUT THE WORLD. USE, DISASSEMBLY,  REPRODUCTION,
+ * DISTRIBUTION,  ETC.  WITHOUT THE   EXPRESS  WRITTEN   CONSENT   OF
+ * NJ TRANSIT IS PROHIBITED.
+ * COPYRIGHT NJ TRANSIT 2005 ALL  RIGHTS RESERVED.
+ * INFORMATION  CONTAINED   HEREIN  IS PROPRIETARY AND CONFIDENTIAL
+ * AND  IMPROPER USE OR DISCLOSURE MAY RESULT IN CIVIL AND PENAL SANCTIONS
+ *
+ * This page displays the train schedules  for the selected origin and destination
+ * stations selected by the user in the previous page
+ *
+ * @author  Arun Nunna
+ *
+ * @version 1.0
+ */
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+    <head>
+        <title>New Jersey Transit</title>
+
+        <meta content="New Jersey Transit, NJ TRANSIT, transportation, Mass Transit, commuting, trains, bus, New Jersey, schedules, fares, travel">
+        <meta name="Description" content="NJ TRANSIT is New Jersey's public transportation corporation. Its mission is to provide safe, reliable, convenient and cost-effective transit service with a skilled team of employees, dedicated to our customers' needs and committed to excellence">
+
+        <script src="http://www.njtransit.com/javascript/jquery-1.2.6.js" type="text/javascript"></script>
+        <!-- <script src="http://www.njtransit.com/javascript/ui.core.js" type="text/javascript"></script>-->
+        <!-- <script src="http://www.njtransit.com/javascript/ui.tabs.js" type="text/javascript"></script>-->
+        <!-- <link href="http://www.njtransit.com/styles/flora.tabs.css" rel="stylesheet" type="text/css">-->
+        <script type="text/javascript" src="http://www.njtransit.com/javascript/thickbox.js"></script>
+        <link href="http://www.njtransit.com/styles/thickbox.css" rel="stylesheet" type="text/css" media="screen" />
+        <script type="text/javascript" src="http://www.njtransit.com/javascript/sf_tr_sched_results_validations.js"></script>
+        <link href="http://www.njtransit.com/styles/print.css" rel="stylesheet" type="text/css" media="print"  />
+        <link href="http://www.njtransit.com/styles/styles_redesign.css" rel="stylesheet" type="text/css" media="screen" />
+        <style type="text/css">
+            div#ip-box1-inner {
+                background-repeat: no-repeat;
+                height: auto !important;
+                padding: 7px 0 0 10px;
+                margin:5px;
+            }
+        </style>
+        <style type="text/css">
+            a#deals{text-decoration: none;}
+            a#deals:hover{text-decoration: underline;}
+        </style>
+
+        <script type="text/javascript" type="text/javascript">
+
+          function openPrintWindow() {
+            newwin=window.open('sf_servlet.srv?hdnPageAction=TrainSchedulesPrintTo&selOrigin=37169_NJCL&selDestination=4_NJCL&OriginDescription=Aberdeen+Matawan&DestDescription=Allenhurst&datepicker=05/29/2018','print_schedules','height=600,width=900,scrollbars=yes');
+          }
+
+          function saveTrip(){
+            if(checkCookies()){
+              $.ajax({
+                url: "/sf/sf_servlet.srv?hdnPageAction=TrainTripSaveTo&selOrigin=37169_NJCL&selDestination=4_NJCL&OriginDescription=Aberdeen Matawan&DestDescription=Allenhurst",
+                cache: true,
+                success: function(html){
+                  alert(html);
+                }
+              });
+            }
+            return;
+          }
+        </script>
+
+        <link href="http://www.njtransit.com/styles/print.css" rel="stylesheet" type="text/css" media="print"  />
+        <link href="http://www.njtransit.com/styles/styles_redesign.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="http://www.njtransit.com/styles/main.css" rel="stylesheet" type="text/css" />
+
+        <link rel="stylesheet" type="text/css" href="http://www.njtransit.com/styles/SpryMenuBar.css" />
+        <script type="text/javascript" src="http://www.njtransit.com/javascript/SpryMenuBar.js"></script>
+        <script type="text/javascript" src="http://www.njtransit.com/javascript/helper.js"></script>
+
+    </head>
+
+    <body>
+        <!--/**  * @ (#) header.jsp  * * Copyright (c) 2005 NJ Transit * One Penn Plaza East * Newark, NJ 06101 * THIS  UNPUBLISHED WORK,  FIRST CREATED  IN 2005  AND UPDATED THEREAFTER, * IS PROTECTED  UNDER THE  COPYRIGHT LAWS  OF THE UNITED STATES  AND OF  * OTHER COUNTRIES  THROUGHOUT THE WORLD. USE, DISASSEMBLY,  REPRODUCTION,  * DISTRIBUTION,  ETC.  WITHOUT THE   EXPRESS  WRITTEN   CONSENT   OF   * NJ TRANSIT IS PROHIBITED.   * COPYRIGHT NJ TRANSIT 2005 ALL  RIGHTS RESERVED.   * INFORMATION  CONTAINED   HEREIN  IS PROPRIETARY AND CONFIDENTIAL * AND  IMPROPER USE OR DISCLOSURE MAY RESULT IN CIVIL AND PENAL SANCTIONS * * This file contains the top level menu items and the underlying dhtml menu items. *  * @author  Arun Nunna * * @version 1.0  */ --><!-- Translate Analytics  --><script type="text/javascript" src="https://ssl.google-analytics.com/ga.js"></script><!-- ************** HOSTNAME: vm13.njtransit.com ************** --><!--%%%%%%%%%%%% MyCSSMenu Styles [Keep in head for full validation!] %%%%%%%%%%%--><style type="text/css">/*!!!!!!!!!!! MyCSSMenu Core CSS [Do Not Modify!] !!!!!!!!!!!!!*/.qmmc .qmdivider{display:block;font-size:1px;border-width:0px;border-style:solid;position:relative;z-index:1;}.qmmc .qmdividery{float:left;width:0px;}.qmmc .qmtitle{display:block;cursor:default;white-space:nowrap;position:relative;z-index:1;}.qmclear {font-size:1px;height:0px;width:0px;clear:left;line-height:0px;display:block;float:none !important;}.qmmc {position:relative;zoom:1;z-index:10;}.qmmc a, .qmmc li {float:left;display:block;white-space:nowrap;position:relative;z-index:1;}.qmmc div a, .qmmc ul a, .qmmc ul li {float:none;}.qmsh div a {float:left;}.qmmc div{visibility:hidden;position:absolute;}.qmmc li {z-index:auto;}.qmmc ul {left:-10000px;position:absolute;z-index:10;}.qmmc, .qmmc ul {list-style:none;padding:0px;margin:0px;}.qmmc li a {float:none}.qmmc li:hover>ul{left:auto;}#qm0 ul {top:100%;}#qm0 ul li:hover>ul{top:0px;left:100%;}/*!!!!!!!!!!! MyCSSMenu Styles !!!!!!!!!!!*/	/* MyCSSMenu 0 */	/*"""""""" (MAIN) Items""""""""*/		#qm0 a		{			padding:5px 15px 5px 15px;		color:#ffffff;		font-family:Arial;		font-size:12px;		text-decoration:none;	}	#qm0 div a		{			color:#555555;	}	/*"""""""" (SUB) Container""""""""*/		#qm0 div, #qm0 ul		{			padding:10px;		margin:-2px 0px 0px;		background-color:#FFFFFF;		border-width:1px;		border-style:solid;		border-color:#AAAAAA;	}	/*"""""""" (SUB) Items""""""""*/		#qm0 div a, #qm0 ul a		{			padding:3px 10px 3px 5px;		background-color:transparent;		font-size:11px;		border-width:0px;		border-style:none;	}	/*"""""""" (SUB) Hover State""""""""*/		#qm0 div a:hover, #qm0 ul a:hover		{			background-color:#AAAAAA;		color:#FFFFFF;	}	/*"""""""" (SUB) Active State""""""""*/		body #qm0 div .qmactive, body #qm0 div .qmactive:hover		{			background-color:#AAAAAA;		color:#FFFFFF;	}	/*"""""""" Individual Titles""""""""*/		#qm0 .qmtitle		{			cursor:default;		padding:3px 0px 3px 4px;		color:#444444;		font-family:arial;		font-size:11px;		font-weight:bold;	}	/*"""""""" Individual Horizontal Dividers""""""""*/		#qm0 .qmdividerx		{			border-top-width:1px;		margin:4px 0px;		border-color:#AAAAAA;	}	/*"""""""" Individual Vertical Dividers""""""""*/		#qm0 .qmdividery		{			border-left-width:1px;		height:15px;		margin:4px 2px 0px;		border-color:#FFFFFF;	}	/*"""""""" (main) Rounded Items""""""""*/		#qm0 .qmritem span		{			border-color:#AAAAAA;		background-color:#FFFFFF;	}	/*"""""""" (main) Rounded Items Content""""""""*/		#qm0 .qmritemcontent		{			padding:0px 0px 0px 4px;	}	/*"""""""" (sub) Rounded Items""""""""*/		#qm0 div .qmritem span		{			border-color:#666666;		background-color:#AAAAAA;	}	/*"""""""" (sub) Rounded Items Content""""""""*/		#qm0 div .qmritemcontent		{			padding:0px 0px 0px 4px;	}</style>	<style type="text/css">body{	text-align: center; /* for IE */	background-color:#fafafa;}.divCenter{	position:relative;	margin-right:auto;	margin-left:auto;	width:1000px;	background:white;}#hdr-auth {    position: absolute;    right: 2px;    top: 0;    /*z-index: 100;*/}#hdr-auth ul {    margin-top: 0;}#hdr-auth li {    border-right: 1px solid #FFFFFF;    color: #FFFFFF;    display: block;    float: left;    font-size: 12px;    padding: 7px 9px 0 9px;}#hdr-auth li a {    color: #FFFFFF;    text-decoration: none;}.no-pad-right {    padding-right: 20px !important;}.no-border {    border: 0 none !important;}div.footer{position:relative; bottom:0px; left:0px; width:1000; height:30px; background-color:#8A8A8A; overflow:visible;}div.footer2{position:relative; z-index:4; font-family: sans-serif; font-weight:bold;}div.footer2 table tr td .navDividers{	font-family: sans-serif;	font-weight:bold;}div.footer2 table tr td .navDividers a{	text-decoration: none;	color: #020167;	font-weight: 400;	}.njt_borderbottom {	position:relative;	*top: -12px;	margin-right:auto;	margin-left:auto;	width:1000px;	background: url("http://www.njtransit.com/images/BR_shadow_1000x6.gif") no-repeat scroll 100% 100% transparent;	height: 6px;}a.copyright:hover{	color: #666666;}a.copyright, a.copyright:visited{	color: #666666;}.njt_ftrlnggcntr div a, div a:visited{	text-decoration: none;	color: #666666;}#njt_ftrcntntinner {    padding-top: 3px;}#njt_ftrcntnt, #njt_ftrcntntinner {    padding-top: 5px;    position: relative;    text-align: left;    width: 1000px;}#njt_ftrcntnt {    padding-bottom: 15px;}.njt_ftrnvlnks {    color: #999999;    font: 12px/14px arial,Helvetica,Utkal,sans-serif;    padding: 10px 0 8px;    text-align: center;}.njt_ftrnvlnks div {    padding: 0 0 4px;}.njt_ftrnvlnks div a {    padding: 0 3px;}.njt_ftrnvlnks div a:link {    color: #31447d;    outline: medium none;}.njt_ftrnvlnks div a:visited {    color: #31447d;    outline: medium none;}.njt_ftrnvlnks div a:hover {    text-decoration: none;}.njt_ftrnvlnks div a {    text-decoration: none;}.njt_ftrdivl2 {    background: url("http://www.njtransit.com/images/footer-menu-links.gif") repeat-x;    height: 20px;}.njt_clear {    clear: both;    height: 1px;    overflow: hidden;}.njt_divline {    background-color: #E5E5E5;    height: 1px;    overflow: hidden;}#ftr-social {    float: right;    margin-top: 7px;    margin-bottom: 7px;}#njt_ftrcntnt #ftr-weather {    display: inline;    float: left;}#njt_ftrwthr1 {    display: inline;    float: left;    margin: 10px 12px 0 20px;    width: 65px;}#njt_ftrwthr2 {    width: 225px;}#njt_ftrwthr2 {    color: #666666;    display: inline;    float: left;    font: bold 10px/14px arial,Helvetica,Utkal,sans-serif;    margin: 13px 0 0;    /*width: 684px;*/}#njt_ftrwthr3 {    display: inline;    float: left;    font: bold 27px/30px arial,Helvetica,Utkal,sans-serif;    margin: 0;    width: 50px;}#njt_ftrwthr4 {    display: inline;    float: left;    line-height: 14px;    margin: 0;    width: 175px;}#hdr-search {	position: absolute;	visibility:visible;	display: inline;	top: 33px;	right: 20px;}.njt_hdrsearch1 {}form.hdr-njt-google-search {    display: block;    margin: 0;    text-align: left;}form.hdr-njt-google-search input.hdr-njt-google-query {    border-color: #31518c;    border-style: solid;    border-width: 1pt;    float: left;    font-size: 12px;    height: 19px;    padding-left: 10px;    *padding-top: 1px;    width: 180px;}.hdr-njt-clickable {    color: #225BD0;    cursor: pointer;    text-decoration: none;    font-size: 11px;}.hdr-wx-searchButton {    background-color: #09224b;    border-bottom: 1pt solid #31518c;    border-right: 1pt solid #31518c;    border-top: 1pt solid #31518c;    color: #FFFFFF;    float: left;    font-weight: bold;    height: 17px;    line-height: 17px;    text-align: center;    text-transform: uppercase;    width: 64px;}form.hdr-njt-google-search input.hdr-njt-google-query:-moz-placeholder {    color: #999999 !important;    font-style: italic !important;}.njt_ftrlnggcntr {    color: #666666;    display: inline;    float: right;    font: 10px/14px arial,Helvetica,Utkal,sans-serif;    text-align: right;    width: 180px;}.njt_ftrlgcpy {    color: #666666;    display: inline;    float: left;    font: 10px/14px arial,Helvetica,Utkal,sans-serif;    margin: 5px 0 0 0;    width: 565px;}div.footer2 table tr td .navDividers a:hover{	text-decoration: underline;}#wxWrap {    width: 350px;    background: #EEE; /* Old browsers */    background: -moz-linear-gradient(top, rgba(240,240,240,1) 0%, rgba(224,224,224,1) 100%); /* FF3.6+ */    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(240,240,240,1)), color-stop(100%,rgba(224,224,224,1))); /* Chrome,Safari4+ */    background: -webkit-linear-gradient(top, rgba(240,240,240,1) 0%,rgba(224,224,224,1) 100%); /* Chrome10+,Safari5.1+ */    background: -o-linear-gradient(top, rgba(240,240,240,1) 0%,rgba(224,224,224,1) 100%); /* Opera11.10+ */    background: -ms-linear-gradient(top, rgba(240,240,240,1) 0%,rgba(224,224,224,1) 100%); /* IE10+ */    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */    background: linear-gradient(top, rgba(240,240,240,1) 0%,rgba(224,224,224,1) 100%); /* W3C */    padding: 2px 13px 2px 11px;    -webkit-border-radius: 4px;    -moz-border-radius: 4px;    border-radius: 4px;}#wxIntro {    display: inline-block;    font: 14px/20px Arial,Verdana,sans-serif;    color: #666;    vertical-align: top;    padding-top: 9px;}#wxIcon {    display: inline-block;    width: 61px;    height: 34px;    margin: 2px 0 -1px 1px;    overflow: hidden;    background: url('http://www.njtransit.com/images/weather/wicons.png') no-repeat 61px 0;}#wxIcon2 {    display: inline-block;    width: 34px;    height: 34px;    margin: 1px 6px 0 8px;    overflow: hidden;}#wxTemp {    display: inline-block;    font: 20px/28px Arial,Verdana,sans-serif;    color: #333;    vertical-align: top;    padding-top: 5px;    margin-left: 0;}#calendar {	width: 15.5em;	height: 4.5em;	float: right;	clear: right;	margin: 1em 1em 0 0;}	#calendar span {		float: left;		font-family: sans-serif;		font-weight: bold;		color: #B3B3B3;	}	#calendar .date {		font-size: 2.6em;		letter-spacing: -0.025em;		/*margin-top: -0.16em !important; IE7 and FF treat this differently*/		margin-top: -2px;	}	#calendar .day,	#calendar .month,	#calendar .year {		font-size: 1.1em;		margin-left: 0.25em;	}	#calendar .month,	#calendar .year {		margin-top: -0.1em;	}	#calendar .day {		width: 60%;	}	#calendar .monthyear {		white-space: nowrap;	}#search-main {position:relative; top: 0px; left: 0px; overflow:none;	width: 22.2em;	float: right;	clear: right;	margin: 0;}	#search-main form input.text {		float: left;		height: 1.7em;		padding: 2px 0 0 0;		font: 100% Arial, Helvetica, sans-serif; 		background-color: #1C207F;		border-color: #596278;		color: #FFFFFF;	}	#search-main form input.btn {		/*float: right;*/		width: 2.9em;		min-width: 29px;		height: 1.6em;		min-height: 16px;		margin: 0 0 0 0.3em;		font-size:11px;	}</style><DIV class="divCenter" style="position:relative; z-index:99;"><DIV class="noprint" style="position:relative; z-index:99;"><div style="position:relative; width:100%; height:65px; background-image:url(http://www.njtransit.com/images/njt_header_new.jpg);"><img src="http://www.njtransit.com/images/spacer.gif" alt="" USEMAP="#map" WIDTH="1000" HEIGHT="65"><div id="hdr-auth" style="right: 5px;">	<ul>		<li class="no-border" style="margin-top: 3px; padding: 4px; color: #FFFFFF;">			My Transit		</li>		<li>			<a href="https://www.njtransit.com/mt/mt_servlet.srv?hdnPageAction=MTRegisterTo">Sign Up</a>		</li>		<li class="no-border no-pad-right">			<a href="https://www.njtransit.com/mt/mt_servlet.srv?hdnPageAction=MyTransitTo">Log In</a>		</li>	</ul></div><div id="hdr-search">	<div class="njt_hdrsearch1">			<form name="hdrfrmSearch" id="hdrfrmSearch" class="hdr-njt-google-search" method="post" action="/tm/tm_servlet.srv?hdnPageAction=SiteSearchTo">				<input name="txtSearch" type="text" class="hdr-njt-google-query notranslate" placeholder="Enter Search Term" title="Enter Search Term">				<div id="clicksearch" class="hdr-wx-searchButton hdr-njt-clickable">search</div>			</form>	</div></div></div><div style="position:relative; height:35px; background-image:url(http://www.njtransit.com/images/njt_top_menu_bar.jpg);"><table align="center" summary="This table is used for page layout" border="0" cellspacing="0" cellpadding="0">	<tr>		<td><div style="position:relative; top: 6px; z-index:3;"><ul id="qm0" class="qmmc" style="z-index:4;">	<li><a class="qmparent" style="padding-left: 0;" href="javascript:void(0)">Schedules & Fares</a>		<ul>		<li><a href="http://www.njtransit.com/sf/sf_servlet.srv?hdnPageAction=TrainTo">Train</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/sf/sf_servlet.srv?hdnPageAction=BusTo">Bus</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/sf/sf_servlet.srv?hdnPageAction=LightRailTo">Light Rail</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/sf/sf_servlet.srv?hdnPageAction=TripPlannerTo">Trip Planner</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/sf/sf_servlet.srv?hdnPageAction=TripPlannerServiceNearTo">Service Near a Location</a></li>		</ul>	</li>	<li><span class="qmdivider qmdividery" ></span></li>	<li><a class="qmparent" href="javascript:void(0)">Alerts & Advisories</a>		<ul>		<li><a href="http://www.njtransit.com/sa/sa_servlet.srv?hdnPageAction=TravelAlertsTo">Current Travel Alerts</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/sa/sa_servlet.srv?hdnPageAction=CustomerNoticesTo">Customer Notices</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="https://www.njtransit.com/mt/mt_servlet.srv?hdnPageAction=MyTransitTo">My Transit Alerts</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/var/var_servlet.srv?hdnPageAction=SocialMediaTo">Social Media</a></li>		</ul>	</li>	<li><span class="qmdivider qmdividery" ></span></li>	<li><a class="qmparent" href="javascript:void(0)">Ticket Options</a>		<ul>		<li><a href="https://ww2.njtransit.com/qt/qt_servlet.srv?hdnPageAction=QuikTikTo">Quik-Tik | Tickets by Mail</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/ti/ti_servlet.srv?hdnPageAction=RailTicketsTo">Rail Tickets</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/ti/ti_servlet.srv?hdnPageAction=BusTicketsTo">Bus Tickets</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/ti/ti_servlet.srv?hdnPageAction=LightRailTicketsTo">Light Rail Tickets</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/var/var_servlet.srv?hdnPageAction=MobileTicketingTo">MyTix Mobile Ticketing</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="https://mtix.njtransit.com/masticketing/?page=meadowlandsticketing">Meadowlands Ticketing</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/ti/ti_servlet.srv?hdnPageAction=ContactlessPaymentTo">Contactless Payments</a></li>		<!-- <li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/var/var_servlet.srv?hdnPageAction=TapRideTo">Tap > Ride</a></li> -->		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/ti/ti_servlet.srv?hdnPageAction=GroupTravelTo">Group Sales</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/ti/ti_servlet.srv?hdnPageAction=StudentPassTo">Student Pass</a></li>		</ul>	</li>	<li><span class="qmdivider qmdividery" ></span></li>	<li><a class="qmparent" href="javascript:void(0)">Rider Tools</a>		<ul>		<li><a href="http://www.njtransit.com/rg/rg_servlet.srv?hdnPageAction=StationParkRideTo">Station & Parking Info</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/rg/rg_servlet.srv?hdnPageAction=HowToRideTo">How to Ride NJ TRANSIT</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/rg/rg_servlet.srv?hdnPageAction=FaqTo">Frequently Asked Questions</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/var/var_servlet.srv?hdnPageAction=BusShelterFAQTo">Bus Stops & Shelters</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/rg/rg_servlet.srv?hdnPageAction=AirportConnectionsTo">Newark Airport</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/var/var_servlet.srv?hdnPageAction=NJTAppTo">Mobile App</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://mybusnow.njtransit.com/bustime/home.jsp">My Bus Now</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/sf/sf_servlet.srv?hdnPageAction=BusServiceNearByFrom">MyBus</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/sf/sf_servlet.srv?hdnPageAction=MyLightRailTo">MyLightRail</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/sf/sf_servlet.srv?hdnPageAction=MyTrainTo">MyTrain</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/var/var_servlet.srv?hdnPageAction=CommuterToolKitTo">Commuter Tool Kit</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/var/var_servlet.srv?hdnPageAction=LanguageAssistanceTo">Language Assistance</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/rg/rg_servlet.srv?hdnPageAction=ConnectionsTo">Connecting Services</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a class="qmparent" href="http://accesslink.njtransit.com/hiwire?.a=pViewTrips" target="_blank">Access Link Online</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/rg/rg_servlet.srv?hdnPageAction=BikeProgramTo">Bikes & Other Devices </a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/var/var_servlet.srv?hdnPageAction=WiFiTo">WiFi</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/rg/rg_servlet.srv?hdnPageAction=SafetyTo">Safety</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/tm/tm_servlet.srv?hdnPageAction=SpTo">Deals & Discounts</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/sf/sf_servlet.srv?hdnPageAction=CommCalculatorTo">Commuter Calculator</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/var/var_servlet.srv?hdnPageAction=QuietCommuteTo">Quiet Commute</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/tm/tm_servlet.srv?hdnPageAction=FYITo&DP=3">FYI</a></li>		</ul>	</li>	<li><span class="qmdivider qmdividery" ></span></li>	<li><a class="qmparent" href="javascript:void(0);">Maps</a>		<ul>		<li><a href="http://www.njtransit.com/pdf/rail/Rail_System_Map.pdf" target="_blank">Rail System</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/LightRail/sf_lr_hblr_map.pdf" target="_blank">Hudson-Bergen Light Rail</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/LightRail/sf_lr_nlr_map.pdf" target="_blank">Newark Light Rail</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/LightRail/sf_lr_rvl_map.pdf" target="_blank">River Line</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<!--Directories -->		<li><a class="qmparent" href="javascript:void(0);">Station Directories</a>		<ul>		<li><a href="http://www.njtransit.com/pdf/maps/directories/Hoboken_Directory.pdf" target="_blank">Hoboken</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/directories/NewarkPenn_Directory.pdf" target="_blank">Newark Penn Station</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/directories/NewarkBroadSt_Directory.pdf" target="_blank">Newark Broad Street</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/directories/PABT_Directory.pdf" target="_blank">Port Authority Bus Terminal</a>		<li><span class="qmdivider qmdividerx" ></span></li>  	     <li><a href="http://www.njtransit.com/pdf/maps/directories/NYPENN_Directory.pdf" target="_blank">Penn Station New York</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/directories/Secaucus_Directory.pdf" target="_blank">Secaucus Junction</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/directories/Trenton_Directory.pdf" target="_blank">Trenton Transit Center</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/directories/WalterRand_Transportation_Center_Directory.pdf" target="_blank">Walter Rand Transportation Center</a>		</ul>		</li>				<li><span class="qmdivider qmdividerx" ></span></li>	    <!-- Station Area Maps -->        <li><a class="qmparent" href="javascript:void(0);">Station Area Maps</a>    	<ul>		<li><a href="http://www.njtransit.com/pdf/maps/sam/10samap.pdf" target="_blank">Atlantic City</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/sam/63samap.pdf" target="_blank">Hoboken</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/sam/83samap.pdf" target="_blank">Metro Park</a>				<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/sam/92samap.pdf" target="_blank">Morristown</a>				<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/sam/103samap.pdf" target="_blank">New Brunswick</a>				<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/sam/106samap.pdf" target="_blank">Newark Broad Street Station</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/sam/107samap.pdf" target="_blank">Newark Penn Station</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/sam/105samap.pdf" target="_blank">New York Penn Station</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/sam/43298samap.pdf" target="_blank">Pennsauken Transit Center</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/sam/121samap.pdf" target="_blank">Plauderville</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/sam/127samap.pdf" target="_blank">Rahway</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/sam/131samap.pdf" target="_blank">Ridgewood</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/sam/38174samap.pdf" target="_blank">Secaucus Junction</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/sam/138samap.pdf" target="_blank">Somerville</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/sam/139samap.pdf" target="_blank">South Amboy</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/sam/148samap.pdf" target="_blank">Trenton Transit Center</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/maps/sam/11519samap.pdf" target="_blank">Walter Rand Transportation Center</a>		</ul>        </li>		<!-- <li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/pdf/rail/Rail_System_Map.pdf" target="_blank">County Bus Maps</a>			<ul>				<li><a href="http://www.njtransit.com/pdf/bus/Hudson_County_Map.pdf" target="_blank">Hudson County</a></li>				<li><span class="qmdivider qmdividerx" ></span></li>				<li><a href="http://www.njtransit.com/pdf/bus/Morris_County_Map.pdf" target="_blank">Morris County</a></li>				<li><span class="qmdivider qmdividerx" ></span></li>				<li><a href="http://www.njtransit.com/pdf/bus/Passaic_County_Map.pdf" target="_blank">Passaic County</a></li>				<li><span class="qmdivider qmdividerx" ></span></li>				<li><a href="http://www.njtransit.com/pdf/bus/Bergen_County_Map.pdf" target="_blank">Bergen County</a></li>				<li><span class="qmdivider qmdividerx" ></span></li>				<li><a href="http://www.njtransit.com/pdf/bus/Essex_County_Map.pdf" target="_blank">Essex County</a></li>			</ul>		</li> -->		</ul>	</li>	<li><span class="qmdivider qmdividery" ></span></li>	<li><a class="qmparent" href="javascript:void(0);">Accessibility</a>		<ul>		<li><a href="http://www.njtransit.com/tm/tm_servlet.srv?hdnPageAction=AccessLinkTo">Access Link, ADA Paratransit</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/tm/tm_servlet.srv?hdnPageAction=RailAccessTo">Accessible Rail</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/tm/tm_servlet.srv?hdnPageAction=BusAccessTo">Accessible Bus</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/tm/tm_servlet.srv?hdnPageAction=LightRailTo">Accessible Light Rail</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a class="qmparent" href="http://accesslink.njtransit.com/hiwire?.a=pViewTrips" target="_blank">Access Link Online</a>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="http://www.njtransit.com/tm/tm_servlet.srv?hdnPageAction=ParaTransitTo">Community Transportation</a></li>		</ul>	</li>	<li><span class="qmdivider qmdividery" ></span></li>	<li><a class="qmparent" href="http://www.njtransit.com/tm/tm_servlet.srv?hdnPageAction=ContactUsTo">Contact Us</a>		<ul>		<li><a href="http://www.njtransit.com/tm/tm_servlet.srv?hdnPageAction=ContactUsTelephoneTo">Customer Service Offices</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="https://ww3.njtransit.com/LostAndFound/resources/jsp/lf_lost_input.jsp?KeepThis=true&modal=true&showclose=true&TB_iframe=true&height=500&width=900" class="thickbox">Lost & Found</a></li>		<li><span class="qmdivider qmdividerx" ></span></li>		<li><a href="https://njtransit.secure.force.com/customerservice/ContactUs" target="_blank" >Online Contact Form</a></li>		</ul>	</li>		<li><span class="qmdivider qmdividery" ></span></li>	<li><a class="qmparent" href="http://www.njtransit.com/po/po_servlet.srv?hdnPageAction=PoliceHomeTo">Police</a>	</li>		 <li><span class="qmdivider qmdividery" ></span></li>	<li><a class="qmparent" href="http://accesslink.njtransit.com/hiwire?.a=pViewTrips" target="_blank">Access Link Online</a>	</li> 	<li class="qmclear">&nbsp;</li></ul></div>		</td>	</tr></table></div></DIV><MAP NAME="map">	<AREA SHAPE=RECT COORDS="15,7,231,59"		HREF="http://www.njtransit.com/hp/hp_servlet.srv?hdnPageAction=HomePageTo"		ALT="New Jersey Transit"></MAP><!-- ################### BEGIN PAGE CONTENT ################### --> <DIV class="content" style=""><table align="center" summary="This table is used for page layout" width="100%" border="0" cellspacing="0" cellpadding="0">	<tr>	 	<td valign="top" style="width:13px; height:400px; background-image:url(http://www.njtransit.com/images/spacer.gif)"></td>		<td valign="top">				<table align="center" cellpadding="0" cellspacing="0" border="0" width="960">					<tr><td height="10"></td></tr>					<tr><td>
+
+        <a id="bcrumb_links" href="http://www.njtransit.com/hp/hp_servlet.srv?hdnPageAction=HomePageTo">Home</a> > <a id="bcrumb_links" href="sf_servlet.srv?hdnPageAction=MainTo">Schedules &amp; Fares</a> > <a id="bcrumb_links" href="sf_servlet.srv?hdnPageAction=TrainTo">Train</a> > <span class="title">Train Schedules Results</span><br>
+        <img src="http://www.njtransit.com/images/spacer.gif" alt="" width="1" height="9" border="0"><br>
+
+        <table border="0" width="900">
+            <tr>
+                <td align="center">
+                    <script type="text/javascript"><!--
+                    google_ad_client = "ca-pub-7698699613857784";
+                    /* Leaderboard Rail S2S Results */
+                    google_ad_slot = "7135843188";
+                    google_ad_width = 728;
+                    google_ad_height = 90;
+                    //-->
+                    </script>
+                    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+                </td>
+            </tr>
+            <tr><td style="height:10px"></td></tr>
+
+            <!-- <tr>
+                     <td align="left" colspan="3"><br/>
+                             <div style="border:1px solid #0A94D6;padding:5px;background-color:#ccc;color:red;font-size:1.2em;"><strong>IMPORTANT NOTE:</strong>&nbsp;
+                                All NJ TRANSIT train service in and out if New York is currently suspended. We're cross-honoring with PATH, NJT bus,  Private Carrier buses and Ferries. New Jersey Transit Trains to New York will end at Newark Penn Station with some trains going to Secaucus.  Please confirm with a member of your train crew.
+                        </div>
+                     </td>
+                </tr> -->
+
+
+            <tr>
+                <td align="left" colspan="3"><br/>
+                    <div style="border:1px solid #0A94D6;padding:5px;background-color:#ccc;color:red;font-size:1.2em;"><strong>IMPORTANT NOTE:</strong>
+                        Service Adjustments Required To Advance Positive Train Control (PTC) Equipment Installation. Beginning Monday, June 4th, some weekday trains will be temporarily discontinued or will have changes to trip origin or destination. This will impact customers along the NEC, NJCL, M&E and PVL.  Other trains throughout the system will have adjustments to schedules and/or station stops. For details, click  <a href="http://www.njtransit.com/var/var_servlet.srv?hdnPageAction=SummerServiceTo">HERE</a>.
+            </tr>
+
+
+
+            <tr>
+                <td valign=top>
+                    <table border="0" cellspacing="0" cellpadding="0">
+
+                        <tr>
+                            <td colspan="3">
+                                <div style="margin: 2px 0 1px 0;">
+                                    <span class="subTitle" style="font-family:arial, sans-serif;">Aberdeen Matawan to Allenhurst on 05/29/2018</span>&nbsp;&nbsp;( <a title="Plan a reverse trip" href="sf_servlet.srv?hdnPageAction=TrainSchedulesFrom&selOrigin=4_NJCL&selDestination=37169_NJCL&OriginDescription=Allenhurst&DestDescription=Aberdeen+Matawan&datepicker=05/29/2018">Plan a reverse trip</a> )
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <div style="margin: 1px 0 2px 0;">
+                                    Please note every effort will be made to maintain connections if presented, however, they cannot be guaranteed. Transfers listed in the trip planner represent the quickest travel time based on scheduled arrival and departure times and may differ from those in printed timetables.
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td style="border:1px solid #9AC1C9; background-color: #efeff1;">
+                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td valign="top">
+                                                        <!-------------------------------- begin table for Departing Trip info ------------------------------------------->
+                                                        <DIV style="width:578px; height:630px; overflow-x:auto; overflow-y:auto;">
+                                                            <table width="100%" border="0" cellspacing="2" cellpadding="5">
+
+                                                                <tr>
+                                                                    <th align="left" valign="top" bgcolor="#efeff1"><span style="color: #0A94D6;"><img src="http://www.njtransit.com/images/spacer.gif" width="111" height="1" alt="" border="0"><br><b>Origin<br>Departure</b></span></th>
+                                                                    <th align="left" valign="top" bgcolor="#efeff1"><span style="color: #0A94D6;"><img src="http://www.njtransit.com/images/spacer.gif" width="111" height="1" alt="" border="0"><br><b>Transfer</b></span></th>
+
+                                                                    <th align="left" valign="top" bgcolor="#efeff1"><span style="color: #0A94D6;"><img src="http://www.njtransit.com/images/spacer.gif" width="111"  height="1" alt="" border="0"><br><b>Destination<br>Arrival</b></span></th>
+                                                                    <th align="left" valign="top" bgcolor="#efeff1"><span style="color: #0A94D6;"><img src="http://www.njtransit.com/images/spacer.gif" width="111"  height="1" alt="" border="0"><br><b>Total Travel<br> Time</b></span></th>
+
+                                                                </tr>
+
+                                                                <tr>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>06:40 AM<br>North Jersey Coast #3215</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>Arrive 07:11 AM<br>Long Branch<br>Depart 07:24 AM<br>North Jersey Coast #4315</span></td>
+
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>07:32 AM</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>52 minutes</span></td>
+
+                                                                </tr>
+
+
+                                                                <tr>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>08:08 AM<br>North Jersey Coast #3221</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>Arrive 08:38 AM<br>Long Branch<br>Depart 08:45 AM<br>North Jersey Coast #4321</span></td>
+
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>08:53 AM</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>45 minutes</span></td>
+
+                                                                </tr>
+
+
+                                                                <tr>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>08:49 AM<br>North Jersey Coast #3223</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>Arrive 09:23 AM<br>Long Branch<br>Depart 09:26 AM<br>North Jersey Coast #4323</span></td>
+
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>09:34 AM</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>45 minutes</span></td>
+
+                                                                </tr>
+
+
+                                                                <tr>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>10:53 AM<br>North Jersey Coast #3231</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>Arrive 11:25 AM<br>Long Branch<br>Depart 11:28 AM<br>North Jersey Coast #4331</span></td>
+
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>11:36 AM</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>43 minutes</span></td>
+
+                                                                </tr>
+
+
+                                                                <tr>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>11:48 AM<br>North Jersey Coast #3235</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>Arrive 12:23 PM<br>Long Branch<br>Depart 12:26 PM<br>North Jersey Coast #4335</span></td>
+
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>12:34 PM</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>46 minutes</span></td>
+
+                                                                </tr>
+
+
+                                                                <tr>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>01:50 PM<br>North Jersey Coast #3243</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>Arrive 02:23 PM<br>Long Branch<br>Depart 02:26 PM<br>North Jersey Coast #4343</span></td>
+
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>02:34 PM</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>44 minutes</span></td>
+
+                                                                </tr>
+
+
+                                                                <tr>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>03:13 PM<br>North Jersey Coast #2303</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>&nbsp;</span></td>
+
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>03:50 PM</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>37 minutes</span></td>
+
+                                                                </tr>
+
+
+                                                                <tr>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>04:37 PM<br>North Jersey Coast #3255</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>Arrive 05:07 PM<br>Long Branch<br>Depart 05:14 PM<br>North Jersey Coast #4355</span></td>
+
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>05:22 PM</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>45 minutes</span></td>
+
+                                                                </tr>
+
+
+                                                                <tr>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>05:36 PM<br>North Jersey Coast #3361</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>&nbsp;</span></td>
+
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>06:12 PM</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>36 minutes</span></td>
+
+                                                                </tr>
+
+
+                                                                <tr>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>06:02 PM<br>North Jersey Coast #3363</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>&nbsp;</span></td>
+
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>06:39 PM</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>37 minutes</span></td>
+
+                                                                </tr>
+
+
+                                                                <tr>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>06:30 PM<br>North Jersey Coast #3269</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>Arrive 07:04 PM<br>Long Branch<br>Depart 07:09 PM<br>North Jersey Coast #4369</span></td>
+
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>07:18 PM</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>48 minutes</span></td>
+
+                                                                </tr>
+
+
+                                                                <tr>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>07:01 PM<br>North Jersey Coast #3373</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>&nbsp;</span></td>
+
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>07:39 PM</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>38 minutes</span></td>
+
+                                                                </tr>
+
+
+                                                                <tr>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>07:18 PM<br>North Jersey Coast #2313</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>&nbsp;</span></td>
+
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>07:54 PM</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>36 minutes</span></td>
+
+                                                                </tr>
+
+
+                                                                <tr>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>08:10 PM<br>North Jersey Coast #3279</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>Arrive 08:39 PM<br>Long Branch<br>Depart 08:43 PM<br>North Jersey Coast #4379</span></td>
+
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>08:51 PM</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>41 minutes</span></td>
+
+                                                                </tr>
+
+
+                                                                <tr>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>09:25 PM<br>North Jersey Coast #3283</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>Arrive 09:57 PM<br>Long Branch<br>Depart 10:00 PM<br>North Jersey Coast #4383</span></td>
+
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>10:08 PM</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>43 minutes</span></td>
+
+                                                                </tr>
+
+
+                                                                <tr>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>11:29 PM<br>North Jersey Coast #3293</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>Arrive 12:05 AM<br>Long Branch<br>Depart 12:08 AM<br>North Jersey Coast #4393</span></td>
+
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>12:16 AM</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#eaeef5"><span>47 minutes</span></td>
+
+                                                                </tr>
+
+
+                                                                <tr>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>12:23 AM<br>North Jersey Coast #3297</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>Arrive 12:59 AM<br>Long Branch<br>Depart 01:03 AM<br>North Jersey Coast #4397</span></td>
+
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>01:11 AM</span></td>
+                                                                    <td align="left" valign="top" bgcolor="#d5dded"><span>48 minutes</span></td>
+
+                                                                </tr>
+
+
+
+                                                            </table>
+                                                        </DIV>
+                                                        <!-------------------------------- end table for Departing Trip info ------------------------------------------->
+
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><img src="http://www.njtransit.com/images/spacer.gif" alt="" width="1" height="5" border="0"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border:1px solid #9AC1C9; background-color: #efeff1;">
+                                            <!-- begin embedded table for Fares -->
+                                            <div id="homepage-box1" style="width: 578px; height:auto;" >
+                                                <div id="ip-box1-inner">
+                                                    <h1>Fares <span style="font-weight:normal;">for this trip</span></h1>
+                                                    <div>
+                                                        <table cellpadding="3" cellspacing="0">
+
+                                                            <tr>
+                                                                <td>
+                                                                    <table cellpadding="0" cellspacing="0">
+
+                                                                        <tr>
+                                                                            <td width="150"><span>Adult One Way</span></td>
+                                                                            <td width="20">&nbsp;</td>
+                                                                            <td align="right"><span>$8.00</span></td>
+                                                                            <td width="60">&nbsp;</td>
+
+
+
+
+                                                                            <td width="150"><span>Child/Senior/Disabled One Way</span></td>
+                                                                            <td width="20">&nbsp;</td>
+                                                                            <td align="right"><span>$3.80</span></td>
+                                                                        </tr>
+
+
+                                                                        <tr>
+                                                                            <td width="150"><span>Weekly</span></td>
+                                                                            <td width="20">&nbsp;</td>
+                                                                            <td align="right"><span>$68.50</span></td>
+                                                                            <td width="60">&nbsp;</td>
+
+
+
+
+                                                                            <td width="150"><span>Ten Trip</span></td>
+                                                                            <td width="20">&nbsp;</td>
+                                                                            <td align="right"><span>$80.00</span></td>
+                                                                        </tr>
+
+
+                                                                        <tr>
+                                                                            <td width="150"><span>Monthly</span></td>
+                                                                            <td width="20">&nbsp;</td>
+                                                                            <td align="right"><span>$227.00</span></td>
+                                                                            <td width="60">&nbsp;</td>
+
+
+
+
+                                                                            <td width="150"><span>Student Monthly</span></td>
+                                                                            <td width="20">&nbsp;</td>
+                                                                            <td align="right"><span>$170.00</span></td>
+                                                                        </tr>
+
+
+
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+
+
+
+
+                                                            <tr>
+                                                                <td><a id="deals" style="font-weight: bold;" href="/ti/ti_servlet.srv?hdnPageAction=RailTicketsTo&DP=0">More fare information</a></td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end embedded table for Fares -->
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+
+                            <td><img src="http://www.njtransit.com/images/spacer.gif" alt="" width="5"></td>
+
+                            <td valign="top" align="left">
+                                <!-- begin embedded table for Trip Tools -->
+
+                                <table width="370" border="0" cellspacing="0" cellpadding="0"><tr><td>
+                                    <!-- <div style="width: 365px; height: 148px; background-image:url(http://www.njtransit.com/images/s2s_box_dv_si.jpg)">-->
+                                    <div id="homepage-box1" style="width: 365px; height: 148px; border:1px solid #0A94D6; background-color:#eaeef5;">
+                                        <div id="ip-box1-inner">
+                                            <h1>Trip Tools</h1>
+                                            <div style="margin-left:2px;">
+                                                <table cellpadding="2" cellspacing="0">
+
+                                                    <tr>
+                                                        <td><a id="deals" href="/rg/rg_servlet.srv?hdnPageAction=PentaDisplayTo&SID=AM&KeepThis=true&TB_iframe=true&height=650&width=900" class="thickbox">DepartureVision for Aberdeen Matawan</a></td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td><a id="deals" href="/rg/rg_servlet.srv?hdnPageAction=TrainStationLookupFrom&selStation=37169" target="_blank">Station Info for Aberdeen Matawan</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a id="deals" href="/rg/rg_servlet.srv?hdnPageAction=TrainStationLookupFrom&selStation=4" target="_blank">Station Info for Allenhurst</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a id="deals" href="#" onClick="saveTrip()">Save This Trip</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a id="deals" href="sf_servlet.srv?hdnPageAction=TrainSchedulesEmailTo&selOrigin=37169_NJCL&selDestination=4_NJCL&OriginDescription=Aberdeen+Matawan&DestDescription=Allenhurst&datepicker=05/29/2018&KeepThis=true&TB_iframe=true&height=125&width=300" class="thickbox" title="Email NJ Transit Schedule">Email This Schedule</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a id="deals" href="#" onClick="javascript:openPrintWindow()">Print This Schedule</a></td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td></tr></table>
+
+                                <!-- end embedded table for Trip Tools -->
+
+                                <!-- begin embedded table for Google Adsense 300x250 -->
+                                <table width="370" border="0" cellspacing="0" cellpadding="0"><tr><td>
+                                    <div id="homepage-box1" style="width: 333px; *width: 365px; height:260px; *height:270px; padding: 10px 0 0 32px; border:1px solid #9AC1C9; background-color:#efeff1; *margin-top:5px;" >
+                                        <script type="text/javascript"><!--
+                                        google_ad_client = "ca-pub-7698699613857784";
+                                        /* Rail Station 2 Station Results 300x250 */
+                                        google_ad_slot = "8278200690";
+                                        google_ad_width = 300;
+                                        google_ad_height = 250;
+                                        //-->
+                                        </script>
+                                        <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+                                    </div>
+                                </td></tr></table>
+                                <!-- end embedded table for Google Adsense 300x250 -->
+
+                                <!--  Advisories Start (Store ALL alerts/advisories in hashmap hmpAdvisories) -->
+                                <!-- Train Alerts  -->
+
+
+
+
+                                <!-- Service Advisories -->
+
+
+                                <!-- Station Advisories -->
+
+
+
+
+
+                                <!-- Customer Notices -->
+
+
+                                <!--  Advisories End (Store ALL alerts/advisories in hashmap hmpAdvisories) -->
+
+                                <!-- begin embedded table for Alerts & Advisories -->
+                                <table width="370" border="0" cellspacing="0" cellpadding="0"><tr><td>
+
+                                    <div id="homepage-box1" style="width: 365px; height:auto; border:1px solid #9AC1C9; background-color:#efeff1;" >
+
+                                        <div id="ip-box1-inner">
+                                            <h1>Alerts &amp; Advisories <span style="font-weight:normal;">for this trip</span></h1>
+                                            <div>
+                                                <table cellpadding="3" cellspacing="0">
+
+                                                    <tr>
+
+                                                        <td><span style="color:red;font-weight:bold;"><span style='font-weight:normal;'>May 27, 2018:</span>Service Adjustments Required To Advance Positive Train Control (PTC) Equipment Installation. Beginning Monday, June 4th, some week<A HREF='/sa/sa_servlet.srv?hdnPageAction=TravelAlertsTo&rel=Rail&selLine=NJCL'>[more]</a></span></td>
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td><span style="color:red;font-weight:bold;"><span style='font-weight:normal;'>May 27, 2018:</span>NEC and NJCL schedules have been modified to accommodate Amtrak track rehabilitation work at Penn Station New York. Other train li<A HREF='/sa/sa_servlet.srv?hdnPageAction=TravelAlertsTo&rel=Rail&selLine=NJCL'>[more]</a></span></td>
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td><span style="color:red;font-weight:bold;"><span style='font-weight:normal;'>May 27, 2018:</span>NJCL train #7244 the 3:04pm from Long Branch is up to 15 min. late due to a late connection caused by signal problems.</span></td>
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td><span style="color:red;font-weight:bold;"><span style='font-weight:normal;'>May 27, 2018:</span>North Jersey Coast Line’s Bay Head train service is subject to 20-minute delays between Bay Head and Long Branch due to weather-<A HREF='/sa/sa_servlet.srv?hdnPageAction=TravelAlertsTo&rel=Rail&selLine=NJCL'>[more]</a></span></td>
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td><A id='deals' HREF='/sa/sa_servlet.srv?hdnPageAction=ServiceAdjustmentTo&AdjustmentId=9792'>NJ TRANSIT Printable Timetables</td>
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td><A id='deals' HREF='/sa/sa_servlet.srv?hdnPageAction=ServiceAdjustmentTo&AdjustmentId=17721'>REMINDER: NJ TRANSIT Rail Service for Memorial Day Weekend 2018</td>
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td><A id='deals' HREF='/sa/sa_servlet.srv?hdnPageAction=ServiceAdjustmentTo&AdjustmentId=17794'>North Jersey Coast Line: Possible Delays due to Track Work near Perth Amboy - Friday, June 8-Monday, June 11, 2018</td>
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td><A id='deals' HREF='/sa/sa_servlet.srv?hdnPageAction=ServiceAdjustmentTo&AdjustmentId=17638'>UPDATE: North Jersey Coast Line: Possible Delays due to Track Work between East Matawan and Red Bank - Saturday, May 26, and Sunday, June 3, 2018</td>
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td><A id='deals' HREF='/sa/sa_servlet.srv?hdnPageAction=ServiceAdjustmentTo&AdjustmentId=17618'>North Jersey Coast Line: NJ TRANSIT Adjusts Weekday Schedules for Positive Train Control Installation - Beginning Monday, June 4, 2018</td>
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td><A id='deals' HREF='/sa/sa_servlet.srv?hdnPageAction=ServiceAdjustmentTo&AdjustmentId=17632'>RESCHEDULED: North Jersey Coast Line: Possible Delays due to Track Work near Woodbridge - Saturday, June 2, 2018</td>
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td><A id='deals' HREF='/sa/sa_servlet.srv?hdnPageAction=ServiceAdjustmentTo&AdjustmentId=17395'>North Jersey Coast Line: Possible Delays between Woodbridge and Matawan due to Track Work through Friday, June 8, 2018</td>
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td><A id='deals' HREF='/sa/sa_servlet.srv?hdnPageAction=ServiceAdjustmentTo&AdjustmentId=17522'> Monmouth Park Station: Service to Monmouth Park Resumes Weekends Beginning Saturday, May 5, 2018</td>
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td><A id='deals' HREF='/sa/sa_servlet.srv?hdnPageAction=ServiceAdjustmentTo&AdjustmentId=16882'>Penn Station New York: Amtrak Track Rehabilitation/Construction Affects NJ TRANSIT’s NEC & NJCL Weekday Train Service through May 28, 2018 </td>
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td><A id='deals' HREF='/sa/sa_servlet.srv?hdnPageAction=CustomerNoticeTo&NoticeId=2516'>Penn Station New York: Amtrak Track Rehabilitation/Construction Affects NJ TRANSIT’s NEC & NJCL Weekday Train Service through Friday, June 1, 2018 </td>
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td><A id='deals' HREF='/sa/sa_servlet.srv?hdnPageAction=CustomerNoticeTo&NoticeId=2528'>NJ TRANSIT Adjusts Weekday Rail Schedules to Advance Positive Train Control (PTC) Installation - Effective Monday, June 4, 2018</td>
+
+                                                    </tr>
+
+                                                    <tr>
+
+                                                        <td><A id='deals' HREF='/sa/sa_servlet.srv?hdnPageAction=CustomerNoticeTo&NoticeId=2517'>NJ TRANSIT Readies for Winter Weather Season with New Severe Weather Rail Schedules</td>
+
+                                                    </tr>
+
+
+                                                    <tr>
+                                                        <td><a id="deals" style="font-weight: bold;" href="/sa/sa_servlet.srv?hdnPageAction=TravelAlertsTo">View all Alerts &amp; Advisories</a></td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td></tr></table>
+                                <!-- end embedded table for Alerts & Advisoriess -->
+
+                                <!-- begin embedded table for Deals and Discounts -->
+                                <table width="370" border="0" cellspacing="0" cellpadding="0"><tr><td>
+
+                                    <div id="homepage-box1" style="width: 365px; height:auto; border:1px solid #9AC1C9; background-color:#efeff1;" >
+
+                                        <div id="ip-box1-inner">
+                                            <h1>Deals &amp; Discounts <span style="font-weight:normal;">for this trip</span></h1>
+                                            <div>
+                                                <table cellpadding="3" cellspacing="0">
+
+                                                    <tr>
+                                                        <td><a id="deals" href="http://www.njtransit.com/ti/ti_servlet.srv?hdnPageAction=StudentPassTo" target="_blank">NJ TRANSIT Student Pass - Special Savings for College Students</a></td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td><a id="deals" href="http://www.njtransit.com/ti/ti_servlet.srv?hdnPageAction=GroupTravelTo" target="_blank">NJ TRANSIT Group Sales - Save up to 25%</a></td>
+                                                    </tr>
+
+
+                                                    <tr>
+                                                        <td><a id="deals" style="font-weight: bold;" href="/tm/tm_servlet.srv?hdnPageAction=SpTo">View all Deals &amp; Discounts</a></td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td></tr></table>
+                                <!-- end embedded table for Deals and Discounts -->
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+        </table>
+
+
+        <script type="text/javascript">
+          // BeginWebWidget jQuery_UI_Tabs: jQueryUITabs1
+          //jQuery("#Tabs > ul").tabs({ event: "click" });
+          // EndWebWidget jQuery_UI_Tabs: jQueryUITabs1
+
+          $( document ).ready(function() {
+
+          /*  $('a[href="#load_otp_window"]').click(function(){
+
+                  var posX = $(this).position().left;
+                  var posY = $(this).position().top;
+                  var top = posY - 20;
+                  var left = posX + 900;
+
+                  if(typeof(otpWindow) != "undefined" ){
+                      otpWindow.close();
+                  }
+                  var tNo = $(this).attr('id');
+                  otpWindow = window.open("/sf/sf_servlet.srv?hdnPageAction=TrainOTPTo&tn="+tNo, "otpWindow", "toolbar=no, location=no, directories=no, status=no, menubar=no, width=520, height=270, top="+top+", left="+left);   // Opens a new window
+             });
+
+
+          });*/
+
+
+
+
+
+        </script>
+    </td>				</tr>				<tr><td height="10"></td></tr>			</table>		</td>	 	<td valign="top" style="width:13px; height:400px; background-image:url(http://www.njtransit.com/images/spacer.gif)"></td>	</tr></table></DIV><!-- ######################################################################							END PAGE CONTENT######################################################################### --> <DIV id="njt_ftrcntnt"><div id="njt_ftrcntntinner">	<div id="ftr-weather" style="visibility:visible">	</div>	<div id="ftr-social">		<img src="http://www.njtransit.com/images/social-intro.gif" alt="" border="0">		<a href="http://www.njtransit.com/var/var_servlet.srv?hdnPageAction=NJTAppTo"><img src="http://www.njtransit.com/images/social_njt.gif"/></a>		<img src="http://www.njtransit.com/images/spacer.gif" alt="" width="10" height="5" border="0">		<a href="http://www.twitter.com/NJTRANSIT" target="_blank"><img src="http://www.njtransit.com/images/social_t.gif"/></a>		<img src="http://www.njtransit.com/images/spacer.gif" alt="" width="10" height="5" border="0">		<a href="http://www.facebook.com/NJTRANSIT" target="_blank"><img src="http://www.njtransit.com/images/social_f.gif"/></a>		<img src="http://www.njtransit.com/images/spacer.gif" alt="" width="7" height="5" border="0">		<a href="http://www.youtube.com/TheNewJerseyTransit" target="_blank"><img src="http://www.njtransit.com/images/social_y.gif"/></a>		<img src="http://www.njtransit.com/images/spacer.gif" alt="" width="20" height="5" border="0">		<a href="https://www.instagram.com/njtransit/" target="_blank"><img src="http://www.njtransit.com/images/social_i.png"/></a>		<img src="http://www.njtransit.com/images/spacer.gif" alt="" width="20" height="5" border="0">	</div>	<div class="njt_clear"></div>	<div class="njt_divline" style="background-color:#ebebeb;margin-top:3px"></div>	<div class="njt_ftrnvlnks">		<div>			<a href="http://www.njtransit.com/tm/tm_servlet.srv?hdnPageAction=CorpInfoTo">About Us</a>			|			<a href="http://www.njtransit.com/tm/tm_servlet.srv?hdnPageAction=NJTNewsTo">News</a>			|			<a href="http://www.njtransit.com/transitarts">Transit Arts</a>			|			<a href="http://www.njtransit.com/tm/tm_servlet.srv?hdnPageAction=CapProjectsTo">Capital Projects</a>			|			<a href="http://www.njtransit.com/tm/tm_servlet.srv?hdnPageAction=CareersTo">Careers</a>			|			<a href="https://www.njtransit.com/developer">Developers</a>			|			<a href="http://www.njtransit.com/civilrights">Civil Rights</a>			|			<a href="http://www.njtransit.com/tm/tm_servlet.srv?hdnPageAction=DoingBusinessTo">Doing Business</a>			|			<a href="http://www.njtransit.com/po/po_servlet.srv?hdnPageAction=PoliceHomeTo">Police</a>			|			<a href="http://www.njtransit.com/tm/tm_servlet.srv?hdnPageAction=SiteMapTo">Site Map</a>			|			<a href="http://www.njtransit.com/tm/tm_servlet.srv?hdnPageAction=OpraTo">OPRA</a>		</div>	</div>	<div class="njt_ftrdivl2"></div>	<div class="njt_ftrlnggcntr">		<div id="google_translate_element">			<div id="gtranslate"><a href="javascript:void(0)">Translate this Site</a><img src="http://www.njtransit.com/images/spacer.gif" alt="" width="60" height="5" border="0"></div>		</div>	</div>	<div class="njt_ftrlgcpy">		<img src="http://www.njtransit.com/images/spacer.gif" alt="" width="30" height="5" border="0">		<b>&copy; 2018 NJ TRANSIT. ALL RIGHTS RESERVED. <a href="http://www.njtransit.com/tm/tm_servlet.srv?hdnPageAction=CopyrightTo" class="copyright" style="text-decoration: none;">TERMS OF USE</a></b>	</div>	<div class="njt_clear"></div></div></DIV></DIV></DIV><DIV class="njt_borderbottom"></DIV><script type="text/javascript">var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1");var MenuBar2 = new Spry.Widget.MenuBar("MenuBar2");var MenuBar3 = new Spry.Widget.MenuBar("MenuBar3");var MenuBar4 = new Spry.Widget.MenuBar("MenuBar4");var MenuBar5 = new Spry.Widget.MenuBar("MenuBar5");var MenuBar6 = new Spry.Widget.MenuBar("MenuBar6");</script><script src="https://ssl.google-analytics.com/urchin.js" type="text/javascript"></script><script type="text/javascript">_uacct = "UA-3154326-1";urchinTracker();</script><script type="text/javascript" src="http://www.njtransit.com/javascript/jquery-1.7.1.min.js"></script><script type="text/javascript" src="http://www.njtransit.com/javascript/jquery.simpleWeather.js"></script><script>window.hasOwnProperty = window.hasOwnProperty || Object.prototype.hasOwnProperty;function googleTranslateElementInitS() {  new google.translate.TranslateElement({    pageLanguage: 'en',    includedLanguages: 'ar,zh-TW,en,fr,de,hi,it,ko,pt,es,ja,pl,gu,te,pt,fr,ru,,fr,vi',    autoDisplay: false,    gaTrack: true,    gaId: 'UA-3154326-1',    layout: google.translate.TranslateElement.InlineLayout.SIMPLE  }, 'google_translate_element');}function googleTranslateElementInitV() {  new google.translate.TranslateElement({    pageLanguage: 'en',    includedLanguages: 'ar,zh-TW,en,fr,de,hi,it,ko,pt,es,ja,pl,gu,te,pt,fr,ru,fr,vi',    autoDisplay: false,    gaTrack: true,    gaId: 'UA-3154326-1',    layout: google.translate.TranslateElement.InlineLayout.VERTICAL  }, 'google_translate_element');}function getCookie(c_name){var i,x,y,ARRcookies=document.cookie.split(";");for (i=0;i<ARRcookies.length;i++){  x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));  y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);  x=x.replace(/^\s+|\s+$/g,"");  if (x==c_name)    {    return unescape(y);    }  }}var $j = jQuery.noConflict();$j(document).ready(function(){		var googtrans = getCookie("googtrans");	if (googtrans != null && googtrans != "/en/en") {		$j.getScript(window.location.protocol + '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInitV');		$j('#gtranslate').hide();	}	$j('#gtranslate').click(function() {	       	$j.getScript(window.location.protocol + '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInitV');		$j('#gtranslate').hide();	});	$j('#clicksearch').click(function() {				$j('#hdrfrmSearch').submit();	});    /*	$j.simpleWeather({        zipcode: '07105',        unit: 'f',        success: function(weather) {                html = '<div id="njt_ftrwthr1"><img src="'+weather.thumbnail+'"></div><div id="njt_ftrwthr2"><div id="njt_ftrwthr3"><span class="notranslate">'+weather.temp+'&deg;</span></div><div id="njt_ftrwthr4"><div><span class="notranslate">HI '+weather.high+'&deg;<span style="padding-left:7px">LO '+weather.low+'&deg;</span></span></div><div style="clear:left; line-height: 13px"><span style="padding-right:6px">'+weather.city+', '+weather.region+'</span><a href="http://www.weather.com/weather/tenday/40.735657,-74.172367" target="_blank" style="text-decoration: none; color: #2A69A6;">Weather forecast</a></div></div></div>';                $j("#ftr-weather").html(html);        },        error: function(error) {                $j("#ftr-weather").html("");        }	});	*/});</script></script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script><script type="text/javascript" src="http://www.njtransit.com/javascript/qm.js"></script><script type="text/javascript" src="http://www.njtransit.com/javascript/qm_pure_css.js"></script><script type="text/javascript">qm_create(0,false,0,250,false,false,false,false);</script><style>.goog-te-balloon-frame{display: none !important;  box-shadow: none !important; -moz-box-shadow: none !important; -webkit-box-shadow none !important;}font{background: transparent !important;}.goog-te-balloon{display: none !important;}#goog-gt-tt{display: none !important; text-decoration:none; box-shadow: none !important; -moz-box-shadow: none !important; -webkit-box-shadow none !important;}font{background: transparent !important;}#goog-gt-tt .status-message {text-shadow: none !important;}#goog-gt-tt .alt-menu, .goog-text-highlight, #goog-gt-tt .trans-target-highlight, #alt-input-text:hover, #alt-input-text:focus {box-shadow: none !important; -moz-box-shadow: none !important; -webkit-box-shadow none !important;}body {top: 0px !important; position: static !important; }.goog-te-banner-frame{display: none !important;}.goog-logo-link{display: none !important;}.goog-te-gadget{height: 24px !important; *height: 20px !important; width:154px; *width:168px; overflow: hidden; background:#ffffff url(http://www.njtransit.com/images/gtranslate_select.gif) no-repeat left top; font-size: 10pt !important; background-position: 2px 2px; *background-position: 2px 0px;}.goog-te-combo{height: 22px !important; width:130px; *width:145px; margin: 1px 0 1px 0 !important; *margin: 0 0 0 0 !important; padding: 2px; *padding: 0 0 0 0; font-size: 10pt !important; border: 0 none !important; *position: relative; *top: -1px;}a.goog-te-menu-value{    text-decoration: none;}#gtranslate{ 	margin: 5px 0 0 0;	font-weight: bold;	font-size: 10pt !important;}html{	background: none;}</style><!-- MNI Retargeting Pixel June 2017--><script src='//www.mnixpixel.com/rt/739541?p=70151'></script><!-- MNI Retargeting Pixel Homeland Retargeting Pixel Dec 2017--><script src='//www.mnixpixel.com/rt/739541?p=75741'></script></body></html>
+
+

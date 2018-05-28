@@ -1,5 +1,5 @@
 import * as _ from 'lodash'
-import * as NJTDao from '../dao/njt-dao'
+import * as NJTTripDao from '../dao/njt-trip-dao'
 import * as moment from 'moment'
 import globals from '../globals'
 
@@ -70,7 +70,7 @@ export async function getTripOptionsFromNJTPage(
   destination: StationInfo,
   tripDate: moment.Moment
 ): Promise<Trip[]> {
-  const njtPageText = await NJTDao.getNJTPageText(origin, destination, tripDate)
+  const njtPageText = await NJTTripDao.getNJTPageText(origin, destination, tripDate)
   const { cheerio } = globals
   const $ = cheerio.load(njtPageText)
   const panelTexts = $('.AccordionPanel .AccordionPanelContent')
