@@ -1,6 +1,6 @@
 {
   "name": "njt-api",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "An API for accessing NJTransit train information",
   "repository": {
     "type": "git",
