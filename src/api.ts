@@ -67,6 +67,10 @@ function getStationNames(): string[] {
   return StationManager.getStationNames()
 }
 
+function getStationScheduleIds(): string[] {
+  return StationManager.getScheduleIds()
+}
+
 function getStations(): { [name: string]: StationInfo } {
   return StationManager.getStations()
 }
@@ -86,6 +90,7 @@ export const Trips = {
 
 export const Stations = {
   getStationNames,
+  getStationScheduleIds,
   getStations,
   getStationInfo
 }

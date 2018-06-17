@@ -1,11 +1,14 @@
 import { StationInfo } from '../types'
 
-const stationInfo: {
-  [name: string]: StationInfo
-} = require('../../data/station-info.json')
-const stationScheduleIds: {
-  [name: string]: string
-} = require('../../data/schedule-ids.json')
+type StationInfoMap = {
+  [stationName: string]: StationInfo
+}
+const stationInfo: StationInfoMap = require('../../data/station-info.json')
+
+type StationScheduleIds = {
+  [stationId: string]: string
+}
+const stationScheduleIds: StationScheduleIds = require('../../data/schedule-ids.json')
 
 const stations = Object.keys(stationInfo)
 
@@ -19,6 +22,10 @@ export function getStations(): { [name: string]: StationInfo } {
 
 export function getStation(stationName: string): StationInfo | null {
   return stationInfo[stationName]
+}
+
+export function getScheduleIds(): string[] {
+  return Object.keys(stationScheduleIds)
 }
 
 export function getScheduleIdForStation(stationName: string): string | null {

@@ -1,167 +1,168 @@
-export type StationName =
-  | 'Aberdeen Matawan'
-  | 'Absecon'
-  | 'Allendale'
-  | 'Allenhurst'
-  | 'Anderson Street'
-  | 'Annandale'
-  | 'Asbury Park'
-  | 'Atco'
-  | 'Atlantic City'
-  | 'Avenel'
-  | 'Basking Ridge'
-  | 'Bay Head'
-  | 'Bay Street'
-  | 'Belmar'
-  | 'Berkeley Heights'
-  | 'Bernardsville'
-  | 'Bloomfield'
-  | 'Boonton'
-  | 'Bound Brook'
-  | 'Bradley Beach'
-  | 'Brick Church'
-  | 'Bridgewater'
-  | 'Broadway'
-  | 'Campbell Hall'
-  | 'Chatham'
-  | 'Cherry Hill'
-  | 'Clifton'
-  | 'Convent Station'
-  | 'Cranford'
-  | 'Delawanna'
-  | 'Denville'
-  | 'Dover'
-  | 'Dunellen'
-  | 'East Orange'
-  | 'Edison'
-  | 'Egg Harbor City'
-  | 'Elberon'
-  | 'Elizabeth'
-  | 'Emerson'
-  | 'Essex Street'
-  | 'Fanwood'
-  | 'Far Hills'
-  | 'Garfield'
-  | 'Garwood'
-  | 'Gillette'
-  | 'Gladstone'
-  | 'Glen Ridge'
-  | 'Glen Rock Boro Hall'
-  | 'Glen Rock Main Line'
-  | 'Hackettstown'
-  | 'Hamilton'
-  | 'Hammonton'
-  | 'Harriman'
-  | 'Hawthorne'
-  | 'Hazlet'
-  | 'High Bridge'
-  | 'Highland Avenue'
-  | 'Hillsdale'
-  | 'Ho-Ho-Kus'
-  | 'Hoboken'
-  | 'Jersey Avenue'
-  | 'Kingsland'
-  | 'Lake Hopatcong'
-  | 'Lebanon'
-  | 'Lincoln Park'
-  | 'Linden'
-  | 'Lindenwold'
-  | 'Little Falls'
-  | 'Little Silver'
-  | 'Long Branch'
-  | 'Lyndhurst'
-  | 'Lyons'
-  | 'Madison'
-  | 'Mahwah'
-  | 'Manasquan'
-  | 'Maplewood'
-  | 'Meadowlands Sports Complex'
-  | 'Metropark'
-  | 'Metuchen'
-  | 'Middletown New Jersey'
-  | 'Middletown New York'
-  | 'Millburn'
-  | 'Millington'
-  | 'Monmouth Park'
-  | 'Montclair Heights'
-  | 'Montclair State University'
-  | 'Montvale'
-  | 'Morris Plains'
-  | 'Morristown'
-  | 'Mount Arlington'
-  | 'Mount Olive'
-  | 'Mount Tabor'
-  | 'Mountain Avenue'
-  | 'Mountain Lakes'
-  | 'Mountain Station'
-  | 'Mountain View'
-  | 'Murray Hill'
-  | 'Nanuet'
-  | 'Netcong'
-  | 'Netherwood'
-  | 'New Bridge Landing'
-  | 'New Brunswick'
-  | 'New Providence'
-  | 'New York Penn Station'
-  | 'Newark Airport'
-  | 'Newark Broad Street'
-  | 'Newark Penn Station'
-  | 'North Branch'
-  | 'North Elizabeth'
-  | 'Oradell'
-  | 'Orange'
-  | 'Otisville'
-  | 'Park Ridge'
-  | 'Passaic'
-  | 'Paterson'
-  | 'Peapack'
-  | 'Pearl River'
-  | 'Pennsauken Transit Center'
-  | 'Perth Amboy'
-  | 'Philadelphia 30th Street'
-  | 'Plainfield'
-  | 'Plauderville'
-  | 'Point Pleasant Beach'
-  | 'Port Jervis'
-  | 'Princeton'
-  | 'Princeton Junction'
-  | 'Radburn'
-  | 'Rahway'
-  | 'Ramsey'
-  | 'Ramsey Route 17'
-  | 'Raritan'
-  | 'Red Bank'
-  | 'Ridgewood'
-  | 'River Edge'
-  | 'Roselle Park'
-  | 'Rutherford'
-  | 'Salisbury Mills Cornwall'
-  | 'Secaucus Junction'
-  | 'Short Hills'
-  | 'Sloatsburg'
-  | 'Somerville'
-  | 'South Amboy'
-  | 'South Orange'
-  | 'Spring Lake'
-  | 'Spring Valley'
-  | 'Stirling'
-  | 'Suffern'
-  | 'Summit'
-  | 'Teterboro'
-  | 'Towaco'
-  | 'Trenton Transit Center'
-  | 'Tuxedo'
-  | 'Union'
-  | 'Upper Montclair'
-  | 'Waldwick'
-  | 'Walnut Street'
-  | 'Watchung Avenue'
-  | 'Watsessing Avenue'
-  | 'Wayne/Route 23 Transit Center'
-  | 'Wesmont'
-  | 'Westfield'
-  | 'Westwood'
-  | 'White House'
-  | 'Wood Ridge'
-  | 'Woodbridge'
-  | 'Woodcliff Lake'
+export enum StationName {
+  'Aberdeen Matawan' = 'Aberdeen Matawan',
+  'Absecon' = 'Absecon',
+  'Allendale' = 'Allendale',
+  'Allenhurst' = 'Allenhurst',
+  'Anderson Street' = 'Anderson Street',
+  'Annandale' = 'Annandale',
+  'Asbury Park' = 'Asbury Park',
+  'Atco' = 'Atco',
+  'Atlantic City' = 'Atlantic City',
+  'Avenel' = 'Avenel',
+  'Basking Ridge' = 'Basking Ridge',
+  'Bay Head' = 'Bay Head',
+  'Bay Street' = 'Bay Street',
+  'Belmar' = 'Belmar',
+  'Berkeley Heights' = 'Berkeley Heights',
+  'Bernardsville' = 'Bernardsville',
+  'Bloomfield' = 'Bloomfield',
+  'Boonton' = 'Boonton',
+  'Bound Brook' = 'Bound Brook',
+  'Bradley Beach' = 'Bradley Beach',
+  'Brick Church' = 'Brick Church',
+  'Bridgewater' = 'Bridgewater',
+  'Broadway' = 'Broadway',
+  'Campbell Hall' = 'Campbell Hall',
+  'Chatham' = 'Chatham',
+  'Cherry Hill' = 'Cherry Hill',
+  'Clifton' = 'Clifton',
+  'Convent Station' = 'Convent Station',
+  'Cranford' = 'Cranford',
+  'Delawanna' = 'Delawanna',
+  'Denville' = 'Denville',
+  'Dover' = 'Dover',
+  'Dunellen' = 'Dunellen',
+  'East Orange' = 'East Orange',
+  'Edison' = 'Edison',
+  'Egg Harbor City' = 'Egg Harbor City',
+  'Elberon' = 'Elberon',
+  'Elizabeth' = 'Elizabeth',
+  'Emerson' = 'Emerson',
+  'Essex Street' = 'Essex Street',
+  'Fanwood' = 'Fanwood',
+  'Far Hills' = 'Far Hills',
+  'Garfield' = 'Garfield',
+  'Garwood' = 'Garwood',
+  'Gillette' = 'Gillette',
+  'Gladstone' = 'Gladstone',
+  'Glen Ridge' = 'Glen Ridge',
+  'Glen Rock Boro Hall' = 'Glen Rock Boro Hall',
+  'Glen Rock Main Line' = 'Glen Rock Main Line',
+  'Hackettstown' = 'Hackettstown',
+  'Hamilton' = 'Hamilton',
+  'Hammonton' = 'Hammonton',
+  'Harriman' = 'Harriman',
+  'Hawthorne' = 'Hawthorne',
+  'Hazlet' = 'Hazlet',
+  'High Bridge' = 'High Bridge',
+  'Highland Avenue' = 'Highland Avenue',
+  'Hillsdale' = 'Hillsdale',
+  'Ho-Ho-Kus' = 'Ho-Ho-Kus',
+  'Hoboken' = 'Hoboken',
+  'Jersey Avenue' = 'Jersey Avenue',
+  'Kingsland' = 'Kingsland',
+  'Lake Hopatcong' = 'Lake Hopatcong',
+  'Lebanon' = 'Lebanon',
+  'Lincoln Park' = 'Lincoln Park',
+  'Linden' = 'Linden',
+  'Lindenwold' = 'Lindenwold',
+  'Little Falls' = 'Little Falls',
+  'Little Silver' = 'Little Silver',
+  'Long Branch' = 'Long Branch',
+  'Lyndhurst' = 'Lyndhurst',
+  'Lyons' = 'Lyons',
+  'Madison' = 'Madison',
+  'Mahwah' = 'Mahwah',
+  'Manasquan' = 'Manasquan',
+  'Maplewood' = 'Maplewood',
+  'Meadowlands Sports Complex' = 'Meadowlands Sports Complex',
+  'Metropark' = 'Metropark',
+  'Metuchen' = 'Metuchen',
+  'Middletown New Jersey' = 'Middletown New Jersey',
+  'Middletown New York' = 'Middletown New York',
+  'Millburn' = 'Millburn',
+  'Millington' = 'Millington',
+  'Monmouth Park' = 'Monmouth Park',
+  'Montclair Heights' = 'Montclair Heights',
+  'Montclair State University' = 'Montclair State University',
+  'Montvale' = 'Montvale',
+  'Morris Plains' = 'Morris Plains',
+  'Morristown' = 'Morristown',
+  'Mount Arlington' = 'Mount Arlington',
+  'Mount Olive' = 'Mount Olive',
+  'Mount Tabor' = 'Mount Tabor',
+  'Mountain Avenue' = 'Mountain Avenue',
+  'Mountain Lakes' = 'Mountain Lakes',
+  'Mountain Station' = 'Mountain Station',
+  'Mountain View' = 'Mountain View',
+  'Murray Hill' = 'Murray Hill',
+  'Nanuet' = 'Nanuet',
+  'Netcong' = 'Netcong',
+  'Netherwood' = 'Netherwood',
+  'New Bridge Landing' = 'New Bridge Landing',
+  'New Brunswick' = 'New Brunswick',
+  'New Providence' = 'New Providence',
+  'New York Penn Station' = 'New York Penn Station',
+  'Newark Airport' = 'Newark Airport',
+  'Newark Broad Street' = 'Newark Broad Street',
+  'Newark Penn Station' = 'Newark Penn Station',
+  'North Branch' = 'North Branch',
+  'North Elizabeth' = 'North Elizabeth',
+  'Oradell' = 'Oradell',
+  'Orange' = 'Orange',
+  'Otisville' = 'Otisville',
+  'Park Ridge' = 'Park Ridge',
+  'Passaic' = 'Passaic',
+  'Paterson' = 'Paterson',
+  'Peapack' = 'Peapack',
+  'Pearl River' = 'Pearl River',
+  'Pennsauken Transit Center' = 'Pennsauken Transit Center',
+  'Perth Amboy' = 'Perth Amboy',
+  'Philadelphia 30th Street' = 'Philadelphia 30th Street',
+  'Plainfield' = 'Plainfield',
+  'Plauderville' = 'Plauderville',
+  'Point Pleasant Beach' = 'Point Pleasant Beach',
+  'Port Jervis' = 'Port Jervis',
+  'Princeton' = 'Princeton',
+  'Princeton Junction' = 'Princeton Junction',
+  'Radburn' = 'Radburn',
+  'Rahway' = 'Rahway',
+  'Ramsey' = 'Ramsey',
+  'Ramsey Route 17' = 'Ramsey Route 17',
+  'Raritan' = 'Raritan',
+  'Red Bank' = 'Red Bank',
+  'Ridgewood' = 'Ridgewood',
+  'River Edge' = 'River Edge',
+  'Roselle Park' = 'Roselle Park',
+  'Rutherford' = 'Rutherford',
+  'Salisbury Mills Cornwall' = 'Salisbury Mills Cornwall',
+  'Secaucus Junction' = 'Secaucus Junction',
+  'Short Hills' = 'Short Hills',
+  'Sloatsburg' = 'Sloatsburg',
+  'Somerville' = 'Somerville',
+  'South Amboy' = 'South Amboy',
+  'South Orange' = 'South Orange',
+  'Spring Lake' = 'Spring Lake',
+  'Spring Valley' = 'Spring Valley',
+  'Stirling' = 'Stirling',
+  'Suffern' = 'Suffern',
+  'Summit' = 'Summit',
+  'Teterboro' = 'Teterboro',
+  'Towaco' = 'Towaco',
+  'Trenton Transit Center' = 'Trenton Transit Center',
+  'Tuxedo' = 'Tuxedo',
+  'Union' = 'Union',
+  'Upper Montclair' = 'Upper Montclair',
+  'Waldwick' = 'Waldwick',
+  'Walnut Street' = 'Walnut Street',
+  'Watchung Avenue' = 'Watchung Avenue',
+  'Watsessing Avenue' = 'Watsessing Avenue',
+  'Wayne/Route 23 Transit Center' = 'Wayne/Route 23 Transit Center',
+  'Wesmont' = 'Wesmont',
+  'Westfield' = 'Westfield',
+  'Westwood' = 'Westwood',
+  'White House' = 'White House',
+  'Wood Ridge' = 'Wood Ridge',
+  'Woodbridge' = 'Woodbridge',
+  'Woodcliff Lake' = 'Woodcliff Lake'
+}

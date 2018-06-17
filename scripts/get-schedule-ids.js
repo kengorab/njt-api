@@ -33,11 +33,12 @@ async function getStationScheduleIds() {
   )
   console.log('Wrote JSON file:', jsonOutputFileName)
 
-  const typeDeclarationFileHeader = 'export type StationName ='
-  const typeDeclarationFile = Object.keys(scheduleIds).reduce(
-    (acc, stationName) => `${acc}\n  | '${stationName}'`,
-    typeDeclarationFileHeader
-  )
+  const fileHeader = 'export enum StationName {\n'
+  const fileBody = Object.keys(scheduleIds)
+    .map(name => `  '${name}' = '${name}'`)
+    .join(',\n')
+  const typeDeclarationFile = `${fileHeader}${fileBody}\n}`
+
   const typeDeclarationOutputFileName = `${__dirname}/../src/station-name.ts`
   await writeFileAsync(typeDeclarationOutputFileName, typeDeclarationFile, {
     encoding: 'utf-8'
