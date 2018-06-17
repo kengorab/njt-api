@@ -2,6 +2,8 @@ import * as moment from 'moment'
 import * as TripManager from './manager/njt-trip-manager'
 import * as ScheduleManager from './manager/njt-schedule-manager'
 import * as StationManager from './manager/station-manager'
+import { Trip, Schedule as ScheduleType, StationInfo } from './types'
+import { StationName } from './station-name'
 
 async function getTripOptions(
   fromStation: string,
@@ -23,14 +25,18 @@ async function getTripOptions(
     throw new Error(`Invalid date/time format: ${when}`)
   }
 
-  return await TripManager.getTripOptionsFromNJTPage(origin, destination, tripDate)
+  return await TripManager.getTripOptionsFromNJTPage(
+    origin,
+    destination,
+    tripDate
+  )
 }
 
 async function getScheduleForDay(
   originStation: StationName,
   destStation: StationName,
   when?: Date | string
-): Promise<Schedule> {
+): Promise<ScheduleType> {
   const originId = StationManager.getScheduleIdForStation(originStation)
   if (!originId) {
     throw new Error(`No scheduleId for originStation: ${originStation}`)

@@ -1,10 +1,10 @@
-declare type Time = {
+export type Time = {
   hour: string
   minute: string
   amPm: string
 }
 
-declare type StationInfo = {
+export type StationInfo = {
   name: string
   lat: number
   long: number
@@ -12,7 +12,7 @@ declare type StationInfo = {
   departureVisionId: string
 }
 
-declare type TripPhase = {
+export type TripPhase = {
   departure: {
     from: string
     at: string
@@ -28,12 +28,12 @@ declare type TripPhase = {
   duration: number
 }
 
-declare type Trip = {
+export type Trip = {
   phases: TripPhase[]
   transferDurations: number[]
 }
 
-declare type ScheduleResult = {
+export type ScheduleResult = {
   origin: {
     time: string
     trainLine: string
@@ -50,12 +50,6 @@ declare type ScheduleResult = {
   travelTime: number
 }
 
-declare type Schedule = {
+export type Schedule = {
   results: ScheduleResult[]
-}
-
-// The api for cheerio-without-node-native is exactly the same as
-// standard cheerio, but lacks a type definition under @types.
-declare module 'cheerio-without-node-native' {
-  export = cheerio
 }

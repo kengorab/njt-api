@@ -1,6 +1,7 @@
 import * as NJTScheduleDao from '../dao/njt-schedule-dao'
 import * as moment from 'moment'
 import globals from '../globals'
+import { ScheduleResult } from '../types'
 
 function parseTrainInfo(trainInfo: string): [string, number] {
   const [trainLine, trainNumber] = trainInfo.split(' #')
@@ -15,15 +16,20 @@ export async function getScheduleFromNJTPage(
   date: moment.Moment
 ): Promise<ScheduleResult[]> {
   const njtPageText = await NJTScheduleDao.getScheduleFromNJTPage(
-    originStation, originId,
-    destStation, destinationId,
+    originStation,
+    originId,
+    destStation,
+    destinationId,
     date
   )
 
   const { cheerio } = globals
   const $ = cheerio.load(njtPageText)
-  const table = $('b:contains(Origin)').parents('table').first()
-  return table.find('tr')
+  const table = $('b:contains(Origin)')
+    .parents('table')
+    .first()
+  return table
+    .find('tr')
     .toArray()
     .filter((_, idx) => idx !== 0)
     .map(row => {
@@ -32,14 +38,18 @@ export async function getScheduleFromNJTPage(
 
       let $origin, $transfer, $destination, $travelTime
       if ($tds.length === 4) {
-        [$origin, $transfer, $destination, $travelTime] = $tds.toArray()
+        ;[$origin, $transfer, $destination, $travelTime] = $tds.toArray()
       } else {
-        [$origin, $destination, $travelTime] = $tds.toArray()
+        ;[$origin, $destination, $travelTime] = $tds.toArray()
       }
 
       // Origin data
-      const $originSpan = $($origin).children('span').first()
-      const [originTime, originTrainInfo] = $originSpan.contents().toArray()
+      const $originSpan = $($origin)
+        .children('span')
+        .first()
+      const [originTime, originTrainInfo] = $originSpan
+        .contents()
+        .toArray()
         .map(n => $(n).text())
         .filter(text => text !== '')
       const [originLine, originTrainNumber] = parseTrainInfo(originTrainInfo)
@@ -52,9 +62,13 @@ export async function getScheduleFromNJTPage(
       // Transfer data (if applicable)
       let transfer
       if ($transfer) {
-        const $transferSpan = $($transfer).children('span').first()
+        const $transferSpan = $($transfer)
+          .children('span')
+          .first()
         if ($transferSpan.children().length !== 0) {
-          const [arriveTime, station, departTime, trainInfo] = $transferSpan.contents().toArray()
+          const [arriveTime, station, departTime, trainInfo] = $transferSpan
+            .contents()
+            .toArray()
             .map(n => $(n).text())
             .filter(text => text !== '')
 
@@ -73,11 +87,17 @@ export async function getScheduleFromNJTPage(
       }
 
       // Destination data
-      const arrivalTime = $($destination).children('span').first().text()
+      const arrivalTime = $($destination)
+        .children('span')
+        .first()
+        .text()
 
       // Travel time data
-      const travelTime = $($travelTime).children('span').first()
-        .text().split(' ')[0]
+      const travelTime = $($travelTime)
+        .children('span')
+        .first()
+        .text()
+        .split(' ')[0]
 
       return {
         origin,

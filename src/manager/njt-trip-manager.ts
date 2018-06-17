@@ -2,6 +2,7 @@ import * as _ from 'lodash'
 import * as NJTTripDao from '../dao/njt-trip-dao'
 import * as moment from 'moment'
 import globals from '../globals'
+import { TripPhase, StationInfo, Trip } from '../types'
 
 const departureRE = /depart\s*:\s*(.*)at\s*([\d|:]*)\s*(PM|AM)/i
 const boardRE = /board\s*:\s*train\s*(\d*)\s*toward\s*(.*)/i
@@ -40,11 +41,17 @@ export function getTransferDurations(phases: TripPhase[]): number[] {
 
 // Visible for testing
 export function getTripPhases(tripString: string): TripPhase[] {
-  const tripStages = tripString.replace('\t', '')
+  const tripStages = tripString
+    .replace('\t', '')
     .split('\n')
     .map(line => line.trim())
     .filter(line => line.length !== 0)
-    .filter(line => line.startsWith('Depart') || line.startsWith('Board') || line.startsWith('Arrive'))
+    .filter(
+      line =>
+        line.startsWith('Depart') ||
+        line.startsWith('Board') ||
+        line.startsWith('Arrive')
+    )
 
   const transfers = _.chunk(tripStages, 3)
   return transfers.map(([departureStr, boardingStr, arrivalStr]) => {
@@ -55,7 +62,9 @@ export function getTripPhases(tripString: string): TripPhase[] {
     const [trainNumber, towards] = boardRE.exec(boardingStr)!!.slice(1)
     const board = { trainNumber, towards }
 
-    const [destination, aTime, aTimeAmPm] = arrivalRE.exec(arrivalStr)!!.slice(1)
+    const [destination, aTime, aTimeAmPm] = arrivalRE
+      .exec(arrivalStr)!!
+      .slice(1)
     const arrivalTimeStr = `${aTime} ${aTimeAmPm}`
     const arrival = { destination: destination.trim(), at: arrivalTimeStr }
 
@@ -70,7 +79,11 @@ export async function getTripOptionsFromNJTPage(
   destination: StationInfo,
   tripDate: moment.Moment
 ): Promise<Trip[]> {
-  const njtPageText = await NJTTripDao.getNJTPageText(origin, destination, tripDate)
+  const njtPageText = await NJTTripDao.getNJTPageText(
+    origin,
+    destination,
+    tripDate
+  )
   const { cheerio } = globals
   const $ = cheerio.load(njtPageText)
   const panelTexts = $('.AccordionPanel .AccordionPanelContent')

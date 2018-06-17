@@ -1,4 +1,4 @@
-declare type StationName =
+export type StationName =
   | 'Aberdeen Matawan'
   | 'Absecon'
   | 'Allendale'

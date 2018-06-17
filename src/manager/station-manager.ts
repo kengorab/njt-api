@@ -1,5 +1,11 @@
-const stationInfo: { [name: string]: StationInfo } = require('../../data/station-info.json')
-const stationScheduleIds: { [name: string]: string } = require('../../data/schedule-ids.json')
+import { StationInfo } from '../types'
+
+const stationInfo: {
+  [name: string]: StationInfo
+} = require('../../data/station-info.json')
+const stationScheduleIds: {
+  [name: string]: string
+} = require('../../data/schedule-ids.json')
 
 const stations = Object.keys(stationInfo)
 

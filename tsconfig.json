@@ -15,17 +15,8 @@
     "outDir": "lib",
     "declaration": true,
     "moduleResolution": "node",
-    "lib": [
-      "es2015",
-      "es2017",
-      "dom"
-    ]
+    "lib": ["es2015", "es2017", "dom"]
   },
-  "include": [
-    "./src"
-  ],
-  "exclude": [
-    "./src/**/__tests__/*",
-    "./src/**/__mocks__/*"
-  ]
+  "include": ["./src", "./_types"],
+  "exclude": ["./src/**/__tests__/*", "./src/**/__mocks__/*"]
 }
