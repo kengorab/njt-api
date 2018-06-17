@@ -19,6 +19,7 @@
   "license": "MIT",
   "scripts": {
     "build": "node_modules/.bin/tsc",
+    "prepublish": "npm run build",
     "test": "jest --config ./config/jest/config.json",
     "schedule-ids": "ts-node scripts/get-schedule-ids.js"
   },
