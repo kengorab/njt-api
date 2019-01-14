@@ -8,6 +8,13 @@ function parseTrainInfo(trainInfo: string): [string, number] {
   return [trainLine, parseInt(trainNumber)]
 }
 
+function formatTime(time: string): string {
+  if (time[0] === '0') {
+    return time.substring(1)
+  }
+  return time
+}
+
 export async function getScheduleFromNJTPage(
   originStation: string,
   originId: string,
@@ -54,7 +61,7 @@ export async function getScheduleFromNJTPage(
         .filter(text => text !== '')
       const [originLine, originTrainNumber] = parseTrainInfo(originTrainInfo)
       const origin = {
-        time: originTime,
+        time: formatTime(originTime),
         trainLine: originLine,
         trainNumber: originTrainNumber
       }
@@ -75,13 +82,19 @@ export async function getScheduleFromNJTPage(
           const arrivalTime = arriveTime.replace('Arrive ', '')
           const departureTime = departTime.replace('Depart ', '')
 
+          const waitTime = moment(departureTime, 'HH:mm A').diff(
+            moment(arrivalTime, 'HH:mm A'),
+            'minutes'
+          )
+
           const [trainLine, trainNumber] = parseTrainInfo(trainInfo)
           transfer = {
-            arrivalTime,
+            arrivalTime: formatTime(arrivalTime),
             station,
-            departureTime,
+            departureTime: formatTime(departureTime),
             trainLine,
-            trainNumber
+            trainNumber,
+            waitTime
           }
         }
       }
@@ -102,7 +115,7 @@ export async function getScheduleFromNJTPage(
       return {
         origin,
         transfer,
-        arrivalTime,
+        arrivalTime: formatTime(arrivalTime),
         travelTime: parseInt(travelTime)
       }
     })

@@ -45,6 +45,7 @@ export type ScheduleResult = {
     departureTime: string
     trainLine: string
     trainNumber: number
+    waitTime: number
   }
   arrivalTime: string
   travelTime: number
